@@ -19,8 +19,17 @@ Route::middleware([
 
 // Frontend routes
 Route::controller(WebsiteController::class)->group(function () {
-    Route::get('/', 'home')->name('home'); // Override default welcome route
-    Route::get('/about', 'about')->name('about'); // About page route
-    Route::get('/services', 'services')->name('services'); // Services page route
-    Route::get('/contact', 'contact')->name('contact'); // Contact page route
+    Route::get('/', 'home')->name('home');
+    Route::get('/aboutus', 'aboutus')->name('aboutus');
+    Route::get('/careers', 'careers')->name('careers');
+    Route::get('/contactus', 'contactus')->name('contactus');
+    Route::get('/blogs', 'blogs')->name('blogs');
+    Route::get('/blogdetail', 'blogdetail')->name('blogdetail');
+    Route::get('/demo', 'demo')->name('demo');
+
+    // destination routes
+    Route::get('/destinations/europe', 'europe')->name('europe');
+
+    // services routes
+    Route::get('/services/airticketing', 'airticketing')->name('airticketing');
 });

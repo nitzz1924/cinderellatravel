@@ -1,128 +1,145 @@
 @extends('frontend.layout.websitemain')
 @section('content')
-    <div class="th-hero-wrapper hero-1" id="hero">
-        <div class="swiper th-slider hero-slider-1" id="heroSlide1"
-            data-slider-options='{"effect":"fade","menu": ["", "", ""],"heroSlide1": {"swiper-container": {"pagination": {"el": ".swiper-pagination", "clickable": true }}}}'>
+
+    <div class="hero-2" id="hero">
+        <div class="hero2-overlay" data-bg-src="assets/img/bg/line-pattern.png"></div>
+        <div class="swiper hero-slider-2" id="heroSlide2">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="hero-inner">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_1.jpg"></div>
+                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_2_1.jpg"></div>
                         <div class="container">
-                            <div class="hero-style1"><span class="sub-title style1" data-ani="slideinup"
-                                    data-ani-delay="0.2s">Get unforgetable pleasure with us</span>
-                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Natural Wonder of the
-                                    world</h1>
-                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="tour.html"
-                                        class="th-btn th-icon">Explore Tours</a> <a href="service.html"
-                                        class="th-btn style2 th-icon">Our Services</a></div>
+                            <div class="hero-style2">
+                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Discover <span
+                                        class="hero-text">The beauty of world</span></h1>
+                                <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Tourm an international
+                                    travel management company with 25 years of experience, specializing in business and
+                                    maritime travel.</p>
+                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="destination.html"
+                                        class="th-btn white-btn th-icon">Explore Tours</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-inner"><video autoplay loop muted>
+                            <source src="assets/img/hero/hero-video.mp4" type="video/mp4">
+                        </video>
+                        <div class="container">
+                            <div class="hero-style2">
+                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Explore<span
+                                        class="hero-text">beauty of the whole world</span></h1>
+                                <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Provide a detailed
+                                    itinerary of the tour, including the places you'll visit each day, any activities
+                                    planned approximate times.</p>
+                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="destination.html"
+                                        class="th-btn white-btn th-icon">Explore Tours</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="hero-inner">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_2.jpg"></div>
+                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_2_3.jpg"></div>
                         <div class="container">
-                            <div class="hero-style1"><span class="sub-title style1" data-ani="slideinup"
-                                    data-ani-delay="0.2s">Get unforgetable pleasure with us</span>
-                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Let’s make your best
-                                    trip with us</h1>
+                            <div class="hero-style2">
+                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Enjoy<span
+                                        class="hero-text">The Most Enjoyable Journey</span></h1>
+                                <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Tourm an international
+                                    travel management company with 25 years of experience, specializing in business and
+                                    maritime travel.</p>
                                 <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="tour.html"
-                                        class="th-btn th-icon">Explore Tours</a> <a href="service.html"
-                                        class="th-btn style2 th-icon">Our Services</a></div>
+                                        class="th-btn white-btn th-icon">Explore Tours</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-inner"><video autoplay loop muted>
+                            <source src="assets/img/hero/hero-video.mp4" type="video/mp4">
+                        </video>
+                        <div class="container">
+                            <div class="hero-style2">
+                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Explore<span
+                                        class="hero-text">beauty of the whole world</span></h1>
+                                <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Provide a detailed
+                                    itinerary of the tour, including the places you'll visit each day, any activities
+                                    planned approximate times.</p>
+                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="destination.html"
+                                        class="th-btn white-btn th-icon">Explore Tours</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="th-swiper-custom">
+                <div class="swiper-pagination"></div>
+                <div class="hero-icon"><button data-slider-prev="#heroSlide2, #heroSlide3"
+                        class="hero-arrow slider-prev"><img src="assets/img/icon/hero-arrow-left.svg"
+                            alt=""></button>
+                    <button data-slider-next="#heroSlide2, #heroSlide3" class="hero-arrow slider-next"><img
+                            src="assets/img/icon/hero-arrow-right.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <div class="swiper heroThumbs style2" id="heroSlide3">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="hero-inner">
+                        <div class="hero-card">
+                            <div class="hero-img"><img src="assets/img/hero/hero_bg_2_1.jpg" alt=""></div>
+                            <div class="hero-card_content">
+                                <h3 class="box-title">Mountain Tour</h3>
+                                <h4 class="hero-card_price"><span class="currency">$850.00</span>/Person</h4><span><i
+                                        class="fa-light fa-clock"></i>7 Days</span> <a href="destination-details.html"
+                                    class="th-btn style2">Book Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="hero-inner">
-                        <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_3.jpg"></div>
-                        <div class="container">
-                            <div class="hero-style1"><span class="sub-title style1" data-ani="slideinup"
-                                    data-ani-delay="0.2s">Get unforgetable pleasure with us</span>
-                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Explore beauty of the
-                                    whole world</h1>
-                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="tour.html"
-                                        class="th-btn th-icon">Explore Tours</a> <a href="service.html"
-                                        class="th-btn style2 th-icon">Our Services</a></div>
+                        <div class="hero-card">
+                            <div class="hero-img"><img src="assets/img/hero/hero_bg_2_2.jpg" alt=""></div>
+                            <div class="hero-card_content">
+                                <h3 class="box-title">Yachts Tour</h3>
+                                <h4 class="hero-card_price"><span class="currency">$750.00</span>/Person</h4><span><i
+                                        class="fa-light fa-clock"></i>6 Days</span> <a href="destination-details.html"
+                                    class="th-btn style2">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-inner">
+                        <div class="hero-card">
+                            <div class="hero-img"><img src="assets/img/hero/hero_bg_2_3.jpg" alt=""></div>
+                            <div class="hero-card_content">
+                                <h3 class="box-title">Mountain Tour</h3>
+                                <h4 class="hero-card_price"><span class="currency">$850.00</span>/Person</h4><span><i
+                                        class="fa-light fa-clock"></i>7 Days</span> <a href="destination-details.html"
+                                    class="th-btn style2">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-inner">
+                        <div class="hero-card">
+                            <div class="hero-img"><img src="assets/img/hero/hero_bg_2_2.jpg" alt=""></div>
+                            <div class="hero-card_content">
+                                <h3 class="box-title">Yachts Tour</h3>
+                                <h4 class="hero-card_price"><span class="currency">$750.00</span>/Person</h4><span><i
+                                        class="fa-light fa-clock"></i>6 Days</span> <a href="destination-details.html"
+                                    class="th-btn style2">Book Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="th-swiper-custom"><button data-slider-prev="#heroSlide1" class="slider-arrow slider-prev"><img
-                        src="assets/img/icon/right-arrow.svg" alt=""></button>
-                <div class="slider-pagination"></div><button data-slider-next="#heroSlide1"
-                    class="slider-arrow slider-next"><img src="assets/img/icon/left-arrow.svg" alt=""></button>
-            </div>
         </div>
-    </div>
-    <div class="booking-sec">
-        <div class="container">
-            <form action="https://html.themeholy.com/tourm/demo/mail.php" method="POST" class="booking-form ajax-contact">
-                <div class="input-wrap">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="form-group col-md-6 col-lg-auto">
-                            <div class="icon"><i class="fa-light fa-route"></i></div>
-                            <div class="search-input"><label>Destination</label> <select name="subject" id="subject"
-                                    class="form-select nice-select">
-                                    <option value="Select Destination" selected="selected" disabled="disabled">Select
-                                        Destination</option>
-                                    <option value="Australia">Australia</option>
-                                    <option value="Dubai">Dubai</option>
-                                    <option value="England">England</option>
-                                    <option value="Sweden">Sweden</option>
-                                    <option value="Thailand">Thailand</option>
-                                    <option value="Egypt">Egypt</option>
-                                    <option value="Saudi Arab">Saudi Arab</option>
-                                    <option value="Switzerland">Switzerland</option>
-                                    <option value="Scandinavia">Scandinavia</option>
-                                    <option value="Western Europe">Western Europe</option>
-                                    <option value="Indonesia">Indonesia</option>
-                                    <option class="Italy">Italy</option>
-                                </select></div>
-                        </div>
-                        <div class="form-group col-md-6 col-lg-auto">
-                            <div class="icon"><i class="fa-regular fa-person-hiking"></i></div>
-                            <div class="search-input"><label>Type</label> <select class="nice-select" name="Adventure"
-                                    id="Adventure">
-                                    <option value="Adventure" selected="selected" disabled="disabled">Adventure</option>
-                                    <option value="Beach">Beach</option>
-                                    <option value="Group Tour">Group Tour</option>
-                                    <option value="Couple Tour">Couple Tour</option>
-                                    <option value="Family Tour">Family Tour</option>
-                                </select></div>
-                        </div>
-                        <div class="form-group col-md-6 col-lg-auto">
-                            <div class="icon"><i class="fa-light fa-clock"></i></div>
-                            <div class="search-input"><label>Duration</label> <select class="form-select nice-select"
-                                    name="Duration" id="Duration">
-                                    <option value="Normal" selected="selected" disabled="disabled">Duration</option>
-                                    <option value="1">1 days</option>
-                                    <option value="2">2 days</option>
-                                    <option value="3">3 days</option>
-                                    <option value="4">4 days</option>
-                                    <option value="5">5 days</option>
-                                    <option value="6">6 days</option>
-                                    <option value="7">7 days</option>
-                                </select></div>
-                        </div>
-                        <div class="form-group col-md-6 col-lg-auto">
-                            <div class="icon"><i class="fa-light fa-map-location-dot"></i></div>
-                            <div class="search-input"><label>Tour Category</label> <select name="subject" id="category"
-                                    class="form-select nice-select">
-                                    <option value="Normal" selected="selected" disabled="disabled">Luxury</option>
-                                    <option value="1">Delux</option>
-                                    <option value="2">Economy</option>
-                                </select></div>
-                        </div>
-                        <div class="form-btn col-md-12 col-lg-auto"><button class="th-btn"><img
-                                    src="assets/img/icon/search.svg" alt="">Search</button></div>
-                    </div>
-                    <p class="form-messages mb-0 mt-3"></p>
-                </div>
-            </form>
-        </div>
+        <div class="scroll-down"><a href="#destination-sec" class="scroll-wrap"><span><img
+                        src="assets/img/icon/down-arrow.svg" alt=""></span>Scroll Down</a></div>
     </div>
     <section class="category-area bg-top-center" data-bg-src="assets/img/bg/category_bg_1.png">
         <div class="container th-container">

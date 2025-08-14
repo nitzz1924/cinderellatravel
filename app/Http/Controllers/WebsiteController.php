@@ -12,18 +12,38 @@ class WebsiteController extends Controller
         return view('frontend.home');
     }
 
-    public function about()
+    public function aboutus()
     {
-        return view('frontend.about');
+        return view('frontend.aboutus');
     }
 
-    public function services()
+    public function careers()
     {
-        return view('frontend.services');
+        return view('frontend.careers');
+    }
+    public function blogs()
+    {
+        return view('frontend.blogs');
+    }
+    public function blogdetail()
+    {
+        return view('frontend.blogdetail');
+    }
+    public function demo()
+    {
+        return view('frontend.demo');
     }
 
-    public function contact()
+    public function contactus()
     {
-        return view('frontend.contact');
+        return view('frontend.contactus');
+    }
+    public function europe()
+    {
+        return view('frontend.destinations.europe');
+    }
+    public function airticketing()
+    {
+        return view('frontend.services.airticketing');
     }
 }
