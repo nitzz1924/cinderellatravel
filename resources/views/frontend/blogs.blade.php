@@ -6,7 +6,7 @@
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Blog Lists View</h1>
                 <ul class="breadcumb-menu">
-                    <li><a href="home-travel.html">Home</a></li>
+                    <li><a href="{{ route('home') }}">Home</a></li>
                     <li>Blog Lists View</li>
                 </ul>
             </div>

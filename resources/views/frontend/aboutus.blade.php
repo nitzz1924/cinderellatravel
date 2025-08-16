@@ -5,12 +5,13 @@
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">About Tourm</h1>
                 <ul class="breadcumb-menu">
-                    <li><a href="home-travel.html">Home</a></li>
+                    <li><a href="{{ route('home') }}">Home</a></li>
                     <li>About Tourm</li>
                 </ul>
             </div>
         </div>
     </div>
+
     <div class="about-area position-relative overflow-hidden space" id="about-sec">
         <div class="container">
             <div class="row">
@@ -41,24 +42,26 @@
                             <div class="about-item style2">
                                 <div class="about-item_img"><img src="assets/img/icon/about_1_1.svg" alt=""></div>
                                 <div class="about-item_centent">
-                                    <h5 class="box-title">Business Travel</h5>
-                                    <p class="about-item_text">Efficient trips tailored to meet all corporate travel needs.
+                                    <h5 class="box-title">Tour guide</h5>
+                                    <p class="about-item_text">We are best in our work, as we’re the best guide to travel
+                                        with.
                                     </p>
                                 </div>
                             </div>
                             <div class="about-item style2">
                                 <div class="about-item_img"><img src="assets/img/icon/about_1_2.svg" alt=""></div>
                                 <div class="about-item_centent">
-                                    <h5 class="box-title">Holiday Planning</h5>
-                                    <p class="about-item_text">Expertly crafted vacations for unforgettable memories with
-                                        loved ones.</p>
+                                    <h5 class="box-title">Friendly price</h5>
+                                    <p class="about-item_text">You’ll get best prices on your tour packages with the
+                                        guarantee to get the best from our side</p>
                                 </div>
                             </div>
                             <div class="about-item style2">
                                 <div class="about-item_img"><img src="assets/img/icon/about_1_3.svg" alt=""></div>
                                 <div class="about-item_centent">
-                                    <h5 class="box-title">VISA Consultation</h5>
-                                    <p class="about-item_text">Hassle-free guidance to secure your travel visa on time.</p>
+                                    <h5 class="box-title">Reliable tour</h5>
+                                    <p class="about-item_text">You can rely on us to get best deals and vacation plans under
+                                        your budget, As we’re the most reliable travel agency</p>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +81,8 @@
                     src="assets/img/shape/shape_2_4.png" alt="shape"></div>
         </div>
     </div>
-    <div class="overflow-hidden space overflow-hidden">
+
+    <div class="overflow-hidden space">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -95,10 +99,10 @@
                         <div class="choose-feature">
                             <div class="box-img"><img src="assets/img/normal/feature_1_1.jpg" alt="Icon"></div>
                             <div class="choose-feature_content">
-                                <h3 class="box-title">Custom Booking</h3>
-                                <p class="box-text">Tour and travel agencies play a crucial role in simplifying travel
-                                    planning, offering expertise, and ensuring a smooth and enjoyable experience for
-                                    travelers. Whether booking a quick..</p>
+                                <h3 class="box-title">Our Vision</h3>
+                                <p class="box-text">Our vision is to become our clients’ first choice. We strive to be the
+                                    most professional and customer-focused travel consultants, using our knowledge,
+                                    experience, and connections to fulfill all their holiday needs.</p>
                             </div>
                         </div>
                     </div>
@@ -106,10 +110,9 @@
                         <div class="choose-feature">
                             <div class="box-img"><img src="assets/img/normal/feature_1_2.jpg" alt="Icon"></div>
                             <div class="choose-feature_content">
-                                <h3 class="box-title">End-to-End Messaging</h3>
-                                <p class="box-text">A worldwide tour is the ultimate journey of exploration, offering
-                                    unforgettable experiences and a chance to connect with the world in meaningful ways.
-                                    Whether you're chasing adventure,</p>
+                                <h3 class="box-title">Our Mission</h3>
+                                <p class="box-text">Our mission is to be a high-performance company that values and
+                                    nurtures long-term relationships with our clients.</p>
                             </div>
                         </div>
                     </div>
@@ -117,10 +120,9 @@
                         <div class="choose-feature">
                             <div class="box-img"><img src="assets/img/normal/feature_1_3.jpg" alt="Icon"></div>
                             <div class="choose-feature_content">
-                                <h3 class="box-title">Instant Itinerary</h3>
-                                <p class="box-text">A worldwide tour is the ultimate dream for many travelers—a chance
-                                    to explore the diverse cultures, landscapes, and wonders of every corner of the
-                                    globe. Whether it's a meticulously</p>
+                                <h3 class="box-title">Our Vision</h3>
+                                <p class="box-text">To be the most trusted travel partner, delivering exceptional
+                                    experiences and making every journey unforgettable.</p>
                             </div>
                         </div>
                     </div>
@@ -128,453 +130,67 @@
             </div>
         </div>
     </div>
-    <div class="elements-sec bg-white overflow-hidden">
-        <div class="container-fluid">
-            <div class="tags-container relative"></div>
-        </div>
-    </div>
-    <section class="team-area3 position-relative bg-top-center space" data-bg-src="assets/img/bg/team_bg_2.jpg">
-        <div class="container z-index-common">
-            <div class="title-area text-center"><span class="sub-title">Meet with Guide</span>
-                <h2 class="sec-title">Meet with Tour Guide</h2>
-            </div>
-            <div class="slider-area">
-                <div class="swiper th-slider teamSlider3 has-shadow" id="teamSlider3"
-                    data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}}}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="th-team team-grid">
-                                <div class="team-img"><img src="assets/img/team/team_img_1.jpg" alt="Team"></div>
-                                <div class="team-img2"><img src="assets/img/team/team_1_1.jpg" alt="Team"></div>
-                                <div class="team-content">
-                                    <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Michel Smith</a></h3>
-                                        <span class="team-desig">Tourist Guide</span>
-                                        <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                                href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a
-                                                target="_blank" href="https://linkedin.com/"><i
-                                                    class="fab fa-linkedin-in"></i></a> <a target="_blank"
-                                                href="https://youtube.com/"><i class="fab fa-youtube"></i></a> <a
-                                                target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="th-team team-grid">
-                                <div class="team-img"><img src="assets/img/team/team_img_2.jpg" alt="Team"></div>
-                                <div class="team-img2"><img src="assets/img/team/team_1_2.jpg" alt="Team"></div>
-                                <div class="team-content">
-                                    <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Janny Willson</a></h3>
-                                        <span class="team-desig">Tourist Guide</span>
-                                        <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                                href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a
-                                                target="_blank" href="https://linkedin.com/"><i
-                                                    class="fab fa-linkedin-in"></i></a> <a target="_blank"
-                                                href="https://youtube.com/"><i class="fab fa-youtube"></i></a> <a
-                                                target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="th-team team-grid">
-                                <div class="team-img"><img src="assets/img/team/team_img_3.jpg" alt="Team"></div>
-                                <div class="team-img2"><img src="assets/img/team/team_1_3.jpg" alt="Team"></div>
-                                <div class="team-content">
-                                    <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Jacob Jones</a></h3>
-                                        <span class="team-desig">Tourist Guide</span>
-                                        <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                                href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a
-                                                target="_blank" href="https://linkedin.com/"><i
-                                                    class="fab fa-linkedin-in"></i></a> <a target="_blank"
-                                                href="https://youtube.com/"><i class="fab fa-youtube"></i></a> <a
-                                                target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="th-team team-grid">
-                                <div class="team-img"><img src="assets/img/team/team_img_1.jpg" alt="Team"></div>
-                                <div class="team-img2"><img src="assets/img/team/team_1_4.jpg" alt="Team"></div>
-                                <div class="team-content">
-                                    <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Maria Prova</a></h3>
-                                        <span class="team-desig">Tourist Guide</span>
-                                        <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                                href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a
-                                                target="_blank" href="https://linkedin.com/"><i
-                                                    class="fab fa-linkedin-in"></i></a> <a target="_blank"
-                                                href="https://youtube.com/"><i class="fab fa-youtube"></i></a> <a
-                                                target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="th-team team-grid">
-                                <div class="team-img"><img src="assets/img/team/team_img_2.jpg" alt="Team"></div>
-                                <div class="team-img2"><img src="assets/img/team/team_1_5.jpg" alt="Team"></div>
-                                <div class="team-content">
-                                    <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Rebeka Maliha</a></h3>
-                                        <span class="team-desig">Tourist Guide</span>
-                                        <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                                href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a
-                                                target="_blank" href="https://linkedin.com/"><i
-                                                    class="fab fa-linkedin-in"></i></a> <a target="_blank"
-                                                href="https://youtube.com/"><i class="fab fa-youtube"></i></a> <a
-                                                target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="th-team team-grid">
-                                <div class="team-img"><img src="assets/img/team/team_img_3.jpg" alt="Team"></div>
-                                <div class="team-img2"><img src="assets/img/team/team_1_6.jpg" alt="Team"></div>
-                                <div class="team-content">
-                                    <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Alif Mahmud</a></h3>
-                                        <span class="team-desig">Tourist Guide</span>
-                                        <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                                href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a
-                                                target="_blank" href="https://linkedin.com/"><i
-                                                    class="fab fa-linkedin-in"></i></a> <a target="_blank"
-                                                href="https://youtube.com/"><i class="fab fa-youtube"></i></a> <a
-                                                target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="th-team team-grid">
-                                <div class="team-img"><img src="assets/img/team/team_img_1.jpg" alt="Team"></div>
-                                <div class="team-img2"><img src="assets/img/team/team_1_3.jpg" alt="Team"></div>
-                                <div class="team-content">
-                                    <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Guy Hawkins</a></h3>
-                                        <span class="team-desig">Tourist Guide</span>
-                                        <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                                href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a
-                                                target="_blank" href="https://linkedin.com/"><i
-                                                    class="fab fa-linkedin-in"></i></a> <a target="_blank"
-                                                href="https://youtube.com/"><i class="fab fa-youtube"></i></a> <a
-                                                target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="th-team team-grid">
-                                <div class="team-img"><img src="assets/img/team/team_img_2.jpg" alt="Team"></div>
-                                <div class="team-img2"><img src="assets/img/team/team_1_4.jpg" alt="Team"></div>
-                                <div class="team-content">
-                                    <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Jenny Wilson</a></h3>
-                                        <span class="team-desig">Tourist Guide</span>
-                                        <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
-                                                    class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                                href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a
-                                                target="_blank" href="https://linkedin.com/"><i
-                                                    class="fab fa-linkedin-in"></i></a> <a target="_blank"
-                                                href="https://youtube.com/"><i class="fab fa-youtube"></i></a> <a
-                                                target="_blank" href="https://instagram.com/"><i
-                                                    class="fab fa-instagram"></i></a></div>
-                                    </div>
+
+
+
+    <section class="space">
+        <div class="container">
+            <div class="team-details">
+                <div class="row gy-5 mb-3 mb-xl-5 pb-xl-4">
+                    <div class="col-xl-4">
+                        <div class="th-team team-grid">
+                            <div class="team-img"><img src="assets/img/team/team_img_3.jpg" alt="Team"></div>
+                            <div class="team-img2"><img src="assets/img/team/team_1_3.jpg" alt="Team"></div>
+                            <div class="team-content">
+                                <div class="media-body">
+                                    <h3 class="box-title">
+                                        <a href="team-details.html">Mr. Pramod Kumar Sirnani</a>
+                                    </h3>
+                                    <span class="team-desig">President & CEO</span>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="slider-pagination"></div>
-                </div><button data-slider-prev="#teamSlider3" class="slider-arrow slider-prev"><img
-                        src="assets/img/icon/right-arrow2.svg" alt=""></button> <button
-                    data-slider-next="#teamSlider3" class="slider-arrow slider-next"><img
-                        src="assets/img/icon/left-arrow2.svg" alt=""></button>
+                    <div class="col-xl-8 ps-3 ps-xl-5 pe-xl-4">
+                        <div class="team-about">
+                            <h2 class="team-about_title">About</h2>
+                            <p class="team-about_text mb-25">"As we embrace another new chapter, I remain grateful for your
+                                unwavering support and trust in Cinderella Travel. Together, let's continue to chart new
+                                paths and create unforgettable journeys."
+                            </p>
+                            <h6 class="box-title">Dear Travelers</h6>
+                            <p class="team-about_text mb-25">
+                                As we step into yet another exciting chapter, I extend my heartfelt appreciation to each of
+                                you who have been part of our journey. Your passion for exploration and your continued trust
+                                in Cinderella Travel have shaped our path with remarkable achievements.</p>
+                            <div class="counter-box-wrap">
+                                <div class="counter-box">
+                                    <h2 class="counter-box_number"><span class="counter-number">100</span>+</h2><span
+                                        class="counter-box_title">Partners</span>
+                                </div>
+                                <div class="counter-box">
+                                    <h2 class="counter-box_number"><span class="counter-number">20</span>k</h2><span
+                                        class="counter-box_title">Properties</span>
+                                </div>
+                                <div class="counter-box">
+                                    <h2 class="counter-box_number"><span class="counter-number">300</span>+</h2><span
+                                        class="counter-box_title">Destination</span>
+                                </div>
+                                <div class="counter-box">
+                                    <h2 class="counter-box_number"><span class="counter-number">30</span>+</h2><span
+                                        class="counter-box_title">Booking</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
-    <section class="testi-area overflow-hidden space-bottom" id="testi-sec">
-        <div class="container-fluid p-0">
-            <div class="title-area mb-20 text-center"><span class="sub-title">Testimonial</span>
-                <h2 class="sec-title">What Client Say About us</h2>
-            </div>
-            <div class="slider-area">
-                <div class="swiper th-slider testiSlider1 has-shadow" id="testiSlider1"
-                    data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"767":{"slidesPerView":"2","centeredSlides":"true"},"992":{"slidesPerView":"2","centeredSlides":"true"},"1200":{"slidesPerView":"2","centeredSlides":"true"},"1400":{"slidesPerView":"3","centeredSlides":"true"}}}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="testi-card_wrapper">
-                                    <div class="testi-card_profile">
-                                        <div class="testi-card_avater"><img src="assets/img/testimonial/testi_1_1.jpg"
-                                                alt="testimonial"></div>
-                                        <div class="media-body">
-                                            <h3 class="box-title">Maria Doe</h3><span
-                                                class="testi-card_desig">Traveller</span>
-                                        </div>
-                                    </div>
-                                    <div class="testi-card_review"><i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
-                                </div>
-                                <p class="testi-card_text">“A home that perfectly blends sustainability with luxury
-                                    until I discovered Ecoland Residence. From the moment I stepped into this community,
-                                    I knew it was where I wanted to live. The commitment to eco-friendly living”</p>
-                                <div class="testi-card-quote"><img src="assets/img/icon/testi-quote.svg" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="testi-card_wrapper">
-                                    <div class="testi-card_profile">
-                                        <div class="testi-card_avater"><img src="assets/img/testimonial/testi_1_2.jpg"
-                                                alt="testimonial"></div>
-                                        <div class="media-body">
-                                            <h3 class="box-title">Andrew Simon</h3><span
-                                                class="testi-card_desig">Traveller</span>
-                                        </div>
-                                    </div>
-                                    <div class="testi-card_review"><i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
-                                </div>
-                                <p class="testi-card_text">“A home that perfectly blends sustainability with luxury
-                                    until I discovered Ecoland Residence. From the moment I stepped into this community,
-                                    I knew it was where I wanted to live. The commitment to eco-friendly living”</p>
-                                <div class="testi-card-quote"><img src="assets/img/icon/testi-quote.svg" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="testi-card_wrapper">
-                                    <div class="testi-card_profile">
-                                        <div class="testi-card_avater"><img src="assets/img/testimonial/testi_1_1.jpg"
-                                                alt="testimonial"></div>
-                                        <div class="media-body">
-                                            <h3 class="box-title">Alex Jordan</h3><span
-                                                class="testi-card_desig">Traveller</span>
-                                        </div>
-                                    </div>
-                                    <div class="testi-card_review"><i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
-                                </div>
-                                <p class="testi-card_text">“A home that perfectly blends sustainability with luxury
-                                    until I discovered Ecoland Residence. From the moment I stepped into this community,
-                                    I knew it was where I wanted to live. The commitment to eco-friendly living”</p>
-                                <div class="testi-card-quote"><img src="assets/img/icon/testi-quote.svg" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="testi-card_wrapper">
-                                    <div class="testi-card_profile">
-                                        <div class="testi-card_avater"><img src="assets/img/testimonial/testi_1_2.jpg"
-                                                alt="testimonial"></div>
-                                        <div class="media-body">
-                                            <h3 class="box-title">Maria Doe</h3><span
-                                                class="testi-card_desig">Traveller</span>
-                                        </div>
-                                    </div>
-                                    <div class="testi-card_review"><i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
-                                </div>
-                                <p class="testi-card_text">“A home that perfectly blends sustainability with luxury
-                                    until I discovered Ecoland Residence. From the moment I stepped into this community,
-                                    I knew it was where I wanted to live. The commitment to eco-friendly living”</p>
-                                <div class="testi-card-quote"><img src="assets/img/icon/testi-quote.svg" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="testi-card_wrapper">
-                                    <div class="testi-card_profile">
-                                        <div class="testi-card_avater"><img src="assets/img/testimonial/testi_1_1.jpg"
-                                                alt="testimonial"></div>
-                                        <div class="media-body">
-                                            <h3 class="box-title">Angelina Rose</h3><span
-                                                class="testi-card_desig">Traveller</span>
-                                        </div>
-                                    </div>
-                                    <div class="testi-card_review"><i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
-                                </div>
-                                <p class="testi-card_text">“A home that perfectly blends sustainability with luxury
-                                    until I discovered Ecoland Residence. From the moment I stepped into this community,
-                                    I knew it was where I wanted to live. The commitment to eco-friendly living”</p>
-                                <div class="testi-card-quote"><img src="assets/img/icon/testi-quote.svg" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="testi-card_wrapper">
-                                    <div class="testi-card_profile">
-                                        <div class="testi-card_avater"><img src="assets/img/testimonial/testi_1_1.jpg"
-                                                alt="testimonial"></div>
-                                        <div class="media-body">
-                                            <h3 class="box-title">Maria Doe</h3><span
-                                                class="testi-card_desig">Traveller</span>
-                                        </div>
-                                    </div>
-                                    <div class="testi-card_review"><i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
-                                </div>
-                                <p class="testi-card_text">“A home that perfectly blends sustainability with luxury
-                                    until I discovered Ecoland Residence. From the moment I stepped into this community,
-                                    I knew it was where I wanted to live. The commitment to eco-friendly living”</p>
-                                <div class="testi-card-quote"><img src="assets/img/icon/testi-quote.svg" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="testi-card_wrapper">
-                                    <div class="testi-card_profile">
-                                        <div class="testi-card_avater"><img src="assets/img/testimonial/testi_1_2.jpg"
-                                                alt="testimonial"></div>
-                                        <div class="media-body">
-                                            <h3 class="box-title">Andrew Simon</h3><span
-                                                class="testi-card_desig">Traveller</span>
-                                        </div>
-                                    </div>
-                                    <div class="testi-card_review"><i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
-                                </div>
-                                <p class="testi-card_text">“A home that perfectly blends sustainability with luxury
-                                    until I discovered Ecoland Residence. From the moment I stepped into this community,
-                                    I knew it was where I wanted to live. The commitment to eco-friendly living”</p>
-                                <div class="testi-card-quote"><img src="assets/img/icon/testi-quote.svg" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="testi-card_wrapper">
-                                    <div class="testi-card_profile">
-                                        <div class="testi-card_avater"><img src="assets/img/testimonial/testi_1_1.jpg"
-                                                alt="testimonial"></div>
-                                        <div class="media-body">
-                                            <h3 class="box-title">Alex Jordan</h3><span
-                                                class="testi-card_desig">Traveller</span>
-                                        </div>
-                                    </div>
-                                    <div class="testi-card_review"><i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-                                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
-                                </div>
-                                <p class="testi-card_text">“A home that perfectly blends sustainability with luxury
-                                    until I discovered Ecoland Residence. From the moment I stepped into this community,
-                                    I knew it was where I wanted to live. The commitment to eco-friendly living”</p>
-                                <div class="testi-card-quote"><img src="assets/img/icon/testi-quote.svg" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider-pagination"></div>
-                </div>
-            </div>
-        </div>
-        <div class="shape-mockup d-none d-xl-block" data-bottom="-2%" data-right="0%"><img
-                src="assets/img/shape/line2.png" alt="shape"></div>
-        <div class="shape-mockup movingX d-none d-xl-block" data-top="30%" data-left="5%"><img
-                src="assets/img/shape/shape_7.png" alt="shape"></div>
-    </section>
-    <div class="brand-area overflow-hidden">
-        <div class="container th-container">
-            <div class="swiper th-slider brandSlider1" id="brandSlider1"
-                data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"6"},"1400":{"slidesPerView":"8"}}}'>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="brand-box"><a href="#"><img class="original"
-                                    src="assets/img/brand/brand_1_1.svg" alt="Brand Logo"> <img class="gray"
-                                    src="assets/img/brand/brand_1_1.svg" alt="Brand Logo"></a></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-box"><a href="#"><img class="original"
-                                    src="assets/img/brand/brand_1_2.svg" alt="Brand Logo"> <img class="gray"
-                                    src="assets/img/brand/brand_1_2.svg" alt="Brand Logo"></a></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-box"><a href="#"><img class="original"
-                                    src="assets/img/brand/brand_1_3.svg" alt="Brand Logo"> <img class="gray"
-                                    src="assets/img/brand/brand_1_3.svg" alt="Brand Logo"></a></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-box"><a href="#"><img class="original"
-                                    src="assets/img/brand/brand_1_4.svg" alt="Brand Logo"> <img class="gray"
-                                    src="assets/img/brand/brand_1_4.svg" alt="Brand Logo"></a></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-box"><a href="#"><img class="original"
-                                    src="assets/img/brand/brand_1_5.svg" alt="Brand Logo"> <img class="gray"
-                                    src="assets/img/brand/brand_1_5.svg" alt="Brand Logo"></a></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-box"><a href="#"><img class="original"
-                                    src="assets/img/brand/brand_1_6.svg" alt="Brand Logo"> <img class="gray"
-                                    src="assets/img/brand/brand_1_6.svg" alt="Brand Logo"></a></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-box"><a href="#"><img class="original"
-                                    src="assets/img/brand/brand_1_7.svg" alt="Brand Logo"> <img class="gray"
-                                    src="assets/img/brand/brand_1_7.svg" alt="Brand Logo"></a></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-box"><a href="#"><img class="original"
-                                    src="assets/img/brand/brand_1_8.svg" alt="Brand Logo"> <img class="gray"
-                                    src="assets/img/brand/brand_1_8.svg" alt="Brand Logo"></a></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-box"><a href="#"><img class="original"
-                                    src="assets/img/brand/brand_1_4.svg" alt="Brand Logo"> <img class="gray"
-                                    src="assets/img/brand/brand_1_4.svg" alt="Brand Logo"></a></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-box"><a href="#"><img class="original"
-                                    src="assets/img/brand/brand_1_3.svg" alt="Brand Logo"> <img class="gray"
-                                    src="assets/img/brand/brand_1_3.svg" alt="Brand Logo"></a></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-box"><a href="#"><img class="original"
-                                    src="assets/img/brand/brand_1_2.svg" alt="Brand Logo"> <img class="gray"
-                                    src="assets/img/brand/brand_1_2.svg" alt="Brand Logo"></a></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-box"><a href="#"><img class="original"
-                                    src="assets/img/brand/brand_1_1.svg" alt="Brand Logo"> <img class="gray"
-                                    src="assets/img/brand/brand_1_1.svg" alt="Brand Logo"></a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+
     <div class="sidebar-gallery-area space">
         <div class="container-fluid">
             <div class="slider-area">

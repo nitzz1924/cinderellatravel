@@ -86,7 +86,7 @@
             <div class="widget">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="home-travel.html">
+                        <a href="{{ route('home') }}">
                             <img src="{{ asset('assets/img/logo1.png') }}"alt="Cinderella">
                         </a>
                     </div>
@@ -165,7 +165,7 @@
     </div>
     <div class="th-menu-wrapper onepage-nav">
         <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo"><a href="home-travel.html"><img src="{{ asset('assets/img/logo1.png') }}"
+            <div class="mobile-logo"><a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo1.png') }}"
                         alt="Cinderella" width="150"></a>
             </div>
             <div class="th-mobile-menu">
@@ -241,7 +241,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="home-travel.html">
+                                <a href="{{ route('home') }}">
                                     <img src="{{ asset('assets/img/logo1.png') }}"alt="Cinderella" width="175">
                                 </a>
                             </div>
@@ -292,7 +292,7 @@
     <footer class="footer-wrapper footer-layout1">
         <div class="widget-area">
             <div class="container">
-                <div class="newsletter-area">
+                {{-- <div class="newsletter-area">
                     <div class="newsletter-top">
                         <div class="row gy-4 align-items-center">
                             <div class="col-lg-5">
@@ -308,12 +308,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="row justify-content-between">
                     <div class="col-md-6 col-xl-3">
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
-                                <div class="about-logo"><a href="home-travel.html"><img
+                                <div class="about-logo"><a href="{{ route('home') }}"><img
                                             src="{{ asset('assets/img/logo1.png') }}" alt="Cinderella"
                                             width="175"></a></div>
                                 <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital
@@ -387,7 +387,7 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-6">
-                        <p class="copyright-text">Copyright 2025 <a href="home-travel.html">Cinderella</a>. All Rights
+                        <p class="copyright-text">Copyright 2025 <a href="{{ route('home') }}">Cinderella</a>. All Rights
                             Reserved.</p>
                     </div>
                     <div class="col-md-6 text-end d-none d-md-block">

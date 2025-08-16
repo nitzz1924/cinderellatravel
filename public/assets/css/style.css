@@ -2,7 +2,7 @@
 :root {
     --theme-color: #1ca8cb;
     --primary-color: #1ca8cb;
-    --title-color: #113d48;
+    --title-color: #5b0978;
     --body-color: #6e7070;
     --smoke-color: #e9f6f9;
     --smoke-color2: #f3f4f6;
@@ -21,7 +21,7 @@
     --icon-font: "Font Awesome 6 Pro";
     --main-container: 1320px;
     --container-gutters: 24px;
-    --section-space: 120px;
+    --section-space: 50px;
     --section-space-mobile: 80px;
     --section-title-space: 60px;
     --ripple-ani-duration: 2s;
@@ -16583,7 +16583,7 @@ span.select2-selection.select2-selection--single:focus {
     display: -ms-flexbox;
     display: flex;
     gap: 16px;
-    max-width: 400px;
+    max-width: 550px;
 }
 .about-item:not(:last-child) {
     margin-bottom: 30px;
@@ -16949,7 +16949,7 @@ span.select2-selection.select2-selection--single:focus {
     border-radius: 24px;
 }
 .resort-content {
-    max-width: 530px;
+    /* max-width: 530px; */
 }
 .resort-content .box-title {
     font-size: 40px;
@@ -16990,7 +16990,7 @@ span.select2-selection.select2-selection--single:focus {
     color: var(--theme-color);
 }
 .resort-content .resort-text {
-    font-size: 18px;
+    font-size: 14px;
 }
 .resort-content .resort-list ul {
     padding: 0;

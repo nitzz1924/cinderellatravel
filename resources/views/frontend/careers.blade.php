@@ -21,7 +21,9 @@
         <div class="row gy-4 justify-content-center">
             <div class="col-xl-4 col-lg-6">
                 <div class="about-contact-grid style2">
-                    <div class="about-contact-icon"><img src="assets/img/icon/briefcase.svg" alt=""></div>
+                    <div class="about-contact-icon">
+                        <img src="assets/img/icon/ticket-flight.png" alt="ticket" width="50">
+                    </div>
                     <div class="about-contact-details">
                         <h6 class="box-title">Air Ticketing</h6>
                         <p class="about-contact-details-text">Join our team to assist customers with flight bookings and travel itineraries.</p>
@@ -38,7 +40,7 @@
             </div>
             <div class="col-xl-4 col-lg-6">
                 <div class="about-contact-grid">
-                    <div class="about-contact-icon"><img src="assets/img/icon/megaphone.svg" alt=""></div>
+                    <div class="about-contact-icon"><img src="assets/img/icon/social-media-marketing.png" alt="" width="50"></div>
                     <div class="about-contact-details">
                         <h6 class="box-title">Sales & Marketing</h6>
                         <p class="about-contact-details-text">Drive our brand growth through innovative sales and marketing strategies.</p>
@@ -55,7 +57,7 @@
             </div>
             <div class="col-xl-4 col-lg-6">
                 <div class="about-contact-grid">
-                    <div class="about-contact-icon"><img src="assets/img/icon/calculator.svg" alt=""></div>
+                    <div class="about-contact-icon"><img src="assets/img/icon/accounting.png" alt="" width="50"></div>
                     <div class="about-contact-details">
                         <h6 class="box-title">Accountant</h6>
                         <p class="about-contact-details-text">Manage financial records and ensure accuracy in our accounting processes.</p>

@@ -1200,7 +1200,7 @@
             </div>
         </div>
     </div>
-    <section class="bg-smoke overflow-hidden space overflow-hidden" id="blog-sec">
+    <section class="bg-smoke overflow-hidden space" id="blog-sec">
         <div class="container">
             <div class="mb-30 text-center text-md-start">
                 <div class="row align-items-center justify-content-between">
@@ -1304,6 +1304,106 @@
                     src="assets/img/shape/shape_2.png" alt="shape"></div>
             <div class="shape-mockup shape3 d-none d-xxl-block" data-bottom="12%" data-left="-10%"><img
                     src="assets/img/shape/shape_3.png" alt="shape"></div>
+        </div>
+    </section>
+
+    <section class="space">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="sec_title_static">
+                        <div class="sec_title_wrap">
+                            <div class="title-area text-center text-lg-start pe-xl-5"><span class="sub-title">Blog and
+                                    Article</span>
+                                <h2 class="sec-title">Latest Blog & Articles From Tourm</h2><a href="blog.html"
+                                    class="th-btn style4 th-icon">See More Articles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="blog-grid4-static-wrap">
+                        <div class="col-12 blog-grid4_wrapp">
+                            <div class="blog-grid4 th-ani style4 mt-24">
+                                <div class="box-content">
+                                    <div class="blog-meta"><a class="author" href="blog.html">Sep 10, 2024</a> <a
+                                            href="blog.html">8 min read</a></div>
+                                    <h3 class="box-title"><a href="blog-details.html">How to Travel Sustainably and
+                                            Responsibly</a></h3><a href="blog-details.html"
+                                        class="th-btn style4 th-icon">Read More</a>
+                                </div>
+                                <div class="blog-img global-img"><img src="assets/img/blog/blog_9_2.jpg"
+                                        alt="blog image"></div>
+                            </div>
+                        </div>
+                        <div class="col-12 blog-grid4_wrapp">
+                            <div class="blog-grid4 th-ani style4 mt-24">
+                                <div class="box-content">
+                                    <div class="blog-meta"><a class="author" href="blog.html">Sep 10, 2024</a> <a
+                                            href="blog.html">8 min read</a></div>
+                                    <h3 class="box-title"><a href="blog-details.html">A Step-by-Step Guide for
+                                            First-Time Travelers</a></h3><a href="blog-details.html"
+                                        class="th-btn style4 th-icon">Read More</a>
+                                </div>
+                                <div class="blog-img global-img"><img src="assets/img/blog/blog_9_2.jpg"
+                                        alt="blog image"></div>
+                            </div>
+                        </div>
+                        <div class="col-12 blog-grid4_wrapp">
+                            <div class="blog-grid4 th-ani style4 mt-24">
+                                <div class="box-content">
+                                    <div class="blog-meta"><a class="author" href="blog.html">Sep 10, 2024</a> <a
+                                            href="blog.html">8 min read</a></div>
+                                    <h3 class="box-title"><a href="blog-details.html">Top Destinations and Tips for
+                                            Traveling with Kids</a></h3><a href="blog-details.html"
+                                        class="th-btn style4 th-icon">Read More</a>
+                                </div>
+                                <div class="blog-img global-img"><img src="assets/img/blog/blog_9_3.jpg"
+                                        alt="blog image"></div>
+                            </div>
+                        </div>
+                        <div class="col-12 blog-grid4_wrapp">
+                            <div class="blog-grid4 th-ani style4 mt-24">
+                                <div class="box-content">
+                                    <div class="blog-meta"><a class="author" href="blog.html">Sep 10, 2024</a> <a
+                                            href="blog.html">8 min read</a></div>
+                                    <h3 class="box-title"><a href="blog-details.html">How to Travel Sustainably and
+                                            Responsibly</a></h3><a href="blog-details.html"
+                                        class="th-btn style4 th-icon">Read More</a>
+                                </div>
+                                <div class="blog-img global-img"><img src="assets/img/blog/blog_9_2.jpg"
+                                        alt="blog image"></div>
+                            </div>
+                        </div>
+                        <div class="col-12 blog-grid4_wrapp">
+                            <div class="blog-grid4 th-ani style4 mt-24">
+                                <div class="box-content">
+                                    <div class="blog-meta"><a class="author" href="blog.html">Sep 10, 2024</a> <a
+                                            href="blog.html">8 min read</a></div>
+                                    <h3 class="box-title"><a href="blog-details.html">A Step-by-Step Guide for
+                                            First-Time Travelers</a></h3><a href="blog-details.html"
+                                        class="th-btn style4 th-icon">Read More</a>
+                                </div>
+                                <div class="blog-img global-img"><img src="assets/img/blog/blog_9_2.jpg"
+                                        alt="blog image"></div>
+                            </div>
+                        </div>
+                        <div class="col-12 blog-grid4_wrapp">
+                            <div class="blog-grid4 th-ani style4 mt-24">
+                                <div class="box-content">
+                                    <div class="blog-meta"><a class="author" href="blog.html">Sep 10, 2024</a> <a
+                                            href="blog.html">8 min read</a></div>
+                                    <h3 class="box-title"><a href="blog-details.html">Top Destinations and Tips for
+                                            Traveling with Kids</a></h3><a href="blog-details.html"
+                                        class="th-btn style4 th-icon">Read More</a>
+                                </div>
+                                <div class="blog-img global-img"><img src="assets/img/blog/blog_9_3.jpg"
+                                        alt="blog image"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 @endsection
