@@ -4,11 +4,11 @@
         data-aos-delay="100">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Air Ticketing</h1>
+                <h1 class="breadcumb-title">Holiday Packges</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('home') }}">Home</a></li>
                     <li>Services</li>
-                    <li>Air Ticketing</li>
+                    <li>Holiday Packges</li>
                 </ul>
             </div>
         </div>
@@ -19,42 +19,105 @@
                 <div class="col-xxl-8 col-lg-7">
                     <div class="page-single">
                         <div class="service-img" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="{{ asset('assets/img/services/airticketing.webp') }}" alt="Air Ticketing Image">
+                            <img src="{{ asset('assets/img/services/bus.webp') }}" alt="Holiday Packges Image">
                         </div>
                         <div class="page-content d-block" data-aos="fade-up" data-aos-delay="300">
-                            <h2 class="box-title mt-3">Air Ticketing</h2>
-                            <p class="box-text mb-30">Book all Domestic & International Airlines from Cinderella. Air travel
-                                is not a high-end form of travelling as it used to be. Instead, it is now seen as the
-                                fastest and cheapest way to travel. Booking International and Domestic air tickets for
-                                customers is very easy with Cinderella. As a retailer, you get the lowest flight fares,
-                                coupon fares, GDS fares, and corporate fares to offer your customers. This service comes
-                                with 24X7 customer support on hassle-free cancellation, refunds, and modifications of air
-                                tickets. We offer our retailers the best commission on booking of every International or
-                                Domestic Flight ticket.</p>
+                            <h2 class="box-title mt-3">Holiday Packges</h2>
+                            <p class="box-text mb-30">Land arrangement means all travel elements provided to a client after
+                                arrival at the destination, such as hotel, sightseeing, and so forth. We have partnered with
+                                local tour operators who have experience on handling tours in their destination.</p>
 
-                            <div class="service-inner-img mb-40" data-aos="zoom-in" data-aos-delay="400">
-                                <img src="{{ asset('assets/img/services/air2ticket.webp') }}"
-                                    alt="Air Ticketing Inner Image">
-                            </div>
-                            <h2 class="box-title">Highlights</h2>
-                            <div class="checklist" data-aos="fade-up" data-aos-delay="500">
-                                <ul class="list-unstyled">
-                                    <li class="mb-2">24/7 year-round communication</li>
-                                    <li class="mb-2">Competitive pricing</li>
-                                    <li class="mb-2">Bookings confirmation and follow-up on all AFRICA as well as
-                                        international airlines within and without AFRICA</li>
-                                    <li class="mb-2">Exclusive itinerary organization for private trips available upon
-                                        request</li>
-                                    <li class="mb-2">Speed and ease of issuance and delivery with E-ticketing through the
-                                        latest technologies</li>
-                                    <li class="mb-2">Our partners around the world are comprised of over 500 travel and
-                                        tourism offices, providing the best services at best prices</li>
-                                    <li class="mb-2">Premium lounges to serve our premium customers and their families
-                                    </li>
-                                    <li class="mb-2">Customer service and support to companies, banks, and retired group
-                                        employees</li>
-                                    <li class="mb-2">Emergency support to plan and book your trip as fast as possible</li>
-                                </ul>
+                            <h4 class="box-title">International Tour Packages</h4>
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <div class=" tour-box th-ani gsap-cursor">
+                                        <div class="tour-box_img global-img">
+                                            <img src="{{ asset('assets/img/services/europepackage.webp') }}" alt="image">
+                                        </div>
+                                        <div class="tour-content">
+                                            <h3 class="box-title">
+                                                <a href="#">Europe Holiday Packages</a>
+                                            </h3>
+                                            <p>Stroll through the beaches and explore the wild in the cultural island with
+                                                your better half. maldives is an all-in-one experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class=" tour-box th-ani gsap-cursor">
+                                        <div class="tour-box_img global-img">
+                                            <img src="{{ asset('assets/img/services/usapackage.webp') }}" alt="image">
+                                        </div>
+                                        <div class="tour-content">
+                                            <h3 class="box-title">
+                                                <a href="#">USA Holiday Packages</a>
+                                            </h3>
+                                            <p>
+                                                Visit usa - the third largest continent in the world. packed to the brim
+                                                with
+                                                personality, charm, diversity and great natural beauty.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class=" tour-box th-ani gsap-cursor">
+                                        <div class="tour-box_img global-img">
+                                            <img src="{{ asset('assets/img/services/australiapackage.webp') }}" alt="image">
+                                        </div>
+                                        <div class="tour-content">
+                                            <h3 class="box-title">
+                                                <a href="#">Australia Holiday Packages</a>
+                                            </h3>
+                                            <p>A trip to australia is a must if you crave for a blend of adventure, scuba
+                                                diving, colorful mountains, rich wild life and much more.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class=" tour-box th-ani gsap-cursor">
+                                        <div class="tour-box_img global-img">
+                                            <img src="{{ asset('assets/img/services/newzealandpackage.webp') }}" alt="image">
+                                        </div>
+                                        <div class="tour-content">
+                                            <h3 class="box-title">
+                                                <a href="#">New Zealand Packages</a>
+                                            </h3>
+                                            <p>The land of hidden gems, unexplored grasslands, temple towns, bustling
+                                                streets and golden beaches; this is asia for you.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class=" tour-box th-ani gsap-cursor">
+                                        <div class="tour-box_img global-img">
+                                            <img src="{{ asset('assets/img/services/asiapackage.webp') }}" alt="image">
+                                        </div>
+                                        <div class="tour-content">
+                                            <h3 class="box-title">
+                                                <a href="#">Asia Holiday Packages</a>
+                                            </h3>
+                                            <p>Stroll through the beaches and explore the wild in the cultural island with
+                                                your better half. maldives is an all-in-one experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class=" tour-box th-ani gsap-cursor">
+                                        <div class="tour-box_img global-img">
+                                            <img src="{{ asset('assets/img/services/canadapackages.webp') }}" alt="image">
+                                        </div>
+                                        <div class="tour-content">
+                                            <h3 class="box-title">
+                                                <a href="#">Canada Holiday Packages</a>
+                                            </h3>
+                                            <p>Being the second largest country of the world, Canada has a lot to offer to
+                                                visitors and no matter what tourists might be looking for</p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
 
@@ -84,10 +147,10 @@
                                     <select name="subject" id="subject" class="form-select nice-select">
                                         <option value="Select Tour Type" selected="selected" disabled="disabled">Select
                                             Service Type</option>
-                                        <option value="Air Ticketing">Air Ticketing</option>
+                                        <option value="Holiday Packges">Holiday Packges</option>
                                         <option value="Travel Visa">Travel Visa</option>
-                                        <option value="Travel Insurance">Travel Insurance</option>
-                                        <option value="Hotel Booking">Hotel Booking</option>
+                                        <option value="Holiday Packges">Holiday Packges</option>
+                                        <option value="Holiday Packges">Holiday Packges</option>
                                         <option value="Holiday Packages">Holiday Packages</option>
                                     </select>
                                 </div>
@@ -97,12 +160,13 @@
                                 </div>
                                 <div class="col-12 form-group">
                                     <input type="checkbox" id="html">
-                                    <label for="html">Save my name, email, and website in this browser for the next time
+                                    <label for="html">Save my name, email, and website in this browser for the next
+                                        time
                                         I comment.</label>
                                 </div>
                                 <div class="col-12 form-group mb-0">
-                                    <button class="th-btn">Send Message<img src="{{ asset('assets/img/icon/plane2.svg') }}"
-                                            alt="Send Icon"></button>
+                                    <button class="th-btn">Send Message<img
+                                            src="{{ asset('assets/img/icon/plane2.svg') }}" alt="Send Icon"></button>
                                 </div>
                             </div>
                         </div>

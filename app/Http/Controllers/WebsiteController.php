@@ -46,4 +46,20 @@ class WebsiteController extends Controller
     {
         return view('frontend.services.airticketing');
     }
+    public function travelvisa()
+    {
+        return view('frontend.services.travelvisa');
+    }
+    public function travelinsurance()
+    {
+        return view('frontend.services.travelinsurance');
+    }
+    public function hotelbooking()
+    {
+        return view('frontend.services.hotelbooking');
+    }
+    public function holidaypackges()
+    {
+        return view('frontend.services.holidaypackges');
+    }
 }

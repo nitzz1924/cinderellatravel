@@ -4,11 +4,11 @@
         data-aos-delay="100">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Air Ticketing</h1>
+                <h1 class="breadcumb-title">Travel Insurance</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('home') }}">Home</a></li>
                     <li>Services</li>
-                    <li>Air Ticketing</li>
+                    <li>Travel Insurance</li>
                 </ul>
             </div>
         </div>
@@ -19,42 +19,98 @@
                 <div class="col-xxl-8 col-lg-7">
                     <div class="page-single">
                         <div class="service-img" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="{{ asset('assets/img/services/airticketing.webp') }}" alt="Air Ticketing Image">
+                            <img src="{{ asset('assets/img/services/travelinsurance.webp') }}" alt="Travel Insurance Image">
                         </div>
                         <div class="page-content d-block" data-aos="fade-up" data-aos-delay="300">
-                            <h2 class="box-title mt-3">Air Ticketing</h2>
-                            <p class="box-text mb-30">Book all Domestic & International Airlines from Cinderella. Air travel
-                                is not a high-end form of travelling as it used to be. Instead, it is now seen as the
-                                fastest and cheapest way to travel. Booking International and Domestic air tickets for
-                                customers is very easy with Cinderella. As a retailer, you get the lowest flight fares,
-                                coupon fares, GDS fares, and corporate fares to offer your customers. This service comes
-                                with 24X7 customer support on hassle-free cancellation, refunds, and modifications of air
-                                tickets. We offer our retailers the best commission on booking of every International or
-                                Domestic Flight ticket.</p>
+                            <h2 class="box-title mt-3">Travel Insurance</h2>
+                            <p class="box-text mb-30">With the increase in travel, one of the important things that
+                                travellers need to know about is Travel Insurance. This form of insurance helps cover a
+                                whole range of uncertainties and scenarios that can drain out a traveller’s finances. Most
+                                countries require mandatory Travel Insurance while applying for a visa. But choosing the
+                                right Travel Insurance which covers all the risks of travel is important.</p>
 
                             <div class="service-inner-img mb-40" data-aos="zoom-in" data-aos-delay="400">
-                                <img src="{{ asset('assets/img/services/air2ticket.webp') }}"
-                                    alt="Air Ticketing Inner Image">
+                                <img src="{{ asset('assets/img/services/TravelInsurance2.webp') }}"
+                                    alt="Travel Insurance Inner Image">
                             </div>
-                            <h2 class="box-title">Highlights</h2>
+                            <div data-aos="fade-up" data-aos-delay="425">
+                                <p class="box-text mb-30">Travel Insurance is a type of insurance that covers different
+                                    risks while travelling. It covers medical expenses, lost luggage, flight cancellations,
+                                    and other losses that a traveller can incur while travelling.</p>
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="475">
+                                <p class="box-text mb-30">Travel Insurance is usually taken from the day of travel till the
+                                    time the traveller reaches back to India. Taking Travel Insurance ensures a
+                                    comprehensive coverage in case of any emergency in another country. Travel Insurance is
+                                    also available for trips taken in the home country of the traveller like Bharat Bhraman
+                                    & E Travel, but it is a more popular option for travel abroad.</p>
+                            </div>
                             <div class="checklist" data-aos="fade-up" data-aos-delay="500">
-                                <ul class="list-unstyled">
-                                    <li class="mb-2">24/7 year-round communication</li>
-                                    <li class="mb-2">Competitive pricing</li>
-                                    <li class="mb-2">Bookings confirmation and follow-up on all AFRICA as well as
-                                        international airlines within and without AFRICA</li>
-                                    <li class="mb-2">Exclusive itinerary organization for private trips available upon
-                                        request</li>
-                                    <li class="mb-2">Speed and ease of issuance and delivery with E-ticketing through the
-                                        latest technologies</li>
-                                    <li class="mb-2">Our partners around the world are comprised of over 500 travel and
-                                        tourism offices, providing the best services at best prices</li>
-                                    <li class="mb-2">Premium lounges to serve our premium customers and their families
-                                    </li>
-                                    <li class="mb-2">Customer service and support to companies, banks, and retired group
-                                        employees</li>
-                                    <li class="mb-2">Emergency support to plan and book your trip as fast as possible</li>
+                                <h6>Some of the risks covered under Travel Insurance are:</h6>
+                                <ul class="list-unstyled mb-2"
+                                    style='columns: 2; -webkit-columns: 2; -moz-columns: 2; column-gap: 20px; '>
+                                    <li class="mb-2">Personal Accident Cover, which covers:</li>
+                                    <li class="mb-2">Insured’s Death</li>
+                                    <li class="mb-2">Permanent Total Disability</li>
+                                    <li class="mb-2">Dental treatment relief</li>
+                                    <li class="mb-2">Emergency evacuation</li>
+                                    <li class="mb-2">Repatriation of remains in case of death</li>
+                                    <li class="mb-2">Baggage delay</li>
+                                    <li class="mb-2">Loss of passport</li>
+                                    <li class="mb-2">Hijack</li>
+                                    <li class="mb-2">Home burglary</li>
+                                    <li class="mb-2">Trip curtailment</li>
+                                    <li class="mb-2">Trip cancellation</li>
+                                    <li class="mb-2">Missed connection/missed departure</li>
+                                    <li class="mb-2">Bounced hotel/airline booking</li>
                                 </ul>
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="475">
+                                <p class="box-text mb-30">There may be more risks covered under individual policies
+                                    depending on the requirements of the traveller. The amounts to which these risks are
+                                    covered depends on the policy & plan that the traveller opts for. Travel Insurance also
+                                    covers additional risks at an additional premium. Some of these risks are specific to
+                                    the traveller or the place the person is travelling to.
+
+                                </p>
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="475">
+                                <h6>Types of Travel Insurance:
+                                </h6>
+                                <p class="box-text mb-30">There are single trip Travel Insurance policies meant for one
+                                    journey. But for frequent travellers who travel abroad on business purposes, there is an
+                                    option to buy a multi trip Travel Insurance policy. Some policies last for an entire
+                                    year and cover multiple trips to a particular destination. Opting for such policies is
+                                    much more cost effective for businessmen and frequent travellers to a particular
+                                    destination. We also have student policies which are specially designed for students
+                                    going abroad for studies at an affordable premium. The maximum trip length can last from
+                                    30, 45 and 60 days.
+                                </p>
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="475">
+                                <p class="box-text mb-30">Another type of travel policy is a group Travel Insurance policy.
+                                    A group policy covers 7 or more travellers. These policies are cost effective and offer
+                                    similar benefits as single trip Travel Insurance policies. Group Travel Insurance
+                                    policies are based on the age of the travellers which means it works out more cost
+                                    effective per traveller. Most travel companies opt for group Travel Insurance policies
+                                    when they take groups across different countries on tours.
+
+
+                                </p>
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="475">
+                                <p class="box-text mb-30">It is easy to pick out a policy once you know the Travel Insurance
+                                    definition. While planning your trip abroad, pick out a Travel Insurance policy that
+                                    provides exhaustive coverage with a high coverage. It is possible to check the cost of
+                                    Travel Insurance on insurance aggregators and pick out the best policy. HDFC Bank offers
+                                    a variety of Travel Insurance policies through the bank’s website like Student Travel
+                                    Insurance, Domestic, Senior Citizens, Family and even Individual Travel Insurance. You
+                                    can easily pick out a policy that suits your need and provides the best value for money.
+
+
+
+
+                                </p>
                             </div>
                         </div>
 
@@ -84,7 +140,7 @@
                                     <select name="subject" id="subject" class="form-select nice-select">
                                         <option value="Select Tour Type" selected="selected" disabled="disabled">Select
                                             Service Type</option>
-                                        <option value="Air Ticketing">Air Ticketing</option>
+                                        <option value="Travel Insurance">Travel Insurance</option>
                                         <option value="Travel Visa">Travel Visa</option>
                                         <option value="Travel Insurance">Travel Insurance</option>
                                         <option value="Hotel Booking">Hotel Booking</option>
@@ -97,12 +153,13 @@
                                 </div>
                                 <div class="col-12 form-group">
                                     <input type="checkbox" id="html">
-                                    <label for="html">Save my name, email, and website in this browser for the next time
+                                    <label for="html">Save my name, email, and website in this browser for the next
+                                        time
                                         I comment.</label>
                                 </div>
                                 <div class="col-12 form-group mb-0">
-                                    <button class="th-btn">Send Message<img src="{{ asset('assets/img/icon/plane2.svg') }}"
-                                            alt="Send Icon"></button>
+                                    <button class="th-btn">Send Message<img
+                                            src="{{ asset('assets/img/icon/plane2.svg') }}" alt="Send Icon"></button>
                                 </div>
                             </div>
                         </div>

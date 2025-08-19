@@ -39,6 +39,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -144,7 +146,8 @@
                         </div>
                         <div class="details">
                             <p>
-                                <a href="mailto:info@cinderellatravel.co.in" class="info-box_link">info@cinderellatravel.co.in</a>
+                                <a href="mailto:info@cinderellatravel.co.in"
+                                    class="info-box_link">info@cinderellatravel.co.in</a>
                             </p>
                         </div>
                     </div>
@@ -181,11 +184,11 @@
                     </li>
                     <li class="menu-item-has-children"><a href="#">Service</a>
                         <ul class="sub-menu">
-                            <li><a href="{{route('airticketing')}}">Services</a></li>
+                            <li><a href="{{ route('airticketing') }}">Services</a></li>
                         </ul>
                     </li>
-                    <li class=""><a href="{{route('careers')}}">Careers</a></li>
-                    <li><a href="{{ route('contactus')}}">Contact us</a></li>
+                    <li class=""><a href="{{ route('careers') }}">Careers</a></li>
+                    <li><a href="{{ route('contactus') }}">Contact us</a></li>
                 </ul>
             </div>
         </div>
@@ -206,7 +209,7 @@
                                     <span>C-80,81 , B.K. Kaul Nagar Ajmer, Rajasthan</span>
                                 </li>
                                 <li class="d-none d-xl-inline-block">
-                                    <i class="fa-regular fa-clock"></i> 
+                                    <i class="fa-regular fa-clock"></i>
                                     <span>Mon - Fri: 9:00 am - 06.00pm</span>
                                 </li>
                             </ul>
@@ -250,30 +253,35 @@
                             <nav class="main-menu d-none d-xl-inline-block">
                                 <ul>
                                     <li class=""><a class="active" href="{{ route('home') }}">Home</a></li>
-                                    <li><a href="{{route('aboutus')}}">About Us</a></li>
+                                    <li><a href="{{ route('aboutus') }}">About Us</a></li>
                                     <li class="menu-item-has-children"><a href="#">Destination</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{route('europe')}}">Europe</a></li>
+                                            <li><a href="{{ route('europe') }}">Europe</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children"><a href="#">Services</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{route('airticketing')}}">Air Ticketing</a></li>
+                                            <li><a href="{{ route('airticketing') }}">Air Ticketing</a></li>
+                                            <li><a href="{{ route('travelvisa') }}">Travel Visa</a></li>
+                                            <li><a href="{{ route('travelinsurance') }}">Travel Insurance</a></li>
+                                            <li><a href="{{ route('hotelbooking') }}">Hotel Booking</a></li>
+                                            <li><a href="{{ route('holidaypackges') }}">Holiday Packges</a></li>
                                         </ul>
                                     </li>
-                                    <li class=""><a href="{{route('careers')}}">Careers</a></li>
-                                    <li class="menu-item-has-children"><a href="{{route('blogs')}}">Blogs</a>
-                                    <ul class="sub-menu">
-                                            <li><a href="{{route('blogdetail')}}">Blog Detail</a></li>
+                                    <li class=""><a href="{{ route('careers') }}">Careers</a></li>
+                                    <li class="menu-item-has-children"><a href="{{ route('blogs') }}">Blogs</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="{{ route('blogdetail') }}">Blog Detail</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{ route('contactus')}}">Contact us</a></li>
+                                    <li><a href="{{ route('contactus') }}">Contact us</a></li>
                                 </ul>
                             </nav><button type="button" class="th-menu-toggle d-block d-xl-none"><i
                                     class="far fa-bars"></i></button>
                         </div>
                         <div class="col-auto d-none d-xl-block">
-                            <div class="header-button"><a href="{{ route('contactus')}}" class="th-btn style3 th-icon">Book
+                            <div class="header-button"><a href="{{ route('contactus') }}"
+                                    class="th-btn style3 th-icon">Book
                                     Now</a>
                             </div>
                         </div>
@@ -387,7 +395,8 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-6">
-                        <p class="copyright-text">Copyright 2025 <a href="{{ route('home') }}">Cinderella</a>. All Rights
+                        <p class="copyright-text">Copyright 2025 <a href="{{ route('home') }}">Cinderella</a>. All
+                            Rights
                             Reserved.</p>
                     </div>
                     <div class="col-md-6 text-end d-none d-md-block">
@@ -474,6 +483,16 @@
     <script src="{{ asset('assets/js/matterjs-custom.js') }}"></script>
     <script src="{{ asset('assets/js/nice-select.min.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 400, // Animation duration in milliseconds
+            easing: 'ease-in-out', // Smooth easing for professional look
+            // once: true, // Animations trigger only once
+            offset: 100 // Trigger animations 100px before element enters viewport
+        });
+    </script>
 
 </body>
 

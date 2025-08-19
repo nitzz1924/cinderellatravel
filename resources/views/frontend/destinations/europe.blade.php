@@ -1,6 +1,7 @@
 @extends('frontend.layout.websitemain')
 @section('content')
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}" data-aos="fade-down"
+        data-aos-delay="100">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Europe Tourism</h1>
@@ -12,14 +13,14 @@
             </div>
         </div>
     </div>
+
     <section class="space">
         <div class="container">
             <div class="row">
                 <div class="tour-page-single">
-                    <h2 class="box-title">Europe Tourist Places</h2>
+                    <h2 class="box-title" data-aos="fade-up" data-aos-delay="200">Europe Tourist Places</h2>
                     <div class="row">
-
-                        <div class="col-xxl-6">
+                        <div class="col-xxl-6" data-aos="zoom-in" data-aos-delay="300">
                             <div class="slider-area tour-slider1">
                                 <div class="swiper th-slider mb-4" id="tourSlider4"
                                     data-slider-options='{"effect":"fade","loop":true,"thumbs":{"swiper":".tour-thumb-slider"},"autoplayDisableOnInteraction":"true"}'>
@@ -27,38 +28,17 @@
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
                                                     src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    alt="img">
-                                            </div>
+                                                    alt="Switzerland"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
                                                     src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                    alt="img">
-                                            </div>
+                                                    alt="Greece"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
                                                     src="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                    alt="img">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    alt="img">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                    alt="img">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                    alt="img">
-                                            </div>
+                                                    alt="Paris"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -68,874 +48,784 @@
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
                                                     src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    alt="Image">
-                                            </div>
+                                                    alt="Switzerland"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
                                                     src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                    alt="Image">
-                                            </div>
+                                                    alt="Greece"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
                                                     src="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                    alt="Image">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    alt="Image">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                    alt="Image">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                    alt="Image">
-                                            </div>
+                                                    alt="Paris"></div>
                                         </div>
                                     </div>
-                                </div><button data-slider-prev="#tourSlider4" class="slider-arrow style3 slider-prev"><img
-                                        src="{{ asset('assets/img/icon/hero-arrow-left.svg') }}" alt=""></button>
-                                <button data-slider-next="#tourSlider4" class="slider-arrow style3 slider-next"><img
-                                        src="{{ asset('assets/img/icon/hero-arrow-right.svg') }}" alt=""></button>
+                                </div>
+                                <button data-slider-prev="#tourSlider4" class="slider-arrow style3 slider-prev"
+                                    data-aos="fade-left" data-aos-delay="400"><img
+                                        src="{{ asset('assets/img/icon/hero-arrow-left.svg') }}" alt="Previous"></button>
+                                <button data-slider-next="#tourSlider4" class="slider-arrow style3 slider-next"
+                                    data-aos="fade-right" data-aos-delay="400"><img
+                                        src="{{ asset('assets/img/icon/hero-arrow-right.svg') }}" alt="Next"></button>
                             </div>
                         </div>
                         <div class="col-xxl-6 ps-4">
-                            <p class="box-text mb-30">
-                                Denmark, Greenland, Estonia, Stockholm, Rome, Zurich, Poland,
-                                Vivey, Paris, France, Amsterdam, Lyon, Dublin, Berlin, Moscow, Istanbul, Naxos, Milan
-                                and many more.
+                            <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="500">
+                                Denmark, Greenland, Estonia, Stockholm, Rome, Zurich, Poland, Vivey, Paris, France,
+                                Amsterdam, Lyon, Dublin, Berlin, Moscow, Istanbul, Naxos, Milan, and many more.
                             </p>
-                            <p class="box-text mb-30">
-                                Places to Visit in Europe are considered to be a perfect setting for travelers of any
-                                kind. It is adorned with some of the magnificent places to visit that will surely make a
-                                mark in your mind in the course of your visit. Europe tourist places are a perfect place
-                                to dive deep into the golden days of classical antiquity.
-
+                            <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="600">
+                                Places to visit in Europe are considered a perfect setting for travelers of any kind. It is
+                                adorned with some of the magnificent places to visit that will surely make a mark in your
+                                mind during your visit. Europe tourist places are a perfect place to dive deep into the
+                                golden days of classical antiquity.
                             </p>
-                            <p class="box-text mb-30">
-                                Travelers are able to visit and witness the baroque buildings with breathtaking views of
-                                the Adriatic sea. In the course of your visit to Europe, you can choose to marvel at
-                                some of the notable places to visit like Splurge on a water taxi in Venice, Enjoy
-                                pintxos and surf in San Sebastián, Take a walk on London’s Primrose Hill, Bike along
-                                Amsterdam’s canals, and many more. Europe has got something or the other for all kinds
-                                of tourists.
+                            <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="700">
+                                Travelers can visit and witness the baroque buildings with breathtaking views of the
+                                Adriatic Sea. In the course of your visit to Europe, you can choose to marvel at some of the
+                                notable places to visit like Splurge on a water taxi in Venice, enjoy pintxos and surf in
+                                San Sebastián, take a walk on London’s Primrose Hill, bike along Amsterdam’s canals, and
+                                many more. Europe has something for all kinds of tourists.
                             </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="page-content">
-                    <p class="box-text mb-30">voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                        explicabo. Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
-                        numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-                        voluptatem. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
-                        nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-                        pariatur</p>
-                    <p class="box-text mb-50">Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel
-                        eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
-                        vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
-                    <h2 class="box-title">Highlights</h2>
-                    <p class="box-text mb-30">voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                        explicabo. Dolorem ipsum quia dolor sit amet, consectetur, adipisci.</p>
-                    <div class="checklist mb-50">
-                        <ul>
-                            <li>Visit most popular location of Maldives</li>
-                            <li>Buffet Breakfast for all traveler with good quality.</li>
-                            <li>Expert guide always guide you and give informations.</li>
-                            <li>Best Hotel for all also great food.</li>
-                            <li>Helping all traveler for Money Exchange.</li>
-                            <li>Buffet Breakfast for all traveler with good quality..</li>
-                            <li>Buffet Breakfast for all traveler with good quality.</li>
+                    <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="800">
+                        Europe offers a wealth of experiences, from its rich history to its diverse landscapes. Whether
+                        you're exploring ancient ruins or modern cities, every corner of Europe tells a story.
+                    </p>
+                    <p class="box-text mb-50" data-aos="fade-up" data-aos-delay="900">
+                        Discover iconic landmarks, savor local cuisines, and immerse yourself in vibrant cultures. Europe’s
+                        charm lies in its ability to cater to every traveler’s interests, from adventure seekers to history
+                        buffs.
+                    </p>
+                    <h2 class="box-title" data-aos="fade-up" data-aos-delay="1000">Highlights</h2>
+                    <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="1100">
+                        Experience the best of Europe with curated tours that showcase its most iconic destinations and
+                        hidden gems.
+                    </p>
+                    <div class="checklist mb-50" data-aos="fade-up" data-aos-delay="1200">
+                        <ul class="list-unstyled checklist">
+                            <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Visit iconic landmarks
+                                like the Eiffel Tower and Colosseum</li>
+                            <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Buffet breakfast with
+                                high-quality European cuisine</li>
+                            <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Expert guides providing
+                                in-depth historical and cultural insights</li>
+                            <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Stay in top-rated hotels
+                                with excellent amenities</li>
+                            <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Assistance with
+                                currency exchange for hassle-free travel</li>
                         </ul>
                     </div>
-                    <h2 class="box-title">Basic Information</h2>
-                    <p class="blog-text mb-35">voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                        explicabo. Dolorem ipsum quia dolor sit amet, consectetur, adipisci.</p>
-                    <div class="destination-checklist mb-50">
+                    <h2 class="box-title" data-aos="fade-up" data-aos-delay="1300">Basic Information</h2>
+                    <p class="blog-text mb-35" data-aos="fade-up" data-aos-delay="1400">
+                        Plan your European adventure with key details to ensure a smooth and memorable journey.
+                    </p>
+                    <div class="destination-checklist mb-50" data-aos="fade-up" data-aos-delay="1500">
                         <div class="checklist style2">
-                            <ul>
-                                <li>Destination</li>
-                                <li>Departure</li>
-                                <li>Language</li>
-                                <li>Reture Date</li>
-                                <li>Departure Date</li>
-                                <li>No. of Guide</li>
+                            <ul class="list-unstyled checklist">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Destination</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Departure</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Language</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Return Date</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Departure Date
+                                </li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Tour Places</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>No. of Guides</li>
                             </ul>
                         </div>
                         <div class="checklist style2">
-                            <ul>
-                                <li>Netherland</li>
-                                <li>Singapore Airport, Singapore</li>
-                                <li>English</li>
-                                <li>August 12, 2024</li>
-                                <li>Netherland</li>
-                                <li>25 Tour Places</li>
-                                <li>2 Person</li>
+                            <ul class="list-unstyled checklist">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Multiple European
+                                    Countries</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Singapore Airport,
+                                    Singapore</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>English</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>August 12, 2025
+                                </li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>August 5, 2025
+                                </li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>25 Tour Places
+                                </li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>2 Guides</li>
                             </ul>
                         </div>
                     </div>
-                    <h2 class="box-title">Included and Excluded</h2>
-                    <p class="blog-text mb-35">voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                        explicabo. Dolorem ipsum quia dolor sit amet, consectetur, adipisci.</p>
-                    <div class="destination-checklist">
+                    <h2 class="box-title" data-aos="fade-up" data-aos-delay="1600">Included and Excluded</h2>
+                    <p class="blog-text mb-35" data-aos="fade-up" data-aos-delay="1700">
+                        Understand what’s covered in your tour package to plan accordingly.
+                    </p>
+                    <div class="destination-checklist" data-aos="fade-up" data-aos-delay="1800">
                         <div class="checklist style2 style4">
-                            <ul>
-                                <li>Hotel Fair</li>
-                                <li>Transportation</li>
-                                <li>Breakfast</li>
-                                <li>Sightseeing</li>
-                                <li>Travel Tax</li>
-                                <li>Seasonal Food</li>
+                            <ul class="list-unstyled checklist">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Hotel
+                                    Accommodation</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Transportation
+                                </li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Breakfast</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Sightseeing Tours
+                                </li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Travel Taxes</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Seasonal Local
+                                    Food</li>
                             </ul>
                         </div>
                         <div class="checklist style5">
-                            <ul>
-                                <li>WIFI</li>
-                                <li>Swimming Pool</li>
-                                <li>GYM</li>
-                                <li>Travel Insurance</li>
-                                <li>Family Expenses</li>
-                                <li>Family Expenses</li>
+                            <ul class="list-unstyled checklist">
+                                <li class="mb-2"><i class="fas fa-times-circle text-danger me-2"></i>Wi-Fi</li>
+                                <li class="mb-2"><i class="fas fa-times-circle text-danger me-2"></i>Swimming Pool
+                                    Access</li>
+                                <li class="mb-2"><i class="fas fa-times-circle text-danger me-2"></i>Gym Access</li>
+                                <li class="mb-2"><i class="fas fa-times-circle text-danger me-2"></i>Travel Insurance
+                                </li>
+                                <li class="mb-2"><i class="fas fa-times-circle text-danger me-2"></i>Personal Expenses
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    <h3 class="page-title mt-50 mb-0">Tour Plan</h3>
-                    <ul class="nav nav-tabs tour-tab mt-10" role="tablist">
+                    <h3 class="page-title mt-50 mb-0" data-aos="fade-up" data-aos-delay="1900">Tour Plan</h3>
+                    <ul class="nav nav-tabs tour-tab mt-10" role="tablist" data-aos="fade-up" data-aos-delay="2000">
                         <li class="nav-item" role="presentation"><button class="nav-link active" id="day-tab1"
                                 data-bs-toggle="tab" data-bs-target="#day-tab1-pane" type="button" role="tab"
-                                aria-controls="day-tab1-pane" aria-selected="true">Day 01</button>
-                        </li>
+                                aria-controls="day-tab1-pane" aria-selected="true">Day 01</button></li>
                         <li class="nav-item" role="presentation"><button class="nav-link" id="day-tab2"
                                 data-bs-toggle="tab" data-bs-target="#day-tab2-pane" type="button" role="tab"
-                                aria-controls="day-tab2-pane" aria-selected="false">Day
-                                02</button></li>
+                                aria-controls="day-tab2-pane" aria-selected="false">Day 02</button></li>
                         <li class="nav-item" role="presentation"><button class="nav-link" id="day-tab3"
                                 data-bs-toggle="tab" data-bs-target="#day-tab3-pane" type="button" role="tab"
-                                aria-controls="day-tab3-pane" aria-selected="false">Day
-                                03</button></li>
+                                aria-controls="day-tab3-pane" aria-selected="false">Day 03</button></li>
                         <li class="nav-item" role="presentation"><button class="nav-link" id="day-tab4"
                                 data-bs-toggle="tab" data-bs-target="#day-tab4-pane" type="button" role="tab"
-                                aria-controls="day-tab4-pane" aria-selected="false">Day
-                                04</button></li>
+                                aria-controls="day-tab4-pane" aria-selected="false">Day 04</button></li>
                         <li class="nav-item" role="presentation"><button class="nav-link" id="day-tab5"
                                 data-bs-toggle="tab" data-bs-target="#day-tab5-pane" type="button" role="tab"
-                                aria-controls="day-tab5-pane" aria-selected="false">Day
-                                05</button></li>
+                                aria-controls="day-tab5-pane" aria-selected="false">Day 05</button></li>
                         <li class="nav-item" role="presentation"><button class="nav-link" id="day-tab6"
                                 data-bs-toggle="tab" data-bs-target="#day-tab6-pane" type="button" role="tab"
-                                aria-controls="day-tab6-pane" aria-selected="false">Day
-                                06</button></li>
+                                aria-controls="day-tab6-pane" aria-selected="false">Day 06</button></li>
                         <li class="nav-item" role="presentation"><button class="nav-link" id="day-tab7"
                                 data-bs-toggle="tab" data-bs-target="#day-tab7-pane" type="button" role="tab"
-                                aria-controls="day-tab7-pane" aria-selected="false">Day
-                                07</button></li>
+                                aria-controls="day-tab7-pane" aria-selected="false">Day 07</button></li>
                     </ul>
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="day-tab1-pane" role="tabpanel"
-                            aria-labelledby="day-tab1" tabindex="0">
+                            aria-labelledby="day-tab1" tabindex="0" data-aos="fade-up" data-aos-delay="2100">
                             <div class="tour-grid-plan">
                                 <div class="checklist">
-                                    <ul>
-                                        <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                        <li>Curabitur pellentesque nibh nibh, at maximus ante</li>
-                                        <li>United commitment toour excellence patent protection.</li>
-                                        <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                        <li>Maecenas vitae mattis tellus. Nullam quis imperdiet</li>
+                                    <ul class="list-unstyled checklist">
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Arrive in
+                                            Paris, visit the Eiffel Tower</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Explore
+                                            the Louvre Museum</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Stroll
+                                            along the Champs-Élysées</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Enjoy a
+                                            Seine River cruise</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Dinner at
+                                            a local Parisian café</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="day-tab2-pane" role="tabpanel" aria-labelledby="day-tab2"
-                            tabindex="0">
+                            tabindex="0" data-aos="fade-up" data-aos-delay="2200">
                             <div class="tour-grid-plan">
                                 <div class="checklist">
-                                    <ul>
-                                        <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                        <li>Curabitur pellentesque nibh nibh, at maximus ante</li>
-                                        <li>United commitment toour excellence patent protection.</li>
-                                        <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                        <li>Maecenas vitae mattis tellus. Nullam quis imperdiet</li>
+                                    <ul class="list-unstyled checklist">
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Travel to
+                                            Amsterdam, bike along the canals</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Visit the
+                                            Van Gogh Museum</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Explore
+                                            the Anne Frank House</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Discover
+                                            the Jordaan district</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Evening
+                                            canal cruise</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="day-tab3-pane" role="tabpanel" aria-labelledby="day-tab3"
-                            tabindex="0">
+                            tabindex="0" data-aos="fade-up" data-aos-delay="2300">
                             <div class="tour-grid-plan">
                                 <div class="checklist">
-                                    <ul>
-                                        <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                        <li>Curabitur pellentesque nibh nibh, at maximus ante</li>
-                                        <li>United commitment toour excellence patent protection.</li>
-                                        <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                        <li>Maecenas vitae mattis tellus. Nullam quis imperdiet</li>
+                                    <ul class="list-unstyled checklist">
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Arrive in
+                                            Rome, visit the Colosseum</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Tour the
+                                            Roman Forum</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Explore
+                                            the Pantheon</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Enjoy
+                                            authentic Italian pasta</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Evening at
+                                            Piazza Navona</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="day-tab4-pane" role="tabpanel" aria-labelledby="day-tab4"
+                            tabindex="0" data-aos="fade-up" data-aos-delay="2400">
+                            <div class="tour-grid-plan">
+                                <div class="checklist">
+                                    <ul class="list-unstyled checklist">
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Travel to
+                                            Switzerland, explore Zurich</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Visit Lake
+                                            Zurich and its waterfalls</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Tour the
+                                            Old Town</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Enjoy
+                                            Swiss chocolate tasting</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Evening at
+                                            a local alpine restaurant</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="day-tab5-pane" role="tabpanel" aria-labelledby="day-tab5"
-                            tabindex="0">
+                            tabindex="0" data-aos="fade-up" data-aos-delay="2500">
                             <div class="tour-grid-plan">
                                 <div class="checklist">
-                                    <ul>
-                                        <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                        <li>Curabitur pellentesque nibh nibh, at maximus ante</li>
-                                        <li>United commitment toour excellence patent protection.</li>
-                                        <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                        <li>Maecenas vitae mattis tellus. Nullam quis imperdiet</li>
+                                    <ul class="list-unstyled checklist">
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Arrive in
+                                            Istanbul, visit Hagia Sophia</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Explore
+                                            the Blue Mosque</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Shop at
+                                            the Grand Bazaar</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Bosphorus
+                                            cruise</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Dinner
+                                            with a view at Ulus 29</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="day-tab6-pane" role="tabpanel" aria-labelledby="day-tab6"
-                            tabindex="0">
+                            tabindex="0" data-aos="fade-up" data-aos-delay="2600">
                             <div class="tour-grid-plan">
                                 <div class="checklist">
-                                    <ul>
-                                        <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                        <li>Curabitur pellentesque nibh nibh, at maximus ante</li>
-                                        <li>United commitment toour excellence patent protection.</li>
-                                        <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                        <li>Maecenas vitae mattis tellus. Nullam quis imperdiet</li>
+                                    <ul class="list-unstyled checklist">
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Travel to
+                                            London, visit Buckingham Palace</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Explore
+                                            the British Museum</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Walk
+                                            across Tower Bridge</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Visit
+                                            Covent Garden</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Evening at
+                                            a West End show</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="day-tab7-pane" role="tabpanel" aria-labelledby="day-tab7"
-                            tabindex="0">
+                            tabindex="0" data-aos="fade-up" data-aos-delay="2700">
                             <div class="tour-grid-plan">
                                 <div class="checklist">
-                                    <ul>
-                                        <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                        <li>Curabitur pellentesque nibh nibh, at maximus ante</li>
-                                        <li>United commitment toour excellence patent protection.</li>
-                                        <li>As the Eiffel Tower is to Paris, the silhouette of the</li>
-                                        <li>Maecenas vitae mattis tellus. Nullam quis imperdiet</li>
+                                    <ul class="list-unstyled checklist">
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Arrive in
+                                            Norway, explore Oslo</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Visit the
+                                            Viking Ship Museum</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Tour the
+                                            Oslo Fjord</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Northern
+                                            Lights viewing (seasonal)</li>
+                                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Farewell
+                                            dinner with Scandinavian cuisine</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+    </section>
 
-
+    <section class="position-relative overflow-hidden bg-top-center space my-5" id="destination-sec"
+        data-bg-src="{{ asset('assets/img/bg/destination_bg_1.png') }}">
+        <div class="container">
+            <div class="title-area text-center" data-aos="fade-up" data-aos-delay="100">
+                <span class="sub-title text-white">Top Spot</span>
+                <h2 class="sec-title text-white">Discover Our Destinations</h2>
+            </div>
+            <div class="slider-area">
+                <div class="swiper th-slider has-shadow" id="destinationSlider6"
+                    data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1300":{"slidesPerView":"3"}}}'
+                    data-aos="zoom-in" data-aos-delay="200">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="200">
+                            <div class="destination-item2 th-ani">
+                                <div class="box-img global-img"><img
+                                        src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
+                                        alt="Switzerland"></div>
+                                <div class="box-content">
+                                    <h3 class="box-title"><a href="destination-details.html">Switzerland</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300">
+                            <div class="destination-item2 th-ani">
+                                <div class="box-img global-img"><img
+                                        src="{{ asset('assets/img/destination/europe/Greece.webp') }}" alt="Greece">
+                                </div>
+                                <div class="box-content">
+                                    <h3 class="box-title"><a href="destination-details.html">Greece</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="400">
+                            <div class="destination-item2 th-ani">
+                                <div class="box-img global-img"><img
+                                        src="{{ asset('assets/img/destination/europe/paris.webp') }}" alt="Paris">
+                                </div>
+                                <div class="box-content">
+                                    <h3 class="box-title"><a href="destination-details.html">Paris</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="500">
+                            <div class="destination-item2 th-ani">
+                                <div class="box-img global-img"><img
+                                        src="{{ asset('assets/img/destination/europe/Rome.jpg') }}" alt="Rome"></div>
+                                <div class="box-content">
+                                    <h3 class="box-title"><a href="destination-details.html">Rome</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="600">
+                            <div class="destination-item2 th-ani">
+                                <div class="box-img global-img"><img
+                                        src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}" alt="Istanbul">
+                                </div>
+                                <div class="box-content">
+                                    <h3 class="box-title"><a href="destination-details.html">Istanbul</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="3500">
+                            <div class="destination-item2 th-ani">
+                                <div class="box-img global-img"><img
+                                        src="{{ asset('assets/img/destination/europe/London.jpg') }}" alt="London">
+                                </div>
+                                <div class="box-content">
+                                    <h3 class="box-title"><a href="destination-details.html">London</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="3600">
+                            <div class="destination-item2 th-ani">
+                                <div class="box-img global-img"><img
+                                        src="{{ asset('assets/img/destination/europe/Norway.webp') }}" alt="Norway">
+                                </div>
+                                <div class="box-content">
+                                    <h3 class="box-title"><a href="destination-details.html">Norway</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button data-slider-prev="#destinationSlider6" class="slider-arrow slider-prev" data-aos="fade-left"
+                        data-aos-delay="3700"><img src="{{ asset('assets/img/icon/right-arrow2.svg') }}"
+                            alt="Previous"></button>
+                    <button data-slider-next="#destinationSlider6" class="slider-arrow slider-next" data-aos="fade-right"
+                        data-aos-delay="3700"><img src="{{ asset('assets/img/icon/left-arrow2.svg') }}"
+                            alt="Next"></button>
+                </div>
             </div>
         </div>
-        <section class="position-relative overflow-hidden bg-top-center space my-5" id="destination-sec"
-            data-bg-src="{{ asset('assets/img/bg/destination_bg_1.png') }}">
-            <div class="container">
-                <div class="title-area text-center"><span class="sub-title text-white">Top Spot</span>
-                    <h2 class="sec-title text-white">Discover Our Destinations</h2>
-                </div>
-                <div class="slider-area">
-                    <div class="swiper th-slider has-shadow" id="destinationSlider6"
-                        data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1300":{"slidesPerView":"3"}}}'>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="destination-item2 th-ani">
-                                    <div class="box-img global-img"><img
-                                            src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                            alt="image">
-                                    </div>
-                                    <div class="box-content">
-                                        <h3 class="box-title"><a href="destination-details.html">Switzerland</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="destination-item2 th-ani">
-                                    <div class="box-img global-img"><img
-                                            src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                            alt="image"></div>
-                                    <div class="box-content">
-                                        <h3 class="box-title"><a href="destination-details.html">Greece</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="destination-item2 th-ani">
-                                    <div class="box-img global-img"><img
-                                            src="{{ asset('assets/img/destination/europe/paris.webp') }}" alt="image">
-                                    </div>
-                                    <div class="box-content">
-                                        <h3 class="box-title"><a href="destination-details.html">Paris</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="destination-item2 th-ani">
-                                    <div class="box-img global-img"><img
-                                            src="{{ asset('assets/img/destination/europe/Rome.jpg') }}" alt="image">
-                                    </div>
-                                    <div class="box-content">
-                                        <h3 class="box-title"><a href="destination-details.html">Rome</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="destination-item2 th-ani">
-                                    <div class="box-img global-img"><img
-                                            src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
-                                            alt="image"></div>
-                                    <div class="box-content">
-                                        <h3 class="box-title"><a href="destination-details.html">Istanbul</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="destination-item2 th-ani">
-                                    <div class="box-img global-img"><img
-                                            src="{{ asset('assets/img/destination/europe/London.jpg') }}" alt="image">
-                                    </div>
-                                    <div class="box-content">
-                                        <h3 class="box-title"><a href="destination-details.html">London</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="destination-item2 th-ani">
-                                    <div class="box-img global-img"><img
-                                            src="{{ asset('assets/img/destination/europe/Norway.webp') }}"
-                                            alt="image"></div>
-                                    <div class="box-content">
-                                        <h3 class="box-title"><a href="destination-details.html">Norway</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><button data-slider-prev="#destinationSlider6" class="slider-arrow slider-prev"><img
-                                src="assets/img/icon/right-arrow2.svg" alt=""></button> <button
-                            data-slider-next="#destinationSlider6" class="slider-arrow slider-next"><img
-                                src="assets/img/icon/left-arrow2.svg" alt=""></button>
+    </section>
+
+    <div class="my-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="title-area text-center pe-xl-4 ps-xl-4" data-aos="fade-up" data-aos-delay="3800">
+                        <span class="sub-title">Best Places For You</span>
+                        <h2 class="sec-title mb-20">Most Popular Locations</h2>
+                        <p class="sec-text"></p>
                     </div>
                 </div>
             </div>
-        </section>
 
-
-        <div class="my-5">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="title-area text-center pe-xl-4 ps-xl-4"><span class="sub-title">Best Places For
-                                You</span>
-                            <h2 class="sec-title mb-20">Most Popular locations</h2>
-                            <p class="sec-text"></p>
-                        </div>
+            {{-- Switzerland --}}
+            <div class="row gx-60 gy-30 mb-60 align-items-center">
+                <div class="col-lg-5" data-aos="fade-left" data-aos-delay="3900">
+                    <div class="resort-image global-img"><img
+                            src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}" alt="Switzerland"></div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="resort-content" data-aos="fade-right" data-aos-delay="4000">
+                        <h3 class="box-title"><a href="resort-details.html">Switzerland</a></h3>
+                        <p class="resort-text">Switzerland has been the world’s favorite holiday destination for decades,
+                            thanks to its breathtaking scenery. Towering peaks, shimmering lakes, and countless waterfalls
+                            create a picturesque landscape.</p>
+                        <p class="resort-text">Switzerland offers tailored experiences, from fascinating train journeys
+                            through pristine landscapes to walking on suspension bridges with panoramic views or exploring
+                            behind waterfalls and frozen glaciers.</p>
+                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
+                                class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
+                <div data-aos="fade-up" data-aos-delay="4100">
+                    <p class="resort-text">Swiss culture thrives in traditional chalet-style homes, with locals
+                        occasionally playing alphorns in marketplaces. Visit remote villages for a taste of true Swiss
+                        heritage, explore castles and forts, or stroll through centuries-old vineyards.</p>
+                </div>
+            </div>
 
-                {{-- Switzerland --}}
-                <div class="row gx-60 gy-30 mb-60 align-items-center">
-                    <div class="col-lg-5">
-                        <div class="resort-image global-img"><img
-                                src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}" alt="">
-                        </div>
+            {{-- Greece --}}
+            <div class="row gx-60 gy-30 mb-60 align-items-center">
+                <div class="col-lg-7">
+                    <div class="resort-content" data-aos="fade-left" data-aos-delay="4200">
+                        <h3 class="box-title"><a href="resort-details.html">Greece</a></h3>
+                        <p class="resort-text">Encircled by azure blue waters, Greece is home to 2,000 islands, with 160
+                            inhabited. Known for its rich cultural heritage, colorful festivals, and glorious history,
+                            Greece captivates visitors worldwide.</p>
+                        <p class="resort-text">From pristine beaches and picturesque islands to spectacular mountains and
+                            ancient ruins, Greece offers a variety of attractions for every traveler.</p>
+                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
+                                class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
-                    <div class="col-lg-7">
-                        <div class="resort-content">
-                            <h3 class="box-title"><a href="resort-details.html">Switzerland</a></h3>
+                </div>
+                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="4300">
+                    <div class="resort-image global-img"><img
+                            src="{{ asset('assets/img/destination/europe/Greece.webp') }}" alt="Greece"></div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="4400">
+                    <p class="resort-text">Whether you seek a laid-back holiday or an action-packed adventure, Greece
+                        delivers. Enjoy luxury hotels and white sand beaches or engage in watersports, caving, hiking, cable
+                        riding, and food touring.</p>
+                </div>
+            </div>
 
-                            <p class="resort-text">Switzerland has been the world’s most favourite holiday destination for
-                                decades now and the reason can be seen as soon as you get off the plane! Switzerland is home
-                                to simple breathtaking scenery with the landscape being dotted with towering peaks,
-                                shimmering lakes and countless waterfalls.
-                            </p>
-                            <p class="resort-text">Switzerland has entertained tourists for a very
-                                long time and this means that here, you will be able to get tailored experiences like
-                                nowhere else. You can be a part of fascinating train journeys through pristine landscapes,
-                                walk on suspension bridges that seem to float between two mountains offering panoramic
-                                views, walk behind waterfalls and through frozen glaciers.
-                            </p>
-
-                            <div class="resort-btn mt-40"><a href="#" class="th-btn style4 th-icon">Book
-                                    Now</a>
-                            </div>
-                        </div>
+            {{-- Paris --}}
+            <div class="row gx-60 gy-30 mb-60 align-items-center">
+                <div class="col-lg-5" data-aos="fade-left" data-aos-delay="4500">
+                    <div class="resort-image global-img"><img
+                            src="{{ asset('assets/img/destination/europe/paris.webp') }}" alt="Paris"></div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="resort-content" data-aos="fade-right" data-aos-delay="4600">
+                        <h3 class="box-title"><a href="resort-details.html">Paris</a></h3>
+                        <p class="resort-text">Paris, the city of romance, attracts over 20 million visitors annually. Home
+                            to iconic landmarks like the Eiffel Tower and the Louvre, it exudes a magical vibe and vibrant
+                            culture.</p>
+                        <p class="resort-text">Known as the “Fashion Capital of the World,” Paris hosts major fashion
+                            events and offers world-class shopping at its renowned boutiques.</p>
+                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
+                                class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
-                    <div>
-                        <p class="resort-text">
-                            Having said that, Switzerland tourism involves a lot more than your days out into the wild!
-                            Swiss people also have a distinct culture with age-old civilizations still living in their
-                            traditional chalet-style homes. If you are lucky, you will be able to spot the locals in their
-                            traditional attire, playing their huge alphorns in the marketplace. You can also visit the
-                            remote villages you get a taste of true Swiss culture! The Swiss countryside is dotted with
-                            numerous castles, forts and their ruins with fascinating histories. You can visit several scenic
-                            landmarks that sit alongside its numerous lakes and walk through centuries old vineyards that
-                            follow age-old techniques.
+                </div>
+                <div data-aos="fade-up" data-aos-delay="4700">
+                    <p class="resort-text">Each season in Paris brings joy, with temperatures ranging from 8°C to 25°C.
+                        Winter lasts until February, followed by spring until May, summer until August, and autumn until
+                        December.</p>
+                </div>
+            </div>
+
+            {{-- Rome --}}
+            <div class="row gx-60 gy-30 mb-60 align-items-center">
+                <div class="col-lg-7">
+                    <div class="resort-content" data-aos="fade-left" data-aos-delay="4800">
+                        <h3 class="box-title"><a href="resort-details.html">Rome</a></h3>
+                        <p class="resort-text">Rome, an epitome of beauty and history, is a UNESCO World Heritage Site. Its
+                            3,000-year-old urban development showcases stunning architecture and historic churches.</p>
+                        <p class="resort-text">Located on the Tiber River, 24 km from the Tyrrhenian Sea, Rome’s warm
+                            colors and historic charm make it a must-visit destination.</p>
+                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
+                                class="th-btn style4 th-icon">Book Now</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="4900">
+                    <div class="resort-image global-img"><img src="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
+                            alt="Rome"></div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="5000">
+                    <p class="resort-text">Rome’s Mediterranean climate features warm days (up to 30°C) and cooler nights.
+                        Spring and summer are hot, while winter offers fewer crowds and lower accommodation costs.</p>
+                </div>
+            </div>
+
+            {{-- Istanbul --}}
+            <div class="row gx-60 gy-30 mb-60 align-items-center">
+                <div class="col-lg-5" data-aos="fade-left" data-aos-delay="5100">
+                    <div class="resort-image global-img"><img
+                            src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}" alt="Istanbul"></div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="resort-content" data-aos="fade-right" data-aos-delay="5200">
+                        <h3 class="box-title"><a href="resort-details.html">Istanbul</a></h3>
+                        <p class="resort-text">Istanbul, with 400,000 years of history, blends Eastern and Western
+                            cultures. Its location between Europe and Asia creates a unique cultural and architectural
+                            charm.</p>
+                        <p class="resort-text">Visit the Hagia Sophia, Blue Mosque, and avant-garde restaurants like Ulus
+                            29 and Mikla for stunning views and exquisite cuisine.</p>
+                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
+                                class="th-btn style4 th-icon">Book Now</a></div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="5300">
+                    <p class="resort-text">Istanbul’s diverse topography means varied climates. Visit from March to May or
+                        September to November for comfortable temperatures, avoiding the humid summer and cold winter (down
+                        to -15°C).</p>
+                </div>
+            </div>
+
+            {{-- London --}}
+            <div class="row gx-60 gy-30 mb-60 align-items-center">
+                <div class="col-lg-7">
+                    <div class="resort-content" data-aos="fade-left" data-aos-delay="5400">
+                        <h3 class="box-title"><a href="resort-details.html">London</a></h3>
+                        <p class="resort-text">London, a city of cobbled streets and hidden gems, offers history, culture,
+                            fine dining, and fashion. Explore both iconic and lesser-known spots for a unique experience.
                         </p>
+                        <p class="resort-text">From world-class museums to vibrant shopping districts, London’s diverse
+                            offerings keep visitors engaged and entertained.</p>
+                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
+                                class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
+                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="5500">
+                    <div class="resort-image global-img"><img
+                            src="{{ asset('assets/img/destination/europe/London.jpg') }}" alt="London"></div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="5600">
+                    <p class="resort-text">London’s art galleries, museums, aquariums, and shopping centers preserve its
+                        rich heritage. Visit Buckingham Palace for a royal experience or Warner Bros. Studio for a cinematic
+                        adventure.</p>
+                </div>
+            </div>
 
-                {{-- Greece --}}
-                <div class="row gx-60 gy-30 mb-60 align-items-center">
-                    <div class="col-lg-7">
-                        <div class="resort-content">
-                            <h3 class="box-title"><a href="resort-details.html">Greece</a></h3>
-                            <p class="resort-text">Encircled by azure blue waters, Greece is home to 2,000 islands, out of
-                                which 160 are known to be inhabited. Popular all over the world as the magnificent land of
-                                Aristotle, Plato, and Socrates, this iconic country is famous for its rich cultural
-                                heritage, colourful festivals, and glorious history.
-                            </p>
-                            <p class="resort-text">The ever-charming beauty of Greece is credited to its pristine beaches,
-                                picturesque islands, spectacular mountains, intriguing ancient ruins, and magnificent
-                                monuments. Greece is home to a plethora of interesting places to visit that have always
-                                formed the prime attractions of the tourism here.
-                            </p>
-                            <div class="resort-btn mt-40"><a href="#" class="th-btn style4 th-icon">Book
-                                    Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="resort-image global-img"><img
-                                src="{{ asset('assets/img/destination/europe/Greece.webp') }}" alt="">
-                        </div>
-                    </div>
-                    <div>
-                        <p class="resort-text">
-                            No matter if you want a laid-back holiday or an action-packed thrilling vacation in Greece, the
-                            country can offer you exactly the kind of tour you want. While the super luxury hotels here and
-                            the soothing white sand beaches can offer you a relaxed vacation with your loved ones, the
-                            adventure seekers can go indulge in a plethora of exhilarating activities, such as watersports,
-                            caving, hiking, cable riding, and food touring.
-                        </p>
+            {{-- Norway --}}
+            <div class="row gx-60 gy-30 mb-60 align-items-center">
+                <div class="col-lg-5" data-aos="fade-left" data-aos-delay="5700">
+                    <div class="resort-image global-img"><img
+                            src="{{ asset('assets/img/destination/europe/Norway.webp') }}" alt="Norway"></div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="resort-content" data-aos="fade-right" data-aos-delay="5800">
+                        <h3 class="box-title"><a href="resort-details.html">Norway</a></h3>
+                        <p class="resort-text">Norway, a Scandinavian gem, is known for its mountains, glaciers, fjords,
+                            and the magical Northern Lights. Its Viking heritage adds boldness to its culture.</p>
+                        <p class="resort-text">The glistening Northern Lights and scenic fjords make Norway a top
+                            destination for nature lovers and adventure seekers.</p>
+                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
+                                class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
-
-                {{-- Paris --}}
-                <div class="row gx-60 gy-30 mb-60 align-items-center">
-                    <div class="col-lg-5">
-                        <div class="resort-image global-img"><img
-                                src="{{ asset('assets/img/destination/europe/paris.webp') }}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="resort-content">
-                            <h3 class="box-title"><a href="resort-details.html">Switzerland</a></h3>
-
-                            <p class="resort-text">
-                                Paris, the city of romance, is the most visited place in the world. Toured by more than 20
-                                million people, this French capital is home to some of the most iconic structures like the
-                                Eiffel Tower, museums like the Louvre, several happening boulevards, and several artistic
-                                treasures. People from all over the world visit Paris to feel the magical and amazing vibe
-                                that it oozes out and the lovable culture here can win you over with just one trip.
-                            </p>
-                            <p class="resort-text">
-                                It is popularly also called the “Fashion Capital of the World” and it hosts various fashion
-                                events throughout the year. The city remains at the forefront of international trends and
-                                many established boutiques and shops are a quintessential part of any visit.
-                            </p>
-
-                            <div class="resort-btn mt-40">
-                                <a href="#" class="th-btn style4 th-icon">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <p class="resort-text">
-                            Each and every season in Paris brings in an environment of joy here. The year starts with winter
-                            and lasts till February. Next followed by Spring, it lasts till May, June welcomes Summer season
-                            in Paris and lasts till August. Autumn starts in September and lasts until December.The average
-                            temperature of the city ranges from 8-degree Celsius to 25-degree Celsius.
-                        </p>
-                    </div>
+                <div data-aos="fade-up" data-aos-delay="5900">
+                    <p class="resort-text">Norway’s cold climate, with snowy winters, is ideal for visiting from April to
+                        October. January and February are the coldest, but winter visits offer unique snowy landscapes.</p>
                 </div>
-
-                {{-- Rome --}}
-                <div class="row gx-60 gy-30 mb-60 align-items-center">
-                    <div class="col-lg-7">
-                        <div class="resort-content">
-                            <h3 class="box-title"><a href="resort-details.html">Greece</a></h3>
-                            <p class="resort-text">
-                                Mentioned in the world’s most iconic places, Rome is an epitome of beauty and history. Apart
-                                from being the capital city of Italy, the city also remains as a memorial to the creative
-                                imagination of architecture. Due to the 3000 year old ad hoc urban development, the historic
-                                centre of Rome is listed as a World Heritage Site by UNESCO.
-                            </p>
-                            <p class="resort-text">
-                                Situated on the central portion of the Italian peninsula, on the Tiber River about 24 km
-                                from the Tyrrhenian Sea. Rome is made up of warm colours and historic architectural styles.
-                                The beauty of this place resides significantly in the churches.
-                            </p>
-                            <div class="resort-btn mt-40"><a href="#" class="th-btn style4 th-icon">Book
-                                    Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="resort-image global-img"><img
-                                src="{{ asset('assets/img/destination/europe/Rome.jpg') }}" alt="">
-                        </div>
-                    </div>
-                    <div>
-                        <p class="resort-text">
-                            Rome has a Mediterranean climate. Temperatures can stay around 30 degrees in the daytime, but
-                            the nights are usually cooler and more comfortable. In the spring season, Rome has warm weather
-                            and summers can be hot and humid. Temperatures in July and August can easily exceed 32 degrees
-                            Celsius. Additionally, winter is a really good time to visit. If you want to save money on
-                            accommodation, and site tourist attractions without the long lines then plan your vacation in
-                            winter.
-                        </p>
-                    </div>
-                </div>
-
-                {{-- Istanbul --}}
-                <div class="row gx-60 gy-30 mb-60 align-items-center">
-                    <div class="col-lg-5">
-                        <div class="resort-image global-img"><img
-                                src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="resort-content">
-                            <h3 class="box-title"><a href="resort-details.html">Switzerland</a></h3>
-
-                            <p class="resort-text">
-                                With 4,00,000 years of human habitation, Istanbul is a melting pot of rich culture and
-                                history. The location of the city at the edge of Europe and Asia makes it a beautiful
-                                amalgamation of mystic beauty of eastern culture and the tinge of a contemporary carnival.
-                                Istanbul has a personality of a storyteller who unfolds its beauty, people, food,
-                                architecture and culture one at a time.
-                            </p>
-                            <p class="resort-text">
-                                Istanbul boasts the historical charm of Hagia Sophia, picturesque architecture of the Blue
-                                Mosque, splendid shorelines with avant garde restaurants like Ulus 29 and Mikla overlooking
-                                impeccable scenic views.
-                            </p>
-
-                            <div class="resort-btn mt-40"><a href="#" class="th-btn style4 th-icon">Book
-                                    Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <p class="resort-text">
-                            Istanbul tourism is undoubtedly at its peak most times of the year as it is topographically
-                            diverse and experiences sub climates in different parts of the city. The best time to visit
-                            Istanbul is between the months of March to May and September to November to experience the
-                            comfortable temperature. The summer months experience extremely high temperatures with humidity
-                            and temperature can go as low as minus 15 degrees during winters.
-                        </p>
-                    </div>
-                </div>
-
-                {{-- London --}}
-                <div class="row gx-60 gy-30 mb-60 align-items-center">
-                    <div class="col-lg-7">
-                        <div class="resort-content">
-                            <h3 class="box-title"><a href="resort-details.html">Greece</a></h3>
-                            <p class="resort-text">
-                                London city is a memoir of cobbled streets and hidden gems, and you’re bound to unravel a
-                                new side of it every time you’re over here. It is located in the Southeastern area of Great
-                                Britain and has something for everyone, from history and culture to fine food and good
-                                times.
-                            </p>
-                            <p class="resort-text">
-                                London is packed with conventional tourist spots, and the best way to explore the city is to
-                                discover the lesser-known nooks and crannies. The capital is known for its world-class
-                                cuisines, fashion statement, and superb shopping.
-                            </p>
-                            <div class="resort-btn mt-40"><a href="#" class="th-btn style4 th-icon">Book
-                                    Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="resort-image global-img"><img
-                                src="{{ asset('assets/img/destination/europe/London.jpg') }}" alt="">
-                        </div>
-                    </div>
-                    <div>
-                        <p class="resort-text">
-                            There are various art galleries in London that have preserved the rich culture and history of
-                            this city. From museums to aquariums to giant shopping centers to world-class hotels and
-                            restaurants, you’ll find everything in London to keep you on your toes. London tourism has
-                            significantly increased in recent times because of the new avenues it has added in its already
-                            diverse historical and cultural scene. you can feel like being in the royal era by visiting
-                            Buckingham Palace, and you can recreate the scenes of your favorite movies at Warner Bros
-                            studio.
-                        </p>
-                    </div>
-                </div>
-
-                {{-- Norway --}}
-                <div class="row gx-60 gy-30 mb-60 align-items-center">
-                    <div class="col-lg-5">
-                        <div class="resort-image global-img"><img
-                                src="{{ asset('assets/img/destination/europe/Norway.webp') }}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="resort-content">
-                            <h3 class="box-title"><a href="resort-details.html">Switzerland</a></h3>
-
-                            <p class="resort-text">
-                                Encompassing the mountains, the giant glaciers and the deep sea fjords, Norway is a
-                                Scandinavian Country. Being a home to the vikings, Norway has been exhibiting the boldness
-                                and determination of the past with its culture and local vibe. Also known as the “land of
-                                midnight sun”, Norway is famed for the magical phenomenon of northern lights. The skies of
-                                Norway have always been the most attractive part about it.
-                            </p>
-                            <p class="resort-text">
-                                The glistening waves of lights in the midnight in the form of “lights” have attracted flocks
-                                of tourists towards it from all over the world. Apart from this, its scenic fjords and
-                                phenomenal lakes further make it an even more beautiful country to visit as a tourist.
-                            </p>
-
-                            <div class="resort-btn mt-40"><a href="#" class="th-btn style4 th-icon">Book
-                                    Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <p class="resort-text">
-                            Norway stays cold most of the time and the winters here are generally bitterly cold. While most
-                            parts of the country remain blanketed in snow, you will find many famous places here which will
-                            be perfect to visit in winters as well. The months of January and February are dark and the
-                            coldest hence make sure that you visit here from April to October.
-                        </p>
-                    </div>
-                </div>
-
-
             </div>
         </div>
-        <section class="space">
-            <div class="container">
+    </div>
 
-                <div class="destination-area6 position-relative overflow-hidden space">
-                    <div class="container th-container">
-                        <div class="title-area text-center"><span class="sub-title">Our Gallery</span>
-                            <h2 class="sec-title">A simply amazing experience</h2>
-                        </div>
-                        <div class="slider-area">
-                            <div class="swiper th-slider destination-slider2 slider-drag-wrap" id="destiSlider1"
-                                data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}},"effect":"coverflow","coverflowEffect":{"rotate":"-17","stretch":"-8","depth":"330","modifier":"1","slideShadows":"false"},"centeredSlides":"true"}'>
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="destination-box2 gsap-cursor">
-                                            <div class="destination-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    alt="destination image"> <a
-                                                    href="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    class="popup-image">
-                                                    <div class="icon-btn"><i class="fal fa-magnifying-glass-plus"></i>
-                                                    </div>
-                                                </a></div>
+    <section class="space">
+        <div class="container">
+            <div class="destination-area6 position-relative overflow-hidden space">
+                <div class="container th-container">
+                    <div class="title-area text-center" data-aos="fade-up" data-aos-delay="6000">
+                        <span class="sub-title">Our Gallery</span>
+                        <h2 class="sec-title">A Simply Amazing Experience</h2>
+                    </div>
+                    <div class="slider-area">
+                        <div class="swiper th-slider destination-slider2 slider-drag-wrap" id="destiSlider1"
+                            data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}},"effect":"coverflow","coverflowEffect":{"rotate":"-17","stretch":"-8","depth":"330","modifier":"1","slideShadows":"false"},"centeredSlides":"true"}'
+                            data-aos="zoom-in" data-aos-delay="6100">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6200">
+                                    <div class="destination-box2 gsap-cursor">
+                                        <div class="destination-img"><img
+                                                src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
+                                                alt="Switzerland">
+                                            <a href="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
+                                                class="popup-image">
+                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
+                                            </a>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
-                                        <div class="destination-box2 gsap-cursor">
-                                            <div class="destination-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                    alt="destination image"> <a
-                                                    href="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                    class="popup-image">
-                                                    <div class="icon-btn"><i class="fal fa-magnifying-glass-plus"></i>
-                                                    </div>
-                                                </a></div>
+                                </div>
+                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6300">
+                                    <div class="destination-box2 gsap-cursor">
+                                        <div class="destination-img"><img
+                                                src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
+                                                alt="Greece">
+                                            <a href="{{ asset('assets/img/destination/europe/Greece.webp') }}"
+                                                class="popup-image">
+                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
+                                            </a>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
-                                        <div class="destination-box2 gsap-cursor">
-                                            <div class="destination-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                    alt="destination image"> <a
-                                                    href="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                    class="popup-image">
-                                                    <div class="icon-btn"><i class="fal fa-magnifying-glass-plus"></i>
-                                                    </div>
-                                                </a></div>
+                                </div>
+                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6400">
+                                    <div class="destination-box2 gsap-cursor">
+                                        <div class="destination-img"><img
+                                                src="{{ asset('assets/img/destination/europe/paris.webp') }}"
+                                                alt="Paris">
+                                            <a href="{{ asset('assets/img/destination/europe/paris.webp') }}"
+                                                class="popup-image">
+                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
+                                            </a>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
-                                        <div class="destination-box2 gsap-cursor">
-                                            <div class="destination-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
-                                                    alt="destination image"> <a
-                                                    href="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
-                                                    class="popup-image">
-                                                    <div class="icon-btn"><i class="fal fa-magnifying-glass-plus"></i>
-                                                    </div>
-                                                </a></div>
+                                </div>
+                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6500">
+                                    <div class="destination-box2 gsap-cursor">
+                                        <div class="destination-img"><img
+                                                src="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
+                                                alt="Rome">
+                                            <a href="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
+                                                class="popup-image">
+                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
+                                            </a>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
-                                        <div class="destination-box2 gsap-cursor">
-                                            <div class="destination-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
-                                                    alt="destination image"> <a
-                                                    href="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
-                                                    class="popup-image">
-                                                    <div class="icon-btn"><i class="fal fa-magnifying-glass-plus"></i>
-                                                    </div>
-                                                </a></div>
+                                </div>
+                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6600">
+                                    <div class="destination-box2 gsap-cursor">
+                                        <div class="destination-img"><img
+                                                src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
+                                                alt="Istanbul">
+                                            <a href="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
+                                                class="popup-image">
+                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
+                                            </a>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
-                                        <div class="destination-box2 gsap-cursor">
-                                            <div class="destination-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    alt="destination image"> <a
-                                                    href="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    class="popup-image">
-                                                    <div class="icon-btn"><i class="fal fa-magnifying-glass-plus"></i>
-                                                    </div>
-                                                </a></div>
+                                </div>
+                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6700">
+                                    <div class="destination-box2 gsap-cursor">
+                                        <div class="destination-img"><img
+                                                src="{{ asset('assets/img/destination/europe/London.jpg') }}"
+                                                alt="London">
+                                            <a href="{{ asset('assets/img/destination/europe/London.jpg') }}"
+                                                class="popup-image">
+                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
+                                            </a>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
-                                        <div class="destination-box2 gsap-cursor">
-                                            <div class="destination-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                    alt="destination image"> <a
-                                                    href="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                    class="popup-image">
-                                                    <div class="icon-btn"><i class="fal fa-magnifying-glass-plus"></i>
-                                                    </div>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="destination-box2 gsap-cursor">
-                                            <div class="destination-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                    alt="destination image"> <a
-                                                    href="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                    class="popup-image">
-                                                    <div class="icon-btn"><i class="fal fa-magnifying-glass-plus"></i>
-                                                    </div>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="destination-box2 gsap-cursor">
-                                            <div class="destination-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
-                                                    alt="destination image"> <a
-                                                    href="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
-                                                    class="popup-image">
-                                                    <div class="icon-btn"><i class="fal fa-magnifying-glass-plus"></i>
-                                                    </div>
-                                                </a></div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="destination-box2 gsap-cursor">
-                                            <div class="destination-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
-                                                    alt="destination image"> <a
-                                                    href="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
-                                                    class="popup-image">
-                                                    <div class="icon-btn"><i class="fal fa-magnifying-glass-plus"></i>
-                                                    </div>
-                                                </a></div>
+                                </div>
+                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6800">
+                                    <div class="destination-box2 gsap-cursor">
+                                        <div class="destination-img"><img
+                                                src="{{ asset('assets/img/destination/europe/Norway.webp') }}"
+                                                alt="Norway">
+                                            <a href="{{ asset('assets/img/destination/europe/Norway.webp') }}"
+                                                class="popup-image">
+                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="icon-box mt-60 text-center"><button data-slider-prev="#destiSlider1"
-                                    class="slider-arrow style5 default"><img
-                                        src="{{ asset('assets/img/icon/right-arrow2.svg') }}" alt=""></button>
-                                <button data-slider-next="#destiSlider1" class="slider-arrow style5 default"><img
-                                        src="{{ asset('assets/img/icon/left-arrow2.svg') }}" alt=""></button>
-                            </div>
                         </div>
-                        <div class="shape-mockup shape1 d-none d-xxl-block" data-top="7%" data-right="-9%"><img
-                                src="{{ asset('assets/img/shape/shape_1.png') }}" alt="shape"></div>
-                        <div class="shape-mockup shape2 d-none d-xl-block" data-top="12%" data-right="-5%"><img
-                                src="{{ asset('assets/img/shape/shape_2.png') }}" alt="shape"></div>
-                        <div class="shape-mockup shape3 d-none d-xxl-block" data-top="15%" data-right="-9%"><img
-                                src="{{ asset('assets/img/shape/shape_3.png') }}" alt="shape"></div>
-                        <div class="shape-mockup spin d-none d-xxl-block" data-top="10%" data-left="-12%"><img
-                                src="{{ asset('assets/img/shape/shape_2_7.png') }}" alt="shape"></div>
-                        <div class="shape-mockup jump d-none d-xxl-block" data-bottom="-5%" data-left="-13%"><img
-                                src="{{ asset('assets/img/shape/shape_2_8.png') }}" alt="shape"></div>
-                        <div class="shape-mockup movingX d-none d-xxl-block" data-bottom="19%" data-right="-7%"><img
-                                src="{{ asset('assets/img/shape/shape_2_9.png') }}" alt="shape"></div>
+                        <div class="icon-box mt-60 text-center" data-aos="fade-up" data-aos-delay="6900">
+                            <button data-slider-prev="#destiSlider1" class="slider-arrow style5 default"><img
+                                    src="{{ asset('assets/img/icon/right-arrow2.svg') }}" alt="Previous"></button>
+                            <button data-slider-next="#destiSlider1" class="slider-arrow style5 default"><img
+                                    src="{{ asset('assets/img/icon/left-arrow2.svg') }}" alt="Next"></button>
+                        </div>
                     </div>
+                    <div class="shape-mockup shape1 d-none d-xxl-block" data-top="7%" data-right="-9%"
+                        data-aos="fade-right" data-aos-delay="7000"><img
+                            src="{{ asset('assets/img/shape/shape_1.png') }}" alt="shape"></div>
+                    <div class="shape-mockup shape2 d-none d-xl-block" data-top="12%" data-right="-5%"
+                        data-aos="fade-right" data-aos-delay="7100"><img
+                            src="{{ asset('assets/img/shape/shape_2.png') }}" alt="shape"></div>
+                    <div class="shape-mockup shape3 d-none d-xxl-block" data-top="15%" data-right="-9%"
+                        data-aos="fade-right" data-aos-delay="7200"><img
+                            src="{{ asset('assets/img/shape/shape_3.png') }}" alt="shape"></div>
+                    <div class="shape-mockup spin d-none d-xxl-block" data-top="10%" data-left="-12%"
+                        data-aos="fade-left" data-aos-delay="7300"><img
+                            src="{{ asset('assets/img/shape/shape_2_7.png') }}" alt="shape"></div>
+                    <div class="shape-mockup jump d-none d-xxl-block" data-bottom="-5%" data-left="-13%"
+                        data-aos="fade-left" data-aos-delay="7400"><img
+                            src="{{ asset('assets/img/shape/shape_2_8.png') }}" alt="shape"></div>
+                    <div class="shape-mockup movingX d-none d-xxl-block" data-bottom="19%" data-right="-7%"
+                        data-aos="fade-right" data-aos-delay="7500"><img
+                            src="{{ asset('assets/img/shape/shape_2_9.png') }}" alt="shape"></div>
                 </div>
             </div>
+        </div>
+    </section>
 
-        </section>
-
-        <div class="bg-top-center space-top overflow-hidden" data-bg-src="{{ asset('assets/img/bg/contact_bg_3.jpg')}}">
-            <div class="container">
-                <div class="row gy-4 justify-content-between flex-row-reverse">
-                    <div class="col-lg-6">
-                        <div class="pt-75 ps-xl-5 ms-xl-5">
-                            <div class="title-area mb-10"><span class="sub-title text-white">Get in touch</span>
-                                <h2 class="sec-title text-white">Hi there! What can I do for you today?</h2>
-                                <p class="text-white mb-0">We’love to hear from you. Our friendly team is always here to
-                                    chat</p>
-                            </div>
+    <div class="bg-top-center space-top overflow-hidden" data-bg-src="{{ asset('assets/img/bg/contact_bg_3.jpg') }}">
+        <div class="container">
+            <div class="row gy-4 justify-content-between flex-row-reverse">
+                <div class="col-lg-6">
+                    <div class="pt-75 ps-xl-5 ms-xl-5" data-aos="fade-left" data-aos-delay="7600">
+                        <div class="title-area mb-10">
+                            <span class="sub-title text-white">Get in Touch</span>
+                            <h2 class="sec-title text-white">Hi there! What can I do for you today?</h2>
+                            <p class="text-white mb-0">We’d love to hear from you. Our friendly team is always here to
+                                chat.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="contact-form-area2 pe-xl-5">
-                            <form action="#" method="POST"
-                                class="contact-form2 ajax-contact">
-                                <div class="row">
-                                    <div class="form-group col-12"><input type="text" class="form-control"
-                                            name="name" id="name3" placeholder="First Name"> <img
-                                            src="{{ asset('assets/img/icon/user.svg')}}" alt="">
-                                    </div>
-                                    <div class="form-group col-12"><input type="email" class="form-control"
-                                            name="email3" id="email3" placeholder="Your Mail"> <img
-                                            src="{{ asset('assets/img/icon/mail.svg')}}" alt="">
-                                    </div>
-                                    <div class="form-group col-12"><input type="destination" class="form-control"
-                                            name="destination3" id="destination3" placeholder="Your destination"> <img
-                                            src="{{ asset('assets/img/icon/mail.svg')}}" alt="">
-                                    </div>
-                                    <div class="form-group col-12"><select name="subject" id="subject"
-                                            class="form-select nice-select">
-                                            <option value="Select Tour Type" selected="selected" disabled="disabled">
-                                                Select
-                                                Service Type</option>
-                                            <option value="Air Ticketing">Air Ticketing</option>
-                                            <option value="Travel Visa">Travel Visa</option>
-                                            <option value="Travel Insurance">Travel Insurance</option>
-                                            <option value="Hotel Booking">Hotel Booking</option>
-                                            <option value="Holiday Packges">Holiday Packges</option>
-                                        </select></div>
-                                    <div class="form-group col-12">
-                                        <textarea name="message" id="message" cols="30" rows="3" class="form-control"
-                                            placeholder="Your Message"></textarea> <img src="{{ asset('assets/img/icon/chat.svg')}}" alt="">
-                                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-form-area2 pe-xl-5" data-aos="fade-right" data-aos-delay="7700">
+                        <form action="#" method="POST" class="contact-form2 ajax-contact">
+                            @csrf
+                            <div class="row">
+                                <div class="form-group col-12" data-aos="fade-up" data-aos-delay="7800">
+                                    <input type="text" class="form-control" name="name" id="name3"
+                                        placeholder="First Name">
+                                    <i class="fas fa-user"></i>
                                 </div>
-                                <p class="form-messages mb-0 mt-3"></p>
-                            </form>
-                            <div class="form-btn-wrapp">
-                                <div class="form-btn"><button class="th-btn white-btn">Send Message <img
-                                            src="assets/img/icon/plane3.svg" alt=""></button></div>
-                                <div class="contact-info">
-                                    <p class="contact-info_link"><a href="tel:+0123456789">+012 345 6789</a></p>
-                                    <div class="contact-info_icon"><a href="tel:+0123456789"><img
-                                                src="assets/img/icon/call.svg" alt=""></a></div>
+                                <div class="form-group col-12" data-aos="fade-up" data-aos-delay="7900">
+                                    <input type="email" class="form-control" name="email" id="email3"
+                                        placeholder="Your Mail">
+                                    <i class="fas fa-envelope"></i>
                                 </div>
+                                <div class="form-group col-12" data-aos="fade-up" data-aos-delay="8000">
+                                    <input type="text" class="form-control" name="destination" id="destination3"
+                                        placeholder="Your Destination">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <div class="form-group col-12" data-aos="fade-up" data-aos-delay="8100">
+                                    <select name="subject" id="subject" class="form-select nice-select">
+                                        <option value="Select Service Type" selected="selected" disabled="disabled">
+                                            Select Service Type</option>
+                                        <option value="Air Ticketing">Air Ticketing</option>
+                                        <option value="Travel Visa">Travel Visa</option>
+                                        <option value="Travel Insurance">Travel Insurance</option>
+                                        <option value="Hotel Booking">Hotel Booking</option>
+                                        <option value="Holiday Packages">Holiday Packages</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-12" data-aos="fade-up" data-aos-delay="8200">
+                                    <textarea name="message" id="message" cols="30" rows="3" class="form-control"
+                                        placeholder="Your Message"></textarea>
+                                    <i class="fas fa-comment"></i>
+                                </div>
+                                <div class="form-btn col-12" data-aos="fade-up" data-aos-delay="8300">
+                                    <button type="submit" class="th-btn white-btn">Send Message <img
+                                            src="{{ asset('assets/img/icon/plane3.svg') }}" alt="Plane"></button>
+                                </div>
+                            </div>
+                            <p class="form-messages mb-0 mt-3"></p>
+                        </form>
+                        <div class="form-btn-wrapp" data-aos="fade-up" data-aos-delay="8400">
+                            <div class="form-btn"></div>
+                            <div class="contact-info">
+                                <p class="contact-info_link"><a href="tel:+918905943133">+91-8905943-133</a></p>
+                                <div class="contact-info_icon"><a href="tel:+918905943133"><img
+                                            src="{{ asset('assets/img/icon/call.svg') }}" alt="Phone"></a></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+    </div>
     </section>
 @endsection

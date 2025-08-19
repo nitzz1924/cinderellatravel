@@ -32,4 +32,8 @@ Route::controller(WebsiteController::class)->group(function () {
 
     // services routes
     Route::get('/services/airticketing', 'airticketing')->name('airticketing');
+    Route::get('/services/travelvisa', 'travelvisa')->name('travelvisa');
+    Route::get('/services/travelinsurance', 'travelinsurance')->name('travelinsurance');
+    Route::get('/services/hotelbooking', 'hotelbooking')->name('hotelbooking');
+    Route::get('/services/holidaypackges', 'holidaypackges')->name('holidaypackges');
 });
