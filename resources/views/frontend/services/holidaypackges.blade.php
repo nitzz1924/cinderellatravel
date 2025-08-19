@@ -178,37 +178,37 @@
                             <h3 class="widget_title">Destinations</h3>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="blog.html">
+                                    <a href="#">
                                         <img src="{{ asset('assets/img/theme-img/map.svg') }}" alt="Map Icon">
                                         Europe
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="blog.html">
+                                    <a href="#">
                                         <img src="{{ asset('assets/img/theme-img/map.svg') }}" alt="Map Icon">
                                         Asia
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="blog.html">
+                                    <a href="#">
                                         <img src="{{ asset('assets/img/theme-img/map.svg') }}" alt="Map Icon">
                                         Dubai
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="blog.html">
+                                    <a href="#">
                                         <img src="{{ asset('assets/img/theme-img/map.svg') }}" alt="Map Icon">
                                         USA
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="blog.html">
+                                    <a href="#">
                                         <img src="{{ asset('assets/img/theme-img/map.svg') }}" alt="Map Icon">
                                         Canada
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="blog.html">
+                                    <a href="#">
                                         <img src="{{ asset('assets/img/theme-img/map.svg') }}" alt="Map Icon">
                                         Africa
                                     </a>

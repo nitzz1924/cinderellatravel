@@ -4,11 +4,11 @@
         data-aos-delay="100">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Europe Tourism</h1>
+                <h1 class="breadcumb-title">Canada Tourism</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('home') }}">Home</a></li>
                     <li>Destination</li>
-                    <li>Europe</li>
+                    <li>Canada</li>
                 </ul>
             </div>
         </div>
@@ -18,7 +18,7 @@
         <div class="container">
             <div class="row">
                 <div class="tour-page-single">
-                    <h2 class="box-title" data-aos="fade-up" data-aos-delay="200">Europe Tourist Places</h2>
+                    <h2 class="box-title" data-aos="fade-up" data-aos-delay="200">Canada Tourist Places</h2>
                     <div class="row">
                         <div class="col-xxl-6" data-aos="zoom-in" data-aos-delay="300">
                             <div class="slider-area tour-slider1">
@@ -76,17 +76,17 @@
                                 Amsterdam, Lyon, Dublin, Berlin, Moscow, Istanbul, Naxos, Milan, and many more.
                             </p>
                             <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="600">
-                                Places to visit in Europe are considered a perfect setting for travelers of any kind. It is
+                                Places to visit in Canada are considered a perfect setting for travelers of any kind. It is
                                 adorned with some of the magnificent places to visit that will surely make a mark in your
-                                mind during your visit. Europe tourist places are a perfect place to dive deep into the
+                                mind during your visit. Canada tourist places are a perfect place to dive deep into the
                                 golden days of classical antiquity.
                             </p>
                             <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="700">
                                 Travelers can visit and witness the baroque buildings with breathtaking views of the
-                                Adriatic Sea. In the course of your visit to Europe, you can choose to marvel at some of the
+                                Adriatic Sea. In the course of your visit to Canada, you can choose to marvel at some of the
                                 notable places to visit like Splurge on a water taxi in Venice, enjoy pintxos and surf in
                                 San Sebastián, take a walk on London’s Primrose Hill, bike along Amsterdam’s canals, and
-                                many more. Europe has something for all kinds of tourists.
+                                many more. Canada has something for all kinds of tourists.
                             </p>
                         </div>
                     </div>
@@ -309,7 +309,7 @@
                     <div class="resort-content" data-aos="fade-right" data-aos-delay="5200">
                         <h3 class="box-title"><a href="#">Istanbul</a></h3>
                         <p class="resort-text">Istanbul, with 400,000 years of history, blends Eastern and Western
-                            cultures. Its location between Europe and Asia creates a unique cultural and architectural
+                            cultures. Its location between Canada and Canada creates a unique cultural and architectural
                             charm.</p>
                         <p class="resort-text">Visit the Hagia Sophia, Blue Mosque, and avant-garde restaurants like Ulus
                             29 and Mikla for stunning views and exquisite cuisine.</p>

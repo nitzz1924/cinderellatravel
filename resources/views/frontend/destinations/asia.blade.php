@@ -4,11 +4,11 @@
         data-aos-delay="100">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Europe Tourism</h1>
+                <h1 class="breadcumb-title">Asia Tourism</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('home') }}">Home</a></li>
                     <li>Destination</li>
-                    <li>Europe</li>
+                    <li>Asia</li>
                 </ul>
             </div>
         </div>
@@ -18,7 +18,7 @@
         <div class="container">
             <div class="row">
                 <div class="tour-page-single">
-                    <h2 class="box-title" data-aos="fade-up" data-aos-delay="200">Europe Tourist Places</h2>
+                    <h2 class="box-title" data-aos="fade-up" data-aos-delay="200">Asia Tourist Places</h2>
                     <div class="row">
                         <div class="col-xxl-6" data-aos="zoom-in" data-aos-delay="300">
                             <div class="slider-area tour-slider1">
@@ -27,17 +27,17 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
+                                                    src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-mount-fuji-japan.jpg') }}"
                                                     alt="Switzerland"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
+                                                    src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-dead-sea-israel-city.jpg') }}"
                                                     alt="Greece"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/paris.webp') }}"
+                                                    src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-phuket-thailand.jpg') }}"
                                                     alt="Paris"></div>
                                         </div>
                                     </div>
@@ -47,17 +47,17 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
+                                                    src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-mount-fuji-japan.jpg') }}"
                                                     alt="Switzerland"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
+                                                    src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-dead-sea-israel-city.jpg') }}"
                                                     alt="Greece"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/paris.webp') }}"
+                                                    src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-phuket-thailand.jpg') }}"
                                                     alt="Paris"></div>
                                         </div>
                                     </div>
@@ -72,25 +72,26 @@
                         </div>
                         <div class="col-xxl-6 ps-4">
                             <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="500">
-                                Denmark, Greenland, Estonia, Stockholm, Rome, Zurich, Poland, Vivey, Paris, France,
-                                Amsterdam, Lyon, Dublin, Berlin, Moscow, Istanbul, Naxos, Milan, and many more.
+                                Asia is the largest continent by both size and population–a diverse, multicultural melting
+                                pot of some of the oldest civilizations on earth. There’s so much to see and do in Asia,
+                                it’s hard to narrow it down to a shortlist–it could take you months to truly explore just
+                                one country.
                             </p>
                             <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="600">
-                                Places to visit in Europe are considered a perfect setting for travelers of any kind. It is
-                                adorned with some of the magnificent places to visit that will surely make a mark in your
-                                mind during your visit. Europe tourist places are a perfect place to dive deep into the
-                                golden days of classical antiquity.
+                                For those on a tighter schedule or budget, the secret to discovering the best places to
+                                travel in Asia is to see a bit of everything–from the skyscrapers of Hong Kong to the
+                                majestic slopes of Mount Fuji and the architectural marvel of places like Angkor Wat in
+                                Cambodia.
                             </p>
                             <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="700">
-                                Travelers can visit and witness the baroque buildings with breathtaking views of the
-                                Adriatic Sea. In the course of your visit to Europe, you can choose to marvel at some of the
-                                notable places to visit like Splurge on a water taxi in Venice, enjoy pintxos and surf in
-                                San Sebastián, take a walk on London’s Primrose Hill, bike along Amsterdam’s canals, and
-                                many more. Europe has something for all kinds of tourists.
+                                Regardless of what you truly want to experience in your travels through Asia, there’s surely
+                                a spot somewhere to fill that need. To help you plan the trip of a lifetime, take a look at
+                                our list of the best places to visit in Asia.
                             </p>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -110,69 +111,69 @@
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="200">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                        alt="Switzerland"></div>
+                                        src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-mount-fuji-japan.jpg') }}"
+                                        alt="Mount Fuji, Japan"></div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Switzerland</a></h3>
+                                    <h3 class="box-title"><a href="#">Mount Fuji, Japan</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Greece.webp') }}" alt="Greece">
+                                        src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-dead-sea-israel-city.jpg') }}" alt="Greece">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Greece</a></h3>
+                                    <h3 class="box-title"><a href="#">Dead Sea, Israel</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="400">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/paris.webp') }}" alt="Paris">
+                                        src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-phuket-thailand.jpg') }}" alt="Paris">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Paris</a></h3>
+                                    <h3 class="box-title"><a href="#">Phuket, Thailand</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="500">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Rome.jpg') }}" alt="Rome"></div>
+                                        src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-beijing-china.jpg') }}" alt="Rome"></div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Rome</a></h3>
+                                    <h3 class="box-title"><a href="#">Beijing, China</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="600">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}" alt="Istanbul">
+                                        src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-hong-kong.jpg') }}" alt="Istanbul">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Istanbul</a></h3>
+                                    <h3 class="box-title"><a href="#">Hong Kong</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="3500">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/London.jpg') }}" alt="London">
+                                        src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-singapore.jpg') }}" alt="London">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">London</a></h3>
+                                    <h3 class="box-title"><a href="#">Singapore</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="3600">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Norway.webp') }}" alt="Norway">
+                                        src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-jaipur-india.jpg') }}" alt="Norway">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Norway</a></h3>
+                                    <h3 class="box-title"><a href="#">Jaipur, India</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -204,171 +205,314 @@
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-5" data-aos="fade-left" data-aos-delay="3900">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}" alt="Switzerland"></div>
+                            src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-mount-fuji-japan.jpg') }}" alt="Switzerland"></div>
                 </div>
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-right" data-aos-delay="4000">
-                        <h3 class="box-title"><a href="#">Switzerland</a></h3>
-                        <p class="resort-text">Switzerland has been the world’s favorite holiday destination for decades,
-                            thanks to its breathtaking scenery. Towering peaks, shimmering lakes, and countless waterfalls
-                            create a picturesque landscape.</p>
-                        <p class="resort-text">Switzerland offers tailored experiences, from fascinating train journeys
-                            through pristine landscapes to walking on suspension bridges with panoramic views or exploring
-                            behind waterfalls and frozen glaciers.</p>
+                        <h3 class="box-title"><a href="#">Mount Fuji, Japan</a></h3>
+                        <p class="resort-text">Although Mount Fuji is an active stratovolcano, it hasn’t erupted since
+                            1708. The stunning snowcapped mountain is one of Japan’s “Three Holy Mountains,” which are
+                            traditionally considered to hold a particular power–Mount Fuji has volcanic power.</p>
+                        <p class="resort-text">While many visitors come here to just photograph this World Heritage List
+                            Cultural Site and well-known symbol of Japan, others arrive for the climbing opportunities.
+                            Until the late 19th century, women were not allowed to make their way to the summit (which is
+                            still considered a sacred site), so visitors of all ethnicities, genders, and ages now arrive to
+                            make up for lost time.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="4100">
-                    <p class="resort-text">Swiss culture thrives in traditional chalet-style homes, with locals
-                        occasionally playing alphorns in marketplaces. Visit remote villages for a taste of true Swiss
-                        heritage, explore castles and forts, or stroll through centuries-old vineyards.</p>
+                    <p class="resort-text">There are four possible routes to reach the top of the mountain, and all offer a
+                        number of stops along the way in the form of shrines, historical monuments, and even teahouses. You
+                        may also want to plan your visit to Japan around the spring cherry blossoms, another popular tourist
+                        attraction.</p>
                 </div>
             </div>
 
-            {{-- Greece --}}
+            {{-- Dead Sea --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-left" data-aos-delay="4200">
-                        <h3 class="box-title"><a href="#">Greece</a></h3>
-                        <p class="resort-text">Encircled by azure blue waters, Greece is home to 2,000 islands, with 160
-                            inhabited. Known for its rich cultural heritage, colorful festivals, and glorious history,
-                            Greece captivates visitors worldwide.</p>
-                        <p class="resort-text">From pristine beaches and picturesque islands to spectacular mountains and
-                            ancient ruins, Greece offers a variety of attractions for every traveler.</p>
+                        <h3 class="box-title"><a href="#">Dead Sea, Israel</a></h3>
+                        <p class="resort-text">The dark blue waters of the Dead Sea touch the borders of both Jordan and
+                            Israel. Actually a lake despite its name, the Dead Sea sits at the lowest land elevation on
+                            Earth–over 430 meters below sea level. With a salt concentration of around 31 percent–almost 10
+                            times saltier than the ocean –the Dead Sea is so thick, nothing can sink into it, and everyone
+                            who walks into it will naturally float.</p>
+                        <p class="resort-text">While the lake is too salty to support aquatic life, there are plenty of
+                            animals that call the surrounding desert home–and hikers will run into anything from hares to
+                            foxes and leopards when exploring the nature reserves around the Dead Sea.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div class="col-lg-5" data-aos="fade-right" data-aos-delay="4300">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Greece.webp') }}" alt="Greece"></div>
+                            src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-dead-sea-israel-city.jpg') }}" alt="Greece"></div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="4400">
-                    <p class="resort-text">Whether you seek a laid-back holiday or an action-packed adventure, Greece
-                        delivers. Enjoy luxury hotels and white sand beaches or engage in watersports, caving, hiking, cable
-                        riding, and food touring.</p>
+                    <p class="resort-text">While the coastline around the lake has become a flourishing spa and resort
+                        destination, there is also a large influx of religious tourism in the area. Jericho, the city where
+                        Jesus is said to have healed blind beggars, is located just minutes northwest of the Dead Sea–and a
+                        number of other cities, including the legendary Sodom and Gomorra, as well as Zoar and Admah, are
+                        also located in this area. The area boasts some of the oldest inhabited cities in the world.</p>
                 </div>
             </div>
 
-            {{-- Paris --}}
+            {{-- Phuket --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-5" data-aos="fade-left" data-aos-delay="4500">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/paris.webp') }}" alt="Paris"></div>
+                            src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-phuket-thailand.jpg') }}" alt="Paris"></div>
                 </div>
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-right" data-aos-delay="4600">
-                        <h3 class="box-title"><a href="#">Paris</a></h3>
-                        <p class="resort-text">Paris, the city of romance, attracts over 20 million visitors annually. Home
-                            to iconic landmarks like the Eiffel Tower and the Louvre, it exudes a magical vibe and vibrant
-                            culture.</p>
-                        <p class="resort-text">Known as the “Fashion Capital of the World,” Paris hosts major fashion
-                            events and offers world-class shopping at its renowned boutiques.</p>
+                        <h3 class="box-title"><a href="#">Phuket, Thailand</a></h3>
+                        <p class="resort-text">03. Phuket, Thailand
+                            Thailand’s biggest island is also a magnet for visitors–and for good reason. Phuket boasts some
+                            of the best beaches in the country, with clean, soft, rolling sands and turquoise waters as far
+                            as the eye can see. Kata, Hat Karon, and Kamala beaches see a lot of tourists during the high
+                            season (November to February) but remain sleepy little villages once the rains arrive.</p>
+                        <p class="resort-text">Beautiful coral reefs line up the coastline, offering amazing opportunities
+                            for snorkeling and diving but also sea kayaking and island hopping. In between hours of lying
+                            under the sun, visitors can head to the white and gold Wat Chalong, the largest and most
+                            important Buddhist temple on the island, or climb up a hill to reach the Big Buddha–a
+                            45-meter-tall statue covered with Burmese marble.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="4700">
-                    <p class="resort-text">Each season in Paris brings joy, with temperatures ranging from 8°C to 25°C.
-                        Winter lasts until February, followed by spring until May, summer until August, and autumn until
-                        December.</p>
+                    <p class="resort-text">The island is also home to a number of unique festivals. The Ghost Festival
+                        during the 7th Chinese lunar month is dedicated to ancestor worship, and it entails releasing
+                        lanterns into the ocean to help guide lost souls–a sight to behold. The Vegetarian Festival during
+                        the 9th Chinese lunar month is another stunning celebration–which, despite the name, is not so much
+                        about food but about purification and putting the body through extreme tests, such as fire walking
+                        and hanging from hooks.</p>
                 </div>
             </div>
 
-            {{-- Rome --}}
+            {{-- Beijing --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-left" data-aos-delay="4800">
-                        <h3 class="box-title"><a href="#">Rome</a></h3>
-                        <p class="resort-text">Rome, an epitome of beauty and history, is a UNESCO World Heritage Site. Its
-                            3,000-year-old urban development showcases stunning architecture and historic churches.</p>
-                        <p class="resort-text">Located on the Tiber River, 24 km from the Tyrrhenian Sea, Rome’s warm
-                            colors and historic charm make it a must-visit destination.</p>
+                        <h3 class="box-title"><a href="#">Beijing, China</a></h3>
+                        <p class="resort-text">One of the most populous cities in the world, Beijing is also one of the
+                            oldest. You can get a peek into that history by walking the hutongs of Beijing, the narrow
+                            alleyways lined up with traditional homes and courtyards. China’s capital is home to seven
+                            UNESCO World Heritage Sites, including the Imperial Summer Palace and its gardens, the oldest
+                            canal in the world, and the Forbidden City–a palace complex that served as the home of China’s
+                            emperors for 500 years starting in the 1420s.</p>
+                        <p class="resort-text">The Forbidden City–made up of almost 1,000 different buildings–is one of
+                            Beijing’s most impressive tourist attractions.The city also offers visitors many unique-looking
+                            pagodas and temples, including the 12th-century, eight-sided Tianning Temple, as well as almost
+                            150 museums and galleries.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div class="col-lg-5" data-aos="fade-right" data-aos-delay="4900">
-                    <div class="resort-image global-img"><img src="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
+                    <div class="resort-image global-img"><img src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-beijing-china.jpg') }}"
                             alt="Rome"></div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="5000">
-                    <p class="resort-text">Rome’s Mediterranean climate features warm days (up to 30°C) and cooler nights.
-                        Spring and summer are hot, while winter offers fewer crowds and lower accommodation costs.</p>
+                    <p class="resort-text">The Military Museum of the Chinese People’s Revolution and the National Art
+                        Museum of China have massive collections and are well worth a visit. Several sections of the Great
+                        Wall can also be found within Beijing, including the wall’s most visited site, the 80-kilometer-long
+                        Badaling section.</p>
                 </div>
             </div>
 
-            {{-- Istanbul --}}
+            {{-- Hong Kong --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-5" data-aos="fade-left" data-aos-delay="5100">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}" alt="Istanbul"></div>
+                            src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-hong-kong.jpg') }}" alt="Istanbul"></div>
                 </div>
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-right" data-aos-delay="5200">
-                        <h3 class="box-title"><a href="#">Istanbul</a></h3>
-                        <p class="resort-text">Istanbul, with 400,000 years of history, blends Eastern and Western
-                            cultures. Its location between Europe and Asia creates a unique cultural and architectural
-                            charm.</p>
-                        <p class="resort-text">Visit the Hagia Sophia, Blue Mosque, and avant-garde restaurants like Ulus
-                            29 and Mikla for stunning views and exquisite cuisine.</p>
+                        <h3 class="box-title"><a href="#">Hong Kong</a></h3>
+                        <p class="resort-text">05. Hong Kong
+                            Over 7.4 million people from all over the world occupy the small 1,104-square-kilometer island
+                            of Hong Kong, making it the third most densely populated place in the world. Despite having one
+                            of the world’s highest per capita incomes, income inequality has become one of Hong Kong’s main
+                            issues, and lower-income families often live in crowded tenement buildings. </p>
+                        <p class="resort-text">The buildings themselves have become tourist attractions, as many are
+                            historic structures dating back over a century. Hong Kong is home to a Disneyland park, as well
+                            as Ocean Park, an amusement park with rollercoasters, thrill, and water rides.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="5300">
-                    <p class="resort-text">Istanbul’s diverse topography means varied climates. Visit from March to May or
-                        September to November for comfortable temperatures, avoiding the humid summer and cold winter (down
-                        to -15°C).</p>
+                    <p class="resort-text">Hong Kong also has the largest number of skyscrapers in the world at 355–an
+                        impressive 75 more than the city in second place, New York. A good number of these are located
+                        around Victoria Harbor, a popular tourist area with one of the most stunning coastal skylines in
+                        Asia. For the best views, visitors can climb to the top of Victoria Peak, HK’s highest hill and home
+                        to a leisure and shopping complex with an enclosed viewing terrace looking over the city below.</p>
                 </div>
             </div>
 
-            {{-- London --}}
+            {{-- Singapore --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-left" data-aos-delay="5400">
-                        <h3 class="box-title"><a href="#">London</a></h3>
-                        <p class="resort-text">London, a city of cobbled streets and hidden gems, offers history, culture,
-                            fine dining, and fashion. Explore both iconic and lesser-known spots for a unique experience.
+                        <h3 class="box-title"><a href="#">Singapore</a></h3>
+                        <p class="resort-text">Singapore only gained full independence from the UK and became a sovereign
+                            state in 1965, but this brand-new country is now a financial powerhouse and one of the most fun
+                            countries to visit in Southeast Asia. Because of its size and location, Singapore doesn’t have a
+                            lot of beaches–unless you count the three beaches on Sentosa Island resort, small but with soft
+                            white sands and protected lagoons with clean blue waters–but it makes up for it with themed
+                            attractions, lush rain forests, and lively coastal fun.
                         </p>
-                        <p class="resort-text">From world-class museums to vibrant shopping districts, London’s diverse
-                            offerings keep visitors engaged and entertained.</p>
+                        <p class="resort-text">From its own Universal Studios park and a 50-meter bungee jump from a tower
+                            over the beach to the Marina Bay Sands resort and its rooftop, which includes an infinity pool
+                            and a skybridge, Singapore has quickly established itself as a thrilling destination.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div class="col-lg-5" data-aos="fade-right" data-aos-delay="5500">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/London.jpg') }}" alt="London"></div>
+                            src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-singapore.jpg') }}" alt="London"></div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="5600">
-                    <p class="resort-text">London’s art galleries, museums, aquariums, and shopping centers preserve its
-                        rich heritage. Visit Buckingham Palace for a royal experience or Warner Bros. Studio for a cinematic
-                        adventure.</p>
+                    <p class="resort-text">But this island-state also has plenty to offer in the form of greener
+                        entertainment, starting with the magical Gardens by the Bay, a 100-hectare nature park with the
+                        largest glass greenhouse in the world, two cooled conservatories, and plenty of artistically
+                        designed trees and flower areas. Singapore’s nature-themed Jewel Changi Airport has been recognized
+                        as one of the best in the world–it features not only the world’s tallest indoor waterfall, but also
+                        an indoor suspension bridge 23 meters up in the air, four slides, and a butterfly garden.</p>
                 </div>
             </div>
 
-            {{-- Norway --}}
+            {{-- Jaipur --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-5" data-aos="fade-left" data-aos-delay="5700">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Norway.webp') }}" alt="Norway"></div>
+                            src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-jaipur-india.jpg') }}" alt="Norway"></div>
                 </div>
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-right" data-aos-delay="5800">
-                        <h3 class="box-title"><a href="#">Norway</a></h3>
-                        <p class="resort-text">Norway, a Scandinavian gem, is known for its mountains, glaciers, fjords,
-                            and the magical Northern Lights. Its Viking heritage adds boldness to its culture.</p>
-                        <p class="resort-text">The glistening Northern Lights and scenic fjords make Norway a top
-                            destination for nature lovers and adventure seekers.</p>
+                        <h3 class="box-title"><a href="#">Jaipur, India</a></h3>
+                        <p class="resort-text">
+                            New Delhi and Mumbai might be India’s best-known cities, but Jaipur takes home the “most
+                            beautiful” prize. Known as the “pink city” because of the unique color of the stone used to
+                            build many of the structures around, Jaipur is also home to a community of artisans. Here,
+                            craftsmen produce everything from block printing and blue pottery to shellac work; stone
+                            carvings; and Bandhani, the unique art of decorating tie-dye textile by plucking sections of it
+                            with the fingernails.</p>
+                        <p class="resort-text">Many of the most breathtaking attractions in Jaipur are architectural
+                            marvels, including the stunning Jal Mahal palace, which sits in the center of the Man Sagar
+                            Lake.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="5900">
-                    <p class="resort-text">Norway’s cold climate, with snowy winters, is ideal for visiting from April to
-                        October. January and February are the coldest, but winter visits offer unique snowy landscapes.</p>
+                    <p class="resort-text">Many other monuments and pink structures are located within 10 kilometers of the
+                        city, including the ancient temple complex Galtaji, built right into narrow hills and surrounded by
+                        sacred kunds (small water pools). The world’s largest stone sundial at Jantar Mantar and the
+                        10th-century red sandstone and marble Amer Fort are also just outside the city and attract many
+                        visitors.</p>
+                </div>
+            </div>
+
+            {{-- Kathmandu, Nepal --}}
+            <div class="row gx-60 gy-30 mb-60 align-items-center">
+                <div class="col-lg-7">
+                    <div class="resort-content" data-aos="fade-left" data-aos-delay="5400">
+                        <h3 class="box-title"><a href="#">Kathmandu, Nepal</a></h3>
+                        <p class="resort-text">08. Kathmandu, Nepal
+                            Nepal’s capital and largest city is also known as the “City of Temples.” A melting pot of Hindu
+                            and Buddhist religious influences, Kathmandu is full of stupas–including Nepal’s holiest
+                            Buddhist site, Boudhanath, a UNESCO World Heritage Site, and Swayambhu, home to holy monkeys and
+                            one of the oldest temples in Nepal.
+                        </p>
+                        <p class="resort-text">Both those looking for a religious experience and camera-toting tourists can
+                            find much to appreciate in a city where spirituality touches almost everything. Sitting at an
+                            elevation of over 1,400 meters above sea level, Kathmandu is a popular gateway to the Himalayas
+                            and to nearby destinations like the Ancient City of Patan.</p>
+                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
+                                class="th-btn style4 th-icon">Book Now</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="5500">
+                    <div class="resort-image global-img"><img
+                            src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-kathmandu-nepal.jpg') }}" alt="London"></div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="5600">
+                    <p class="resort-text">Climbers from all over the world arrive here to set off on their 15-day-long
+                        Everest Base Camp trek, but overnight trips around the city are also popular to catch sight of the
+                        Himalayas in all their splendor. Even those without a love for adventure can find much to see and do
+                        in the capital–from impressive markets to historic monuments to plenty of colorful festivals
+                        throughout the year.</p>
+                </div>
+            </div>
+
+            {{-- Kingdom of Bhutan --}}
+            <div class="row gx-60 gy-30 mb-60 align-items-center">
+                <div class="col-lg-5" data-aos="fade-left" data-aos-delay="5700">
+                    <div class="resort-image global-img"><img
+                            src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-kingdom-of-bhutan.jpg') }}" alt="Norway"></div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="resort-content" data-aos="fade-right" data-aos-delay="5800">
+                        <h3 class="box-title"><a href="#">Kingdom of Bhutan</a></h3>
+                        <p class="resort-text">Bhutan is a landlocked country surrounded by the Himalayas, Tibet, and parts
+                            of India. A nation of steep mountains, green valleys, and swift rivers, Bhutan is home to
+                            7,570-meter-tall Gangkhar Puensum, the world’s highest unclimbed mountain.</p>
+                        <p class="resort-text">Some of the most beautiful sights in the country are high up, perched on
+                            cliffs–Tiger’s Nest Monastery is a good example, set over 3,000 meters up in the mountains and
+                            only reachable after a grueling hike. In an effort to protect the biodiversity and historical
+                            heritage of the country, free travel throughout the country isn’t allowed. This means all
+                            foreign visitors arriving in Bhutan must travel on a pre-paid package tour organized through an
+                            approved operator.</p>
+                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
+                                class="th-btn style4 th-icon">Book Now</a></div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="5900">
+                    <p class="resort-text">While some agencies will offer pre-arranged stops, others will work with you to
+                        help you see what you’re really interested in–places worth a visit include the fortress and Buddhist
+                        monastery ruins of Drukgyal Dzong, the Bumdeling Wildlife Sanctuary (home to the rare black-necked
+                        cranes), and a number of dzongs or religious fortresses.</p>
+                </div>
+            </div>
+
+            {{-- Bagan, Myanmar --}}
+            <div class="row gx-60 gy-30 mb-60 align-items-center">
+                <div class="col-lg-7">
+                    <div class="resort-content" data-aos="fade-left" data-aos-delay="5400">
+                        <h3 class="box-title"><a href="#">Bagan, Myanmar</a></h3>
+                        <p class="resort-text">An ancient city and one of the top heritage sites in the world, Bagan was
+                            once the capital of a powerful kingdom. Today, Bagan and Angkor are the two most important
+                            ancient religious sites in Asia, receiving hundreds of thousands of visitors every year. The
+                            Bagan Archeological Zone extends over a 41-square-kilometer area and is home to more than 3,000
+                            pagodas, stupas, and other religious structures tucked away amid dense forests.
+                        </p>
+                        <p class="resort-text">Exploring the temples and ruins is a big endeavor and can be done on foot
+                            (small sections at a time) or on a rented bike. Shwe Gu Gyi is one of the few temples that can
+                            be climbed and offers some of the best views–perfect for photo backgrounds. Otherwise, Nyaung
+                            Laphat hill and Sulamani hill are a must-visit to watch the sunrise and sunset over the temples.
+                        </p>
+                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
+                                class="th-btn style4 th-icon">Book Now</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="5500">
+                    <div class="resort-image global-img"><img
+                            src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-bagan-myanmar.jpg') }}" alt="London"></div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="5600">
+                    <p class="resort-text">To see Bagan in all its glory, however, you can’t beat taking a hot air balloon
+                        ride over the temples. Outside the Archeological Zone, Bagan is famous for its lacquer and sand
+                        paintings, both of which you can find at local markets in most villages. Bagan town also has a busy
+                        night market and a traditional Burmese market (Mani-Sithu Market), and you can catch a boat tour or
+                        a cruise from the town’s central jetty. Thatbyinnyu Pahto temple–the tallest in Bagan at over 200
+                        feet–is another must-visit, and so is Gubyaukgyi or the Great Painted Cave Temple with its
+                        12th-century frescoes.</p>
                 </div>
             </div>
         </div>
@@ -390,9 +534,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6200">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
+                                                src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-mount-fuji-japan.jpg') }}"
                                                 alt="Switzerland">
-                                            <a href="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
+                                            <a href="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-mount-fuji-japan.jpg') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -402,9 +546,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6300">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
+                                                src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-dead-sea-israel-city.jpg') }}"
                                                 alt="Greece">
-                                            <a href="{{ asset('assets/img/destination/europe/Greece.webp') }}"
+                                            <a href="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-dead-sea-israel-city.jpg') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -414,9 +558,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6400">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/paris.webp') }}"
+                                                src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-phuket-thailand.jpg') }}"
                                                 alt="Paris">
-                                            <a href="{{ asset('assets/img/destination/europe/paris.webp') }}"
+                                            <a href="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-phuket-thailand.jpg') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -426,9 +570,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6500">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
+                                                src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-beijing-china.jpg') }}"
                                                 alt="Rome">
-                                            <a href="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
+                                            <a href="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-beijing-china.jpg') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -438,9 +582,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6600">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
+                                                src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-hong-kong.jpg') }}"
                                                 alt="Istanbul">
-                                            <a href="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
+                                            <a href="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-hong-kong.jpg') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -450,9 +594,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6700">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/London.jpg') }}"
+                                                src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-singapore.jpg') }}"
                                                 alt="London">
-                                            <a href="{{ asset('assets/img/destination/europe/London.jpg') }}"
+                                            <a href="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-singapore.jpg') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -462,9 +606,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6800">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Norway.webp') }}"
+                                                src="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-jaipur-india.jpg') }}"
                                                 alt="Norway">
-                                            <a href="{{ asset('assets/img/destination/europe/Norway.webp') }}"
+                                            <a href="{{ asset('assets/img/destination/asia/asia-best-places-to-visit-jaipur-india.jpg') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>

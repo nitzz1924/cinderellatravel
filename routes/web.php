@@ -29,6 +29,11 @@ Route::controller(WebsiteController::class)->group(function () {
 
     // destination routes
     Route::get('/destinations/europe', 'europe')->name('europe');
+    Route::get('/destinations/asia', 'asia')->name('asia');
+    Route::get('/destinations/dubai', 'dubai')->name('dubai');
+    Route::get('/destinations/usa', 'usa')->name('usa');
+    Route::get('/destinations/canada', 'canada')->name('canada');
+    Route::get('/destinations/africa', 'africa')->name('africa');
 
     // services routes
     Route::get('/services/airticketing', 'airticketing')->name('airticketing');

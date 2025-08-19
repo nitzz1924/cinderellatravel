@@ -125,7 +125,7 @@
                             <div class="team-content">
                                 <div class="media-body">
                                     <h3 class="box-title">
-                                        <a href="team-details.html">Mr. Pramod Kumar Sirnani</a>
+                                        <a href="#">Mr. Pramod Kumar Sirnani</a>
                                     </h3>
                                     <span class="team-desig">President & CEO</span>
                                 </div>

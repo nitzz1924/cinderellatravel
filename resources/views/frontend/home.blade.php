@@ -15,7 +15,7 @@
                                 <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Tourm an international
                                     travel management company with 25 years of experience, specializing in business and
                                     maritime travel.</p>
-                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="destination.html"
+                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="#"
                                         class="th-btn white-btn th-icon">Explore Tours</a></div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@
                                 <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Provide a detailed
                                     itinerary of the tour, including the places you'll visit each day, any activities
                                     planned approximate times.</p>
-                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="destination.html"
+                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="#"
                                         class="th-btn white-btn th-icon">Explore Tours</a></div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
                                 <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Tourm an international
                                     travel management company with 25 years of experience, specializing in business and
                                     maritime travel.</p>
-                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="tour.html"
+                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="#"
                                         class="th-btn white-btn th-icon">Explore Tours</a></div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                                 <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Provide a detailed
                                     itinerary of the tour, including the places you'll visit each day, any activities
                                     planned approximate times.</p>
-                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="destination.html"
+                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="#"
                                         class="th-btn white-btn th-icon">Explore Tours</a></div>
                             </div>
                         </div>
@@ -91,7 +91,7 @@
                             <div class="hero-card_content">
                                 <h3 class="box-title">Mountain Tour</h3>
                                 <h4 class="hero-card_price"><span class="currency">$850.00</span>/Person</h4><span><i
-                                        class="fa-light fa-clock"></i>7 Days</span> <a href="destination-details.html"
+                                        class="fa-light fa-clock"></i>7 Days</span> <a href="#"
                                     class="th-btn style2">Book Now</a>
                             </div>
                         </div>
@@ -104,7 +104,7 @@
                             <div class="hero-card_content">
                                 <h3 class="box-title">Yachts Tour</h3>
                                 <h4 class="hero-card_price"><span class="currency">$750.00</span>/Person</h4><span><i
-                                        class="fa-light fa-clock"></i>6 Days</span> <a href="destination-details.html"
+                                        class="fa-light fa-clock"></i>6 Days</span> <a href="#"
                                     class="th-btn style2">Book Now</a>
                             </div>
                         </div>
@@ -117,7 +117,7 @@
                             <div class="hero-card_content">
                                 <h3 class="box-title">Mountain Tour</h3>
                                 <h4 class="hero-card_price"><span class="currency">$850.00</span>/Person</h4><span><i
-                                        class="fa-light fa-clock"></i>7 Days</span> <a href="destination-details.html"
+                                        class="fa-light fa-clock"></i>7 Days</span> <a href="#"
                                     class="th-btn style2">Book Now</a>
                             </div>
                         </div>
@@ -130,7 +130,7 @@
                             <div class="hero-card_content">
                                 <h3 class="box-title">Yachts Tour</h3>
                                 <h4 class="hero-card_price"><span class="currency">$750.00</span>/Person</h4><span><i
-                                        class="fa-light fa-clock"></i>6 Days</span> <a href="destination-details.html"
+                                        class="fa-light fa-clock"></i>6 Days</span> <a href="#"
                                     class="th-btn style2">Book Now</a>
                             </div>
                         </div>
@@ -155,8 +155,8 @@
                             <div class="box-img global-img"><img src="assets/img/category/category_1_1.jpg"
                                     alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="destination.html">Cruises</a></h3><a class="line-btn"
-                                href="destination.html">See more</a>
+                            <h3 class="box-title"><a href="#">Cruises</a></h3><a class="line-btn"
+                                href="#">See more</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -164,8 +164,8 @@
                             <div class="box-img global-img"><img src="assets/img/category/category_1_2.jpg"
                                     alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="destination.html">Hiking</a></h3><a class="line-btn"
-                                href="destination.html">See more</a>
+                            <h3 class="box-title"><a href="#">Hiking</a></h3><a class="line-btn"
+                                href="#">See more</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -173,8 +173,8 @@
                             <div class="box-img global-img"><img src="assets/img/category/category_1_3.jpg"
                                     alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="destination.html">Airbirds</a></h3><a class="line-btn"
-                                href="destination.html">See more</a>
+                            <h3 class="box-title"><a href="#">Airbirds</a></h3><a class="line-btn"
+                                href="#">See more</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -182,8 +182,8 @@
                             <div class="box-img global-img"><img src="assets/img/category/category_1_4.jpg"
                                     alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="destination.html">Wildlife</a></h3><a class="line-btn"
-                                href="destination.html">See more</a>
+                            <h3 class="box-title"><a href="#">Wildlife</a></h3><a class="line-btn"
+                                href="#">See more</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -191,8 +191,8 @@
                             <div class="box-img global-img"><img src="assets/img/category/category_1_5.jpg"
                                     alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="destination.html">Walking</a></h3><a class="line-btn"
-                                href="destination.html">See more</a>
+                            <h3 class="box-title"><a href="#">Walking</a></h3><a class="line-btn"
+                                href="#">See more</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -200,8 +200,8 @@
                             <div class="box-img global-img"><img src="assets/img/category/category_1_1.jpg"
                                     alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="destination.html">Cruises</a></h3><a class="line-btn"
-                                href="destination.html">See more</a>
+                            <h3 class="box-title"><a href="#">Cruises</a></h3><a class="line-btn"
+                                href="#">See more</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -209,8 +209,8 @@
                             <div class="box-img global-img"><img src="assets/img/category/category_1_2.jpg"
                                     alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="destination.html">Hiking</a></h3><a class="line-btn"
-                                href="destination.html">See more</a>
+                            <h3 class="box-title"><a href="#">Hiking</a></h3><a class="line-btn"
+                                href="#">See more</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -218,8 +218,8 @@
                             <div class="box-img global-img"><img src="assets/img/category/category_1_3.jpg"
                                     alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="destination.html">Airbirds</a></h3><a class="line-btn"
-                                href="destination.html">See more</a>
+                            <h3 class="box-title"><a href="#">Airbirds</a></h3><a class="line-btn"
+                                href="#">See more</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -227,8 +227,8 @@
                             <div class="box-img global-img"><img src="assets/img/category/category_1_4.jpg"
                                     alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="destination.html">Wildlife</a></h3><a class="line-btn"
-                                href="destination.html">See more</a>
+                            <h3 class="box-title"><a href="#">Wildlife</a></h3><a class="line-btn"
+                                href="#">See more</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -236,8 +236,8 @@
                             <div class="box-img global-img"><img src="assets/img/category/category_1_5.jpg"
                                     alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="destination.html">Walking</a></h3><a class="line-btn"
-                                href="destination.html">See more</a>
+                            <h3 class="box-title"><a href="#">Walking</a></h3><a class="line-btn"
+                                href="#">See more</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -245,8 +245,8 @@
                             <div class="box-img global-img"><img src="assets/img/category/category_1_1.jpg"
                                     alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="destination.html">Cruises</a></h3><a class="line-btn"
-                                href="destination.html">See more</a>
+                            <h3 class="box-title"><a href="#">Cruises</a></h3><a class="line-btn"
+                                href="#">See more</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -254,8 +254,8 @@
                             <div class="box-img global-img"><img src="assets/img/category/category_1_2.jpg"
                                     alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="destination.html">Hiking</a></h3><a class="line-btn"
-                                href="destination.html">See more</a>
+                            <h3 class="box-title"><a href="#">Hiking</a></h3><a class="line-btn"
+                                href="#">See more</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -263,8 +263,8 @@
                             <div class="box-img global-img"><img src="assets/img/category/category_1_3.jpg"
                                     alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="destination.html">Airbirds</a></h3><a class="line-btn"
-                                href="destination.html">See more</a>
+                            <h3 class="box-title"><a href="#">Airbirds</a></h3><a class="line-btn"
+                                href="#">See more</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -272,8 +272,8 @@
                             <div class="box-img global-img"><img src="assets/img/category/category_1_4.jpg"
                                     alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="destination.html">Wildlife</a></h3><a class="line-btn"
-                                href="destination.html">See more</a>
+                            <h3 class="box-title"><a href="#">Wildlife</a></h3><a class="line-btn"
+                                href="#">See more</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -281,8 +281,8 @@
                             <div class="box-img global-img"><img src="assets/img/category/category_1_5.jpg"
                                     alt="Image">
                             </div>
-                            <h3 class="box-title"><a href="destination.html">Walking</a></h3><a class="line-btn"
-                                href="destination.html">See more</a>
+                            <h3 class="box-title"><a href="#">Walking</a></h3><a class="line-btn"
+                                href="#">See more</a>
                         </div>
                     </div>
                 </div>
@@ -304,10 +304,10 @@
                                     alt="destination image">
                                 <div class="destination-content">
                                     <div class="media-left">
-                                        <h4 class="box-title"><a href="destination-details.html">Maldives</a></h4><span
+                                        <h4 class="box-title"><a href="#">Maldives</a></h4><span
                                             class="destination-subtitle">15 Listing</span>
                                     </div>
-                                    <div class=""><a href="destination-details.html"
+                                    <div class=""><a href="#"
                                             class="th-btn style2 th-icon">View
                                             All</a></div>
                                 </div>
@@ -320,10 +320,10 @@
                                     alt="destination image">
                                 <div class="destination-content">
                                     <div class="media-left">
-                                        <h4 class="box-title"><a href="destination-details.html">Thailand</a></h4><span
+                                        <h4 class="box-title"><a href="#">Thailand</a></h4><span
                                             class="destination-subtitle">22 Listing</span>
                                     </div>
-                                    <div class=""><a href="destination-details.html"
+                                    <div class=""><a href="#"
                                             class="th-btn style2 th-icon">View
                                             All</a></div>
                                 </div>
@@ -336,10 +336,10 @@
                                     alt="destination image">
                                 <div class="destination-content">
                                     <div class="media-left">
-                                        <h4 class="box-title"><a href="destination-details.html">Belgium</a></h4><span
+                                        <h4 class="box-title"><a href="#">Belgium</a></h4><span
                                             class="destination-subtitle">25 Listing</span>
                                     </div>
-                                    <div class=""><a href="destination-details.html"
+                                    <div class=""><a href="#"
                                             class="th-btn style2 th-icon">View
                                             All</a></div>
                                 </div>
@@ -352,10 +352,10 @@
                                     alt="destination image">
                                 <div class="destination-content">
                                     <div class="media-left">
-                                        <h4 class="box-title"><a href="destination-details.html">Island</a></h4><span
+                                        <h4 class="box-title"><a href="#">Island</a></h4><span
                                             class="destination-subtitle">28 Listing</span>
                                     </div>
-                                    <div class=""><a href="destination-details.html"
+                                    <div class=""><a href="#"
                                             class="th-btn style2 th-icon">View
                                             All</a></div>
                                 </div>
@@ -368,10 +368,10 @@
                                     alt="destination image">
                                 <div class="destination-content">
                                     <div class="media-left">
-                                        <h4 class="box-title"><a href="destination-details.html">Maldives</a></h4><span
+                                        <h4 class="box-title"><a href="#">Maldives</a></h4><span
                                             class="destination-subtitle">30 Listing</span>
                                     </div>
-                                    <div class=""><a href="destination-details.html"
+                                    <div class=""><a href="#"
                                             class="th-btn style2 th-icon">View
                                             All</a></div>
                                 </div>
@@ -384,10 +384,10 @@
                                     alt="destination image">
                                 <div class="destination-content">
                                     <div class="media-left">
-                                        <h4 class="box-title"><a href="destination-details.html">Maldives</a></h4><span
+                                        <h4 class="box-title"><a href="#">Maldives</a></h4><span
                                             class="destination-subtitle">15 Listing</span>
                                     </div>
-                                    <div class=""><a href="destination-details.html"
+                                    <div class=""><a href="#"
                                             class="th-btn style2 th-icon">View
                                             All</a></div>
                                 </div>
@@ -400,10 +400,10 @@
                                     alt="destination image">
                                 <div class="destination-content">
                                     <div class="media-left">
-                                        <h4 class="box-title"><a href="destination-details.html">Thailand</a></h4><span
+                                        <h4 class="box-title"><a href="#">Thailand</a></h4><span
                                             class="destination-subtitle">22 Listing</span>
                                     </div>
-                                    <div class=""><a href="destination-details.html"
+                                    <div class=""><a href="#"
                                             class="th-btn style2 th-icon">View
                                             All</a></div>
                                 </div>
@@ -416,10 +416,10 @@
                                     alt="destination image">
                                 <div class="destination-content">
                                     <div class="media-left">
-                                        <h4 class="box-title"><a href="destination-details.html">Belgium</a></h4><span
+                                        <h4 class="box-title"><a href="#">Belgium</a></h4><span
                                             class="destination-subtitle">25 Listing</span>
                                     </div>
-                                    <div class=""><a href="destination-details.html"
+                                    <div class=""><a href="#"
                                             class="th-btn style2 th-icon">View
                                             All</a></div>
                                 </div>
@@ -432,10 +432,10 @@
                                     alt="destination image">
                                 <div class="destination-content">
                                     <div class="media-left">
-                                        <h4 class="box-title"><a href="destination-details.html">Island</a></h4><span
+                                        <h4 class="box-title"><a href="#">Island</a></h4><span
                                             class="destination-subtitle">28 Listing</span>
                                     </div>
-                                    <div class=""><a href="destination-details.html"
+                                    <div class=""><a href="#"
                                             class="th-btn style2 th-icon">View
                                             All</a></div>
                                 </div>
@@ -448,10 +448,10 @@
                                     alt="destination image">
                                 <div class="destination-content">
                                     <div class="media-left">
-                                        <h4 class="box-title"><a href="destination-details.html">Maldives</a></h4><span
+                                        <h4 class="box-title"><a href="#">Maldives</a></h4><span
                                             class="destination-subtitle">30 Listing</span>
                                     </div>
-                                    <div class=""><a href="destination-details.html"
+                                    <div class=""><a href="#"
                                             class="th-btn style2 th-icon">View
                                             All</a></div>
                                 </div>
@@ -499,7 +499,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-35"><a href="about.html" class="th-btn style3 th-icon">Learn More</a></div>
+                        <div class="mt-35"><a href="#" class="th-btn style3 th-icon">Learn More</a></div>
                     </div>
                 </div>
             </div>
@@ -538,17 +538,17 @@
                                 <div class="tour-box_img global-img"><img src="assets/img/tour/tour_box_1.jpg"
                                         alt="image"></div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="tour-details.html">Greece Tour Package</a></h3>
+                                    <h3 class="box-title"><a href="#">Greece Tour Package</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span
                                                 style="width:100%">Rated <strong class="rating">5.00</strong> out of 5
                                                 based on <span class="rating">4.8</span>(4.8 Rating)</span></div><a
-                                            href="tour-details.html" class="woocommerce-review-link">(<span
+                                            href="#" class="woocommerce-review-link">(<span
                                                 class="count">4.8</span> Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action"><span><i class="fa-light fa-clock"></i>7 Days</span> <a
-                                            href="contact.html" class="th-btn style4 th-icon">Book Now</a></div>
+                                            href="#" class="th-btn style4 th-icon">Book Now</a></div>
                                 </div>
                             </div>
                         </div>
@@ -557,17 +557,17 @@
                                 <div class="tour-box_img global-img"><img src="assets/img/tour/tour_box_2.jpg"
                                         alt="image"></div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="tour-details.html">Italy Tour package</a></h3>
+                                    <h3 class="box-title"><a href="#">Italy Tour package</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span
                                                 style="width:100%">Rated <strong class="rating">5.00</strong> out of 5
                                                 based on <span class="rating">4.8</span>(4.8 Rating)</span></div><a
-                                            href="tour-details.html" class="woocommerce-review-link">(<span
+                                            href="#" class="woocommerce-review-link">(<span
                                                 class="count">4.8</span> Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action"><span><i class="fa-light fa-clock"></i>7 Days</span> <a
-                                            href="contact.html" class="th-btn style4 th-icon">Book Now</a></div>
+                                            href="#" class="th-btn style4 th-icon">Book Now</a></div>
                                 </div>
                             </div>
                         </div>
@@ -576,17 +576,17 @@
                                 <div class="tour-box_img global-img"><img src="assets/img/tour/tour_box_3.jpg"
                                         alt="image"></div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="tour-details.html">Dubai Tour Package</a></h3>
+                                    <h3 class="box-title"><a href="#">Dubai Tour Package</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span
                                                 style="width:100%">Rated <strong class="rating">5.00</strong> out of 5
                                                 based on <span class="rating">4.8</span>(4.8 Rating)</span></div><a
-                                            href="tour-details.html" class="woocommerce-review-link">(<span
+                                            href="#" class="woocommerce-review-link">(<span
                                                 class="count">4.8</span> Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action"><span><i class="fa-light fa-clock"></i>7 Days</span> <a
-                                            href="contact.html" class="th-btn style4 th-icon">Book Now</a></div>
+                                            href="#" class="th-btn style4 th-icon">Book Now</a></div>
                                 </div>
                             </div>
                         </div>
@@ -595,17 +595,17 @@
                                 <div class="tour-box_img global-img"><img src="assets/img/tour/tour_box_4.jpg"
                                         alt="image"></div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="tour-details.html">Switzerland</a></h3>
+                                    <h3 class="box-title"><a href="#">Switzerland</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span
                                                 style="width:100%">Rated <strong class="rating">5.00</strong> out of 5
                                                 based on <span class="rating">4.8</span>(4.8 Rating)</span></div><a
-                                            href="tour-details.html" class="woocommerce-review-link">(<span
+                                            href="#" class="woocommerce-review-link">(<span
                                                 class="count">4.8</span> Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action"><span><i class="fa-light fa-clock"></i>7 Days</span> <a
-                                            href="contact.html" class="th-btn style4 th-icon">Book Now</a></div>
+                                            href="#" class="th-btn style4 th-icon">Book Now</a></div>
                                 </div>
                             </div>
                         </div>
@@ -614,17 +614,17 @@
                                 <div class="tour-box_img global-img"><img src="assets/img/tour/tour_box_1.jpg"
                                         alt="image"></div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="tour-details.html">Greece Tour Package</a></h3>
+                                    <h3 class="box-title"><a href="#">Greece Tour Package</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span
                                                 style="width:100%">Rated <strong class="rating">5.00</strong> out of 5
                                                 based on <span class="rating">4.8</span>(4.8 Rating)</span></div><a
-                                            href="tour-details.html" class="woocommerce-review-link">(<span
+                                            href="#" class="woocommerce-review-link">(<span
                                                 class="count">4.8</span> Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action"><span><i class="fa-light fa-clock"></i>7 Days</span> <a
-                                            href="contact.html" class="th-btn style4 th-icon">Book Now</a></div>
+                                            href="#" class="th-btn style4 th-icon">Book Now</a></div>
                                 </div>
                             </div>
                         </div>
@@ -633,17 +633,17 @@
                                 <div class="tour-box_img global-img"><img src="assets/img/tour/tour_box_2.jpg"
                                         alt="image"></div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="tour-details.html">Italy Tour package</a></h3>
+                                    <h3 class="box-title"><a href="#">Italy Tour package</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span
                                                 style="width:100%">Rated <strong class="rating">5.00</strong> out of 5
                                                 based on <span class="rating">4.8</span>(4.8 Rating)</span></div><a
-                                            href="tour-details.html" class="woocommerce-review-link">(<span
+                                            href="#" class="woocommerce-review-link">(<span
                                                 class="count">4.8</span> Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action"><span><i class="fa-light fa-clock"></i>7 Days</span> <a
-                                            href="contact.html" class="th-btn style4 th-icon">Book Now</a></div>
+                                            href="#" class="th-btn style4 th-icon">Book Now</a></div>
                                 </div>
                             </div>
                         </div>
@@ -783,7 +783,7 @@
                                 <div class="team-img"><img src="assets/img/team/team_1_1.jpg" alt="Team"></div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Jacob Jones</a></h3>
+                                        <h3 class="box-title"><a href="#">Jacob Jones</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
                                                     class="fab fa-facebook-f"></i></a> <a target="_blank"
@@ -801,7 +801,7 @@
                                 <div class="team-img"><img src="assets/img/team/team_1_2.jpg" alt="Team"></div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Jane Cooper</a></h3>
+                                        <h3 class="box-title"><a href="#">Jane Cooper</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
                                                     class="fab fa-facebook-f"></i></a> <a target="_blank"
@@ -819,7 +819,7 @@
                                 <div class="team-img"><img src="assets/img/team/team_1_3.jpg" alt="Team"></div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Guy Hawkins</a></h3>
+                                        <h3 class="box-title"><a href="#">Guy Hawkins</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
                                                     class="fab fa-facebook-f"></i></a> <a target="_blank"
@@ -837,7 +837,7 @@
                                 <div class="team-img"><img src="assets/img/team/team_1_4.jpg" alt="Team"></div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Jenny Wilson</a></h3>
+                                        <h3 class="box-title"><a href="#">Jenny Wilson</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
                                                     class="fab fa-facebook-f"></i></a> <a target="_blank"
@@ -855,7 +855,7 @@
                                 <div class="team-img"><img src="assets/img/team/team_1_1.jpg" alt="Team"></div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Jacob Jones</a></h3>
+                                        <h3 class="box-title"><a href="#">Jacob Jones</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
                                                     class="fab fa-facebook-f"></i></a> <a target="_blank"
@@ -873,7 +873,7 @@
                                 <div class="team-img"><img src="assets/img/team/team_1_2.jpg" alt="Team"></div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Jane Cooper</a></h3>
+                                        <h3 class="box-title"><a href="#">Jane Cooper</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
                                                     class="fab fa-facebook-f"></i></a> <a target="_blank"
@@ -891,7 +891,7 @@
                                 <div class="team-img"><img src="assets/img/team/team_1_3.jpg" alt="Team"></div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Guy Hawkins</a></h3>
+                                        <h3 class="box-title"><a href="#">Guy Hawkins</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
                                                     class="fab fa-facebook-f"></i></a> <a target="_blank"
@@ -909,7 +909,7 @@
                                 <div class="team-img"><img src="assets/img/team/team_1_4.jpg" alt="Team"></div>
                                 <div class="team-content">
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="tour-guider-details.html">Jenny Wilson</a></h3>
+                                        <h3 class="box-title"><a href="#">Jenny Wilson</a></h3>
                                         <span class="team-desig">Tourist Guide</span>
                                         <div class="th-social"><a target="_blank" href="https://facebook.com/"><i
                                                     class="fab fa-facebook-f"></i></a> <a target="_blank"
@@ -1209,7 +1209,7 @@
                             <h2 class="sec-title">News & Articles From Tourm</h2>
                         </div>
                     </div>
-                    <div class="col-md-auto"><a href="blog.html" class="th-btn style4 th-icon">See More Articles</a>
+                    <div class="col-md-auto"><a href="#" class="th-btn style4 th-icon">See More Articles</a>
                     </div>
                 </div>
             </div>
@@ -1222,10 +1222,10 @@
                                 <div class="blog-img global-img"><img src="assets/img/blog/blog_1_1.jpg"
                                         alt="blog image"></div>
                                 <div class="blog-box_content">
-                                    <div class="blog-meta"><a class="author" href="blog.html">July 05 2024</a> <a
-                                            href="blog.html">6 min read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">10 Reason why you should visit New
-                                            Jersy</a></h3><a href="blog-details.html" class="th-btn style4 th-icon">Read
+                                    <div class="blog-meta"><a class="author" href="#">July 05 2024</a> <a
+                                            href="#">6 min read</a></div>
+                                    <h3 class="box-title"><a href="#">10 Reason why you should visit New
+                                            Jersy</a></h3><a href="#" class="th-btn style4 th-icon">Read
                                         More</a>
                                 </div>
                             </div>
@@ -1235,10 +1235,10 @@
                                 <div class="blog-img global-img"><img src="assets/img/blog/blog_1_2.jpg"
                                         alt="blog image"></div>
                                 <div class="blog-box_content">
-                                    <div class="blog-meta"><a class="author" href="blog.html">July 06 2024</a> <a
-                                            href="blog.html">7 min read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">The best time to visit japan &
-                                            enjoy the cherry blossoms</a></h3><a href="blog-details.html"
+                                    <div class="blog-meta"><a class="author" href="#">July 06 2024</a> <a
+                                            href="#">7 min read</a></div>
+                                    <h3 class="box-title"><a href="#">The best time to visit japan &
+                                            enjoy the cherry blossoms</a></h3><a href="#"
                                         class="th-btn style4 th-icon">Read More</a>
                                 </div>
                             </div>
@@ -1248,10 +1248,10 @@
                                 <div class="blog-img global-img"><img src="assets/img/blog/blog_1_3.jpg"
                                         alt="blog image"></div>
                                 <div class="blog-box_content">
-                                    <div class="blog-meta"><a class="author" href="blog.html">July 07 2024</a> <a
-                                            href="blog.html">8 min read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">The 7 amazing destinations for
-                                            adventure seekers</a></h3><a href="blog-details.html"
+                                    <div class="blog-meta"><a class="author" href="#">July 07 2024</a> <a
+                                            href="#">8 min read</a></div>
+                                    <h3 class="box-title"><a href="#">The 7 amazing destinations for
+                                            adventure seekers</a></h3><a href="#"
                                         class="th-btn style4 th-icon">Read More</a>
                                 </div>
                             </div>
@@ -1261,10 +1261,10 @@
                                 <div class="blog-img global-img"><img src="assets/img/blog/blog_1_1.jpg"
                                         alt="blog image"></div>
                                 <div class="blog-box_content">
-                                    <div class="blog-meta"><a class="author" href="blog.html">July 09 2024</a> <a
-                                            href="blog.html">9 min read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">10 Reason why you should visit New
-                                            Jersy</a></h3><a href="blog-details.html" class="th-btn style4 th-icon">Read
+                                    <div class="blog-meta"><a class="author" href="#">July 09 2024</a> <a
+                                            href="#">9 min read</a></div>
+                                    <h3 class="box-title"><a href="#">10 Reason why you should visit New
+                                            Jersy</a></h3><a href="#" class="th-btn style4 th-icon">Read
                                         More</a>
                                 </div>
                             </div>
@@ -1274,10 +1274,10 @@
                                 <div class="blog-img global-img"><img src="assets/img/blog/blog_1_2.jpg"
                                         alt="blog image"></div>
                                 <div class="blog-box_content">
-                                    <div class="blog-meta"><a class="author" href="blog.html">July 10 2024</a> <a
-                                            href="blog.html">10 min read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">The best time to visit japan &
-                                            enjoy the cherry blossoms</a></h3><a href="blog-details.html"
+                                    <div class="blog-meta"><a class="author" href="#">July 10 2024</a> <a
+                                            href="#">10 min read</a></div>
+                                    <h3 class="box-title"><a href="#">The best time to visit japan &
+                                            enjoy the cherry blossoms</a></h3><a href="#"
                                         class="th-btn style4 th-icon">Read More</a>
                                 </div>
                             </div>
@@ -1287,10 +1287,10 @@
                                 <div class="blog-img global-img"><img src="assets/img/blog/blog_1_3.jpg"
                                         alt="blog image"></div>
                                 <div class="blog-box_content">
-                                    <div class="blog-meta"><a class="author" href="blog.html">July 12 2024</a> <a
-                                            href="blog.html">11 min read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">The 7 amazing destinations for
-                                            adventure seekers</a></h3><a href="blog-details.html"
+                                    <div class="blog-meta"><a class="author" href="#">July 12 2024</a> <a
+                                            href="#">11 min read</a></div>
+                                    <h3 class="box-title"><a href="#">The 7 amazing destinations for
+                                            adventure seekers</a></h3><a href="#"
                                         class="th-btn style4 th-icon">Read More</a>
                                 </div>
                             </div>
@@ -1315,7 +1315,7 @@
                         <div class="sec_title_wrap">
                             <div class="title-area text-center text-lg-start pe-xl-5"><span class="sub-title">Blog and
                                     Article</span>
-                                <h2 class="sec-title">Latest Blog & Articles From Tourm</h2><a href="blog.html"
+                                <h2 class="sec-title">Latest Blog & Articles From Tourm</h2><a href="#"
                                     class="th-btn style4 th-icon">See More Articles</a>
                             </div>
                         </div>
@@ -1326,10 +1326,10 @@
                         <div class="col-12 blog-grid4_wrapp">
                             <div class="blog-grid4 th-ani style4 mt-24">
                                 <div class="box-content">
-                                    <div class="blog-meta"><a class="author" href="blog.html">Sep 10, 2024</a> <a
-                                            href="blog.html">8 min read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">How to Travel Sustainably and
-                                            Responsibly</a></h3><a href="blog-details.html"
+                                    <div class="blog-meta"><a class="author" href="#">Sep 10, 2024</a> <a
+                                            href="#">8 min read</a></div>
+                                    <h3 class="box-title"><a href="#">How to Travel Sustainably and
+                                            Responsibly</a></h3><a href="#"
                                         class="th-btn style4 th-icon">Read More</a>
                                 </div>
                                 <div class="blog-img global-img"><img src="assets/img/blog/blog_9_2.jpg"
@@ -1339,10 +1339,10 @@
                         <div class="col-12 blog-grid4_wrapp">
                             <div class="blog-grid4 th-ani style4 mt-24">
                                 <div class="box-content">
-                                    <div class="blog-meta"><a class="author" href="blog.html">Sep 10, 2024</a> <a
-                                            href="blog.html">8 min read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">A Step-by-Step Guide for
-                                            First-Time Travelers</a></h3><a href="blog-details.html"
+                                    <div class="blog-meta"><a class="author" href="#">Sep 10, 2024</a> <a
+                                            href="#">8 min read</a></div>
+                                    <h3 class="box-title"><a href="#">A Step-by-Step Guide for
+                                            First-Time Travelers</a></h3><a href="#"
                                         class="th-btn style4 th-icon">Read More</a>
                                 </div>
                                 <div class="blog-img global-img"><img src="assets/img/blog/blog_9_2.jpg"
@@ -1352,10 +1352,10 @@
                         <div class="col-12 blog-grid4_wrapp">
                             <div class="blog-grid4 th-ani style4 mt-24">
                                 <div class="box-content">
-                                    <div class="blog-meta"><a class="author" href="blog.html">Sep 10, 2024</a> <a
-                                            href="blog.html">8 min read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">Top Destinations and Tips for
-                                            Traveling with Kids</a></h3><a href="blog-details.html"
+                                    <div class="blog-meta"><a class="author" href="#">Sep 10, 2024</a> <a
+                                            href="#">8 min read</a></div>
+                                    <h3 class="box-title"><a href="#">Top Destinations and Tips for
+                                            Traveling with Kids</a></h3><a href="#"
                                         class="th-btn style4 th-icon">Read More</a>
                                 </div>
                                 <div class="blog-img global-img"><img src="assets/img/blog/blog_9_3.jpg"
@@ -1365,10 +1365,10 @@
                         <div class="col-12 blog-grid4_wrapp">
                             <div class="blog-grid4 th-ani style4 mt-24">
                                 <div class="box-content">
-                                    <div class="blog-meta"><a class="author" href="blog.html">Sep 10, 2024</a> <a
-                                            href="blog.html">8 min read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">How to Travel Sustainably and
-                                            Responsibly</a></h3><a href="blog-details.html"
+                                    <div class="blog-meta"><a class="author" href="#">Sep 10, 2024</a> <a
+                                            href="#">8 min read</a></div>
+                                    <h3 class="box-title"><a href="#">How to Travel Sustainably and
+                                            Responsibly</a></h3><a href="#"
                                         class="th-btn style4 th-icon">Read More</a>
                                 </div>
                                 <div class="blog-img global-img"><img src="assets/img/blog/blog_9_2.jpg"
@@ -1378,10 +1378,10 @@
                         <div class="col-12 blog-grid4_wrapp">
                             <div class="blog-grid4 th-ani style4 mt-24">
                                 <div class="box-content">
-                                    <div class="blog-meta"><a class="author" href="blog.html">Sep 10, 2024</a> <a
-                                            href="blog.html">8 min read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">A Step-by-Step Guide for
-                                            First-Time Travelers</a></h3><a href="blog-details.html"
+                                    <div class="blog-meta"><a class="author" href="#">Sep 10, 2024</a> <a
+                                            href="#">8 min read</a></div>
+                                    <h3 class="box-title"><a href="#">A Step-by-Step Guide for
+                                            First-Time Travelers</a></h3><a href="#"
                                         class="th-btn style4 th-icon">Read More</a>
                                 </div>
                                 <div class="blog-img global-img"><img src="assets/img/blog/blog_9_2.jpg"
@@ -1391,10 +1391,10 @@
                         <div class="col-12 blog-grid4_wrapp">
                             <div class="blog-grid4 th-ani style4 mt-24">
                                 <div class="box-content">
-                                    <div class="blog-meta"><a class="author" href="blog.html">Sep 10, 2024</a> <a
-                                            href="blog.html">8 min read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">Top Destinations and Tips for
-                                            Traveling with Kids</a></h3><a href="blog-details.html"
+                                    <div class="blog-meta"><a class="author" href="#">Sep 10, 2024</a> <a
+                                            href="#">8 min read</a></div>
+                                    <h3 class="box-title"><a href="#">Top Destinations and Tips for
+                                            Traveling with Kids</a></h3><a href="#"
                                         class="th-btn style4 th-icon">Read More</a>
                                 </div>
                                 <div class="blog-img global-img"><img src="assets/img/blog/blog_9_3.jpg"

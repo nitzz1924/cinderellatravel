@@ -19,9 +19,9 @@
                     <div class="th-blog blog-single">
                         <div class="blog-img"><img src="assets/img/blog/blog-s-1-4.jpg" alt="Blog Image"></div>
                         <div class="blog-content">
-                            <div class="blog-meta"><a class="author" href="blog.html"><i class="fa-light fa-user"></i>by
-                                    David Smith</a> <a href="blog.html"><i class="fa-regular fa-calendar"></i>05 May,
-                                    2025</a> <a href="blog-details.html"><img src="assets/img/icon/map.svg" alt="">Sea
+                            <div class="blog-meta"><a class="author" href="#"><i class="fa-light fa-user"></i>by
+                                    David Smith</a> <a href="#"><i class="fa-regular fa-calendar"></i>05 May,
+                                    2025</a> <a href="#"><img src="assets/img/icon/map.svg" alt="">Sea
                                     Beach</a></div>
                             <h2 class="blog-title">Relar Residence promotes sustainable transportation options, with
                                 dedicated spaces.</h2>
@@ -74,9 +74,9 @@
                             <div class="share-links clearfix">
                                 <div class="row justify-content-between">
                                     <div class="col-md-auto"><span class="share-links-title">Tags:</span>
-                                        <div class="tagcloud"><a href="blog.html">Apartment</a> <a
-                                                href="blog.html">Buyer</a> <a href="blog.html">Modern</a> <a
-                                                href="blog.html">Luxury</a></div>
+                                        <div class="tagcloud"><a href="#">Apartment</a> <a
+                                                href="#">Buyer</a> <a href="#">Modern</a> <a
+                                                href="#">Luxury</a></div>
                                     </div>
                                     <div class="col-md-auto text-xl-end">
                                         <div class="share-links_wrapp"><span class="share-links-title">Share:</span>
@@ -106,7 +106,7 @@
                                         <p class="text">Credibly pontificate transparent quality vectors with quality
                                             mindshare. Efficiently architect worldwide strategic theme areas after user.
                                         </p>
-                                        <div class="reply_and_edit"><a href="blog-details.html" class="reply-btn"><i
+                                        <div class="reply_and_edit"><a href="#" class="reply-btn"><i
                                                     class="fas fa-reply"></i>Reply</a></div>
                                     </div>
                                 </div>
@@ -122,7 +122,7 @@
                                                 </div>
                                                 <p class="text">It is different from airport transfer or port transfer,
                                                     which are services that pick you up</p>
-                                                <div class="reply_and_edit"><a href="blog-details.html"
+                                                <div class="reply_and_edit"><a href="#"
                                                         class="reply-btn"><i class="fas fa-reply"></i>Reply</a></div>
                                             </div>
                                         </div>
@@ -141,7 +141,7 @@
                                         <p class="text">Credibly pontificate transparent quality vectors with quality
                                             mindshare. Efficiently architect worldwide strategic theme areas after user.
                                         </p>
-                                        <div class="reply_and_edit"><a href="blog-details.html" class="reply-btn"><i
+                                        <div class="reply_and_edit"><a href="#" class="reply-btn"><i
                                                     class="fas fa-reply"></i>Reply</a></div>
                                     </div>
                                 </div>
@@ -176,17 +176,17 @@
                         <div class="widget widget_categories">
                             <h3 class="widget_title">Categories</h3>
                             <ul>
-                                <li><a href="blog.html"><img src="assets/img/theme-img/map.svg" alt="">City Tour</a>
+                                <li><a href="#"><img src="assets/img/theme-img/map.svg" alt="">City Tour</a>
                                     <span>(8)</span></li>
-                                <li><a href="blog.html"><img src="assets/img/theme-img/map.svg" alt="">Beach Tours</a>
+                                <li><a href="#"><img src="assets/img/theme-img/map.svg" alt="">Beach Tours</a>
                                     <span>(6)</span></li>
-                                <li><a href="blog.html"><img src="assets/img/theme-img/map.svg" alt="">Wildlife
+                                <li><a href="#"><img src="assets/img/theme-img/map.svg" alt="">Wildlife
                                         Tours</a> <span>(2)</span></li>
-                                <li><a href="blog.html"><img src="assets/img/theme-img/map.svg" alt="">News & Tips</a>
+                                <li><a href="#"><img src="assets/img/theme-img/map.svg" alt="">News & Tips</a>
                                     <span>(7)</span></li>
-                                <li><a href="blog.html"><img src="assets/img/theme-img/map.svg" alt="">Adventure
+                                <li><a href="#"><img src="assets/img/theme-img/map.svg" alt="">Adventure
                                         Tours</a> <span>(9)</span></li>
-                                <li><a href="blog.html"><img src="assets/img/theme-img/map.svg" alt="">Mountain
+                                <li><a href="#"><img src="assets/img/theme-img/map.svg" alt="">Mountain
                                         Tours</a> <span>(10)</span></li>
                             </ul>
                         </div>
@@ -194,34 +194,34 @@
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details.html"><img
+                                    <div class="media-img"><a href="#"><img
                                                 src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a></div>
                                     <div class="media-body">
                                         <h4 class="post-title"><a class="text-inherit"
-                                                href="blog-details.html">Exploring The Green Spaces Of the island
+                                                href="#">Exploring The Green Spaces Of the island
                                                 maldives</a></h4>
-                                        <div class="recent-post-meta"><a href="blog.html"><i
+                                        <div class="recent-post-meta"><a href="#"><i
                                                     class="fa-regular fa-calendar"></i>22/6/ 2025</a></div>
                                     </div>
                                 </div>
                                 <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details.html"><img
+                                    <div class="media-img"><a href="#"><img
                                                 src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a></div>
                                     <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Harmony
+                                        <h4 class="post-title"><a class="text-inherit" href="#">Harmony
                                                 With Nature Of Belgium Tour and travle</a></h4>
-                                        <div class="recent-post-meta"><a href="blog.html"><i
+                                        <div class="recent-post-meta"><a href="#"><i
                                                     class="fa-regular fa-calendar"></i>25/6/ 2025</a></div>
                                     </div>
                                 </div>
                                 <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details.html"><img
+                                    <div class="media-img"><a href="#"><img
                                                 src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a></div>
                                     <div class="media-body">
                                         <h4 class="post-title"><a class="text-inherit"
-                                                href="blog-details.html">Exploring The Green Spaces Of Realar
+                                                href="#">Exploring The Green Spaces Of Realar
                                                 Residence</a></h4>
-                                        <div class="recent-post-meta"><a href="blog.html"><i
+                                        <div class="recent-post-meta"><a href="#"><i
                                                     class="fa-regular fa-calendar"></i>27/6/ 2025</a></div>
                                     </div>
                                 </div>
@@ -229,10 +229,10 @@
                         </div>
                         <div class="widget widget_tag_cloud">
                             <h3 class="widget_title">Popular Tags</h3>
-                            <div class="tagcloud"><a href="blog.html">Tour</a> <a href="blog.html">Adventure</a> <a
-                                    href="blog.html">Rent</a> <a href="blog.html">Innovate</a> <a
-                                    href="blog.html">Hotel</a> <a href="blog.html">Modern</a> <a
-                                    href="blog.html">Luxury</a> <a href="blog.html">Travel</a></div>
+                            <div class="tagcloud"><a href="#">Tour</a> <a href="#">Adventure</a> <a
+                                    href="#">Rent</a> <a href="#">Innovate</a> <a
+                                    href="#">Hotel</a> <a href="#">Modern</a> <a
+                                    href="#">Luxury</a> <a href="#">Travel</a></div>
                         </div>
                         <div class="widget widget_offer" data-bg-src="assets/img/bg/widget_bg_1.jpg">
                             <div class="offer-banner">
@@ -241,8 +241,8 @@
                                     <div class="banner-logo"><img src="assets/img/logo2.svg" alt="Tourm"></div>
                                     <div class="offer">
                                         <h6 class="offer-title">You Get Online support</h6><a class="offter-num"
-                                            href="%2b256214203215.html">+256 214 203 215</a>
-                                    </div><a href="contact.html" class="th-btn style2 th-icon">Read More</a>
+                                            href="#">+256 214 203 215</a>
+                                    </div><a href="#" class="th-btn style2 th-icon">Read More</a>
                                 </div>
                             </div>
                         </div>

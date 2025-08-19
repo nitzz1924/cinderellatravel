@@ -105,25 +105,25 @@
                 <h3 class="widget_title">Recent Posts</h3>
                 <div class="recent-post-wrap">
                     <div class="recent-post">
-                        <div class="media-img"><a href="blog-details.html"><img
+                        <div class="media-img"><a href="#"><img
                                     src="{{ asset('assets/img/blog/recent-post-1-1.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
-                            <div class="recent-post-meta"><a href="blog.html"><i class="far fa-calendar"></i>24 Jun ,
+                            <div class="recent-post-meta"><a href="#"><i class="far fa-calendar"></i>24 Jun ,
                                     2025</a></div>
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Where Vision
+                            <h4 class="post-title"><a class="text-inherit" href="#">Where Vision
                                     Meets
                                     Concrete Reality</a></h4>
                         </div>
                     </div>
                     <div class="recent-post">
-                        <div class="media-img"><a href="blog-details.html"><img
+                        <div class="media-img"><a href="#"><img
                                     src="{{ asset('assets/img/blog/recent-post-1-2.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
-                            <div class="recent-post-meta"><a href="blog.html"><i class="far fa-calendar"></i>22 Jun ,
+                            <div class="recent-post-meta"><a href="#"><i class="far fa-calendar"></i>22 Jun ,
                                     2025</a></div>
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Raising the Bar
+                            <h4 class="post-title"><a class="text-inherit" href="#">Raising the Bar
                                     in
                                     Construction.</a></h4>
                         </div>
@@ -176,15 +176,24 @@
                     <li class="">
                         <a class="active" href="{{ route('home') }}">Home</a>
                     </li>
-                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">About Us</a></li>
                     <li class="menu-item-has-children"><a href="#">Destination</a>
                         <ul class="sub-menu">
                             <li><a href="{{ route('europe') }}">Europe</a></li>
+                            <li><a href="{{ route('asia') }}">Asia</a></li>
+                            <li><a href="{{ route('dubai') }}">Dubai</a></li>
+                            <li><a href="{{ route('usa') }}">USA</a></li>
+                            <li><a href="{{ route('canada') }}">Canada</a></li>
+                            <li><a href="{{ route('africa') }}">Africa</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children"><a href="#">Service</a>
                         <ul class="sub-menu">
-                            <li><a href="{{ route('airticketing') }}">Services</a></li>
+                            <li><a href="{{ route('airticketing') }}">Air Ticketing</a></li>
+                            <li><a href="{{ route('travelvisa') }}">Travel Visa</a></li>
+                            <li><a href="{{ route('travelinsurance') }}">Travel Insurance</a></li>
+                            <li><a href="{{ route('hotelbooking') }}">Hotel Booking</a></li>
+                            <li><a href="{{ route('holidaypackges') }}">Holiday Packges</a></li>
                         </ul>
                     </li>
                     <li class=""><a href="{{ route('careers') }}">Careers</a></li>
@@ -227,8 +236,8 @@
                             </div> --}}
                             <div class="header-links">
                                 <ul>
-                                    {{-- <li class="d-none d-md-inline-block"><a href="faq.html">FAQ</a></li>
-                                    <li class="d-none d-md-inline-block"><a href="contact.html">Support</a></li> --}}
+                                    {{-- <li class="d-none d-md-inline-block"><a href="#">FAQ</a></li>
+                                    <li class="d-none d-md-inline-block"><a href="#">Support</a></li> --}}
                                     {{-- <li><a href="{{ route('contactus') }}" class="popup-content">Book Now<i
                                                 class="fa-regular fa-user"></i></a></li> --}}
                                 </ul>
@@ -257,6 +266,11 @@
                                     <li class="menu-item-has-children"><a href="#">Destination</a>
                                         <ul class="sub-menu">
                                             <li><a href="{{ route('europe') }}">Europe</a></li>
+                                            <li><a href="{{ route('asia') }}">Asia</a></li>
+                                            <li><a href="{{ route('dubai') }}">Dubai</a></li>
+                                            <li><a href="{{ route('usa') }}">USA</a></li>
+                                            <li><a href="{{ route('canada') }}">Canada</a></li>
+                                            <li><a href="{{ route('africa') }}">Africa</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children"><a href="#">Services</a>
@@ -340,11 +354,11 @@
                             <h3 class="widget_title">Quick Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="index-2.html">Home</a></li>
-                                    <li><a href="about.html">About us</a></li>
-                                    <li><a href="service.html">Our Service</a></li>
-                                    <li><a href="contact.html">Terms of Service</a></li>
-                                    <li><a href="contact.html">Tour Booking Now</a></li>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Our Service</a></li>
+                                    <li><a href="#">Terms of Service</a></li>
+                                    <li><a href="#">Tour Booking Now</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -436,7 +450,7 @@
                             <div class="form-btn mb-20 col-12"><button class="th-btn btn-fw th-radius2">Send
                                     Message</button></div>
                         </div>
-                        <div id="forgot_url"><a href="my-account.html">Forgot password?</a></div>
+                        <div id="forgot_url"><a href="#">Forgot password?</a></div>
                         <p class="form-messages mb-0 mt-3"></p>
                     </form>
                 </div>

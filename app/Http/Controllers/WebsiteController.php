@@ -38,10 +38,32 @@ class WebsiteController extends Controller
     {
         return view('frontend.contactus');
     }
+
     public function europe()
     {
         return view('frontend.destinations.europe');
     }
+    public function asia()
+    {
+        return view('frontend.destinations.asia');
+    }
+    public function dubai()
+    {
+        return view('frontend.destinations.dubai');
+    }
+    public function usa()
+    {
+        return view('frontend.destinations.usa');
+    }
+    public function canada()
+    {
+        return view('frontend.destinations.canada');
+    }
+    public function africa()
+    {
+        return view('frontend.destinations.africa');
+    }
+
     public function airticketing()
     {
         return view('frontend.services.airticketing');
