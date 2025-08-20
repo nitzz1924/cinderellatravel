@@ -27,18 +27,18 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    alt="Switzerland"></div>
+                                                    src="{{ asset('assets/img/destination/africa/SouthAfrica.webp') }}"
+                                                    alt="South Africa"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                    alt="Greece"></div>
+                                                    src="{{ asset('assets/img/destination/africa/Mauritius.webp') }}"
+                                                    alt="Mauritius"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                    alt="Paris"></div>
+                                                    src="{{ asset('assets/img/destination/africa/Egypt.webp') }}"
+                                                    alt="Egypt"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -47,18 +47,18 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    alt="Switzerland"></div>
+                                                    src="{{ asset('assets/img/destination/africa/SouthAfrica.webp') }}"
+                                                    alt="South Africa"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                    alt="Greece"></div>
+                                                    src="{{ asset('assets/img/destination/africa/Mauritius.webp') }}"
+                                                    alt="Mauritius"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                    alt="Paris"></div>
+                                                    src="{{ asset('assets/img/destination/africa/Egypt.webp') }}"
+                                                    alt="Egypt"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -72,21 +72,13 @@
                         </div>
                         <div class="col-xxl-6 ps-4">
                             <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="500">
-                                Denmark, Greenland, Estonia, Stockholm, Rome, Zurich, Poland, Vivey, Paris, France,
-                                Amsterdam, Lyon, Dublin, Berlin, Moscow, Istanbul, Naxos, Milan, and many more.
+                                Africa, the land of raw beauty and untamed wilderness, is a continent that promises endless discoveries. From the golden sands of the Sahara to lush savannas, breathtaking mountains, and turquoise coastlines, Africa is home to some of the most diverse landscapes on Earth. Countries like South Africa, Mauritius, Egypt, Kenya, Seychelles, Morocco, Zimbabwe, Madagascar, Namibia, Botswana, Ethiopia, Tanzania, Nigeria, and Uganda each offer their own unique charm, making Africa a dream destination for travelers.
                             </p>
                             <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="600">
-                                Places to visit in Africa are considered a perfect setting for travelers of any kind. It is
-                                adorned with some of the magnificent places to visit that will surely make a mark in your
-                                mind during your visit. Africa tourist places are a perfect place to dive deep into the
-                                golden days of classical antiquity.
+                                For adventure seekers, the continent’s famed National Parks and Reserves—such as the Serengeti, Maasai Mara, and Kruger—are havens for thrilling wildlife safaris and a chance to witness the Big Five up close. Nature lovers can explore ancient caves, thundering waterfalls like Victoria Falls, and vast rivers such as the Nile. Meanwhile, history buffs can immerse themselves in the mysteries of Egypt’s pyramids or the cultural heritage of Morocco’s medinas.
                             </p>
                             <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="700">
-                                Travelers can visit and witness the baroque buildings with breathtaking views of the
-                                Adriatic Sea. In the course of your visit to Africa, you can choose to marvel at some of the
-                                notable places to visit like Splurge on a water taxi in Venice, enjoy pintxos and surf in
-                                San Sebastián, take a walk on London’s Primrose Hill, bike along Amsterdam’s canals, and
-                                many more. Africa has something for all kinds of tourists.
+                                Whether it’s relaxing on the idyllic beaches of Seychelles and Mauritius, trekking through the jungles of Uganda to meet gorillas, or standing in awe of Africa’s grand mountains, the continent offers experiences that are as diverse as they are unforgettable.
                             </p>
                         </div>
                     </div>
@@ -110,69 +102,39 @@
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="200">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                        alt="Switzerland"></div>
+                                        src="{{ asset('assets/img/destination/africa/SouthAfrica.webp') }}"
+                                        alt="South Africa"></div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Switzerland</a></h3>
+                                    <h3 class="box-title"><a href="#">South Africa</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Greece.webp') }}" alt="Greece">
+                                        src="{{ asset('assets/img/destination/africa/Mauritius.webp') }}" alt="Mauritius">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Greece</a></h3>
+                                    <h3 class="box-title"><a href="#">Mauritius</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="400">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/paris.webp') }}" alt="Paris">
+                                        src="{{ asset('assets/img/destination/africa/Egypt.webp') }}" alt="Egypt">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Paris</a></h3>
+                                    <h3 class="box-title"><a href="#">Egypt</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="500">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Rome.jpg') }}" alt="Rome"></div>
+                                        src="{{ asset('assets/img/destination/africa/Kenya.webp') }}" alt="Kenya"></div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Rome</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="600">
-                            <div class="destination-item2 th-ani">
-                                <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}" alt="Istanbul">
-                                </div>
-                                <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Istanbul</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="3500">
-                            <div class="destination-item2 th-ani">
-                                <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/London.jpg') }}" alt="London">
-                                </div>
-                                <div class="box-content">
-                                    <h3 class="box-title"><a href="#">London</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="3600">
-                            <div class="destination-item2 th-ani">
-                                <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Norway.webp') }}" alt="Norway">
-                                </div>
-                                <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Norway</a></h3>
+                                    <h3 class="box-title"><a href="#">Kenya</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -200,175 +162,88 @@
                 </div>
             </div>
 
-            {{-- Switzerland --}}
+            {{-- South Africa --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-5" data-aos="fade-left" data-aos-delay="3900">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}" alt="Switzerland"></div>
+                            src="{{ asset('assets/img/destination/africa/SouthAfrica.webp') }}" alt="South Africa"></div>
                 </div>
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-right" data-aos-delay="4000">
-                        <h3 class="box-title"><a href="#">Switzerland</a></h3>
-                        <p class="resort-text">Switzerland has been the world’s favorite holiday destination for decades,
-                            thanks to its breathtaking scenery. Towering peaks, shimmering lakes, and countless waterfalls
-                            create a picturesque landscape.</p>
-                        <p class="resort-text">Switzerland offers tailored experiences, from fascinating train journeys
-                            through pristine landscapes to walking on suspension bridges with panoramic views or exploring
-                            behind waterfalls and frozen glaciers.</p>
+                        <h3 class="box-title"><a href="#">South Africa</a></h3>
+                        <p class="resort-text">South Africa is a land of breathtaking diversity, where natural beauty, rich culture, and thrilling adventures come together seamlessly. From golden coastlines and majestic mountains to vast wildlife reserves and vibrant cities, the country offers something for every type of traveler.</p>
+                        <p class="resort-text">Known as a paradise for nature and wildlife lovers, South Africa is home to iconic safaris in Kruger National Park, where you can spot the famous Big Five. Adventure seekers can hike up Table Mountain, explore the dramatic Drakensberg Mountains, or dive into shark-cage experiences along the coast. For those who prefer a laid-back escape, the scenic Garden Route and Cape Winelands offer the perfect blend of relaxation and exploration.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="4100">
-                    <p class="resort-text">Swiss culture thrives in traditional chalet-style homes, with locals
-                        occasionally playing alphorns in marketplaces. Visit remote villages for a taste of true Swiss
-                        heritage, explore castles and forts, or stroll through centuries-old vineyards.</p>
+                    <p class="resort-text">Adding to its charm is the incredible cultural diversity reflected in its people, traditions, and world-class cuisines, making every journey here an enriching experience. With well-developed tourist infrastructure and a strong commitment to preserving its natural wonders, South Africa continues to attract visitors from all over the globe year-round.</p>
+                    <p class="resort-text">📍 Popular Destinations: Cape Town, Johannesburg, Durban, Kruger National Park, Garden Route, Drakensberg Mountains</p>
+                    <p class="resort-text">✨ Highlights: Wildlife safaris, Table Mountain, pristine beaches, wine tours, adventure activities</p>
                 </div>
             </div>
 
-            {{-- Greece --}}
+            {{-- Mauritius --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-left" data-aos-delay="4200">
-                        <h3 class="box-title"><a href="#">Greece</a></h3>
-                        <p class="resort-text">Encircled by azure blue waters, Greece is home to 2,000 islands, with 160
-                            inhabited. Known for its rich cultural heritage, colorful festivals, and glorious history,
-                            Greece captivates visitors worldwide.</p>
-                        <p class="resort-text">From pristine beaches and picturesque islands to spectacular mountains and
-                            ancient ruins, Greece offers a variety of attractions for every traveler.</p>
+                        <h3 class="box-title"><a href="#">Mauritius</a></h3>
+                        <p class="resort-text">Mauritius is an enchanting tropical paradise in the heart of the Indian Ocean, known for its stunning natural beauty and luxurious travel experiences. The island boasts a diverse ecosystem—lush forests, volcanic mountains, cascading waterfalls, vibrant coral reefs, and powdery white-sand beaches lined with swaying palm trees. Whether you’re seeking adventure or pure relaxation, Mauritius offers the perfect balance.</p>
+                        <p class="resort-text">With its maritime tropical climate, the weather remains warm and inviting throughout the year. Summers are balmy, while winters are pleasantly cool, making it a year-round destination. The island’s world-class 5-star resorts and beachfront properties add a touch of luxury, ensuring travelers can unwind in style while soaking in the breathtaking surroundings.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div class="col-lg-5" data-aos="fade-right" data-aos-delay="4300">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Greece.webp') }}" alt="Greece"></div>
+                            src="{{ asset('assets/img/destination/africa/Mauritius.webp') }}" alt="Mauritius"></div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="4400">
-                    <p class="resort-text">Whether you seek a laid-back holiday or an action-packed adventure, Greece
-                        delivers. Enjoy luxury hotels and white sand beaches or engage in watersports, caving, hiking, cable
-                        riding, and food touring.</p>
+                    <p class="resort-text">For adventure lovers, Mauritius is a playground of thrilling experiences. Explore the underwater world through scuba diving, snorkeling, or sea walking, or enjoy dolphin and whale-watching tours. On land, adrenaline seekers can go skydiving, trekking, or mountain climbing, while nature enthusiasts can explore tea plantations, national parks, and unique volcanic landscapes.</p>
+                    <p class="resort-text">📍 Popular Attractions: Grand Baie, Le Morne Brabant, Chamarel Seven Colored Earth, Île aux Cerfs, Black River Gorges National Park</p>
+                    <p class="resort-text">✨ Highlights: Beaches & lagoons, luxury resorts, water sports, cultural diversity, adventure activities</p>
                 </div>
             </div>
 
-            {{-- Paris --}}
+            {{-- Egypt --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-5" data-aos="fade-left" data-aos-delay="4500">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/paris.webp') }}" alt="Paris"></div>
+                            src="{{ asset('assets/img/destination/africa/Egypt.webp') }}" alt="Egypt"></div>
                 </div>
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-right" data-aos-delay="4600">
-                        <h3 class="box-title"><a href="#">Paris</a></h3>
-                        <p class="resort-text">Paris, the city of romance, attracts over 20 million visitors annually. Home
-                            to iconic landmarks like the Eiffel Tower and the Louvre, it exudes a magical vibe and vibrant
-                            culture.</p>
-                        <p class="resort-text">Known as the “Fashion Capital of the World,” Paris hosts major fashion
-                            events and offers world-class shopping at its renowned boutiques.</p>
+                        <h3 class="box-title"><a href="#">Egypt</a></h3>
+                        <p class="resort-text">Egypt is one of the most fascinating travel destinations in the world, combining history, culture, and adventure. The country is home to ancient monuments, temples, tombs, vast deserts, the mighty Nile River, and breathtaking treasures of early civilization. Every year, millions of tourists visit Egypt to marvel at its timeless wonders and explore its unique landscapes.</p>
+                        <p class="resort-text">But Egypt is not just about pyramids and ruins—there’s something for every kind of traveler. Beach lovers can head to the Sinai or the Red Sea coast to soak up the sun and enjoy water sports such as diving, sailing, and surfing. Adventure seekers can explore the deserts and oases, while archaeology enthusiasts will find Luxor, the “world’s greatest open-air museum,” an absolute delight.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="4700">
-                    <p class="resort-text">Each season in Paris brings joy, with temperatures ranging from 8°C to 25°C.
-                        Winter lasts until February, followed by spring until May, summer until August, and autumn until
-                        December.</p>
+                    <p class="resort-text">For those who love vibrant city life, Cairo, the bustling capital, offers unmatched energy, historic mosques, bazaars, and museums. On the other hand, destinations like Siwa Oasis and Aswan provide a peaceful escape with a slower, traditional lifestyle.</p>
                 </div>
             </div>
 
-            {{-- Rome --}}
+            {{-- Kenya --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-left" data-aos-delay="4800">
-                        <h3 class="box-title"><a href="#">Rome</a></h3>
-                        <p class="resort-text">Rome, an epitome of beauty and history, is a UNESCO World Heritage Site. Its
-                            3,000-year-old urban development showcases stunning architecture and historic churches.</p>
-                        <p class="resort-text">Located on the Tiber River, 24 km from the Tyrrhenian Sea, Rome’s warm
-                            colors and historic charm make it a must-visit destination.</p>
+                        <h3 class="box-title"><a href="#">Kenya</a></h3>
+                        <p class="resort-text">Located in the heart of East Africa, Kenya is a land of breathtaking contrasts and incredible biodiversity. Bordered by the Indian Ocean, this enchanting country offers everything from pristine coastlines to vast savannahs teeming with wildlife. It is world-renowned for the Great Wildebeest Migration, one of nature’s most spectacular events, where millions of wildebeests, zebras, and gazelles move across the Maasai Mara in search of greener pastures.</p>
+                        <p class="resort-text">For adventure seekers, Kenya is paradise. Mount Kilimanjaro and Mount Kenya provide stunning backdrops for trekking and mountain climbing, while safaris in world-famous reserves like Maasai Mara, Amboseli, and Tsavo allow close encounters with Africa’s “Big Five” – lions, elephants, rhinos, leopards, and buffalo.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div class="col-lg-5" data-aos="fade-right" data-aos-delay="4900">
-                    <div class="resort-image global-img"><img src="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
-                            alt="Rome"></div>
+                    <div class="resort-image global-img"><img src="{{ asset('assets/img/destination/africa/Kenya.webp') }}"
+                            alt="Kenya"></div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="5000">
-                    <p class="resort-text">Rome’s Mediterranean climate features warm days (up to 30°C) and cooler nights.
-                        Spring and summer are hot, while winter offers fewer crowds and lower accommodation costs.</p>
-                </div>
-            </div>
-
-            {{-- Istanbul --}}
-            <div class="row gx-60 gy-30 mb-60 align-items-center">
-                <div class="col-lg-5" data-aos="fade-left" data-aos-delay="5100">
-                    <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}" alt="Istanbul"></div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="resort-content" data-aos="fade-right" data-aos-delay="5200">
-                        <h3 class="box-title"><a href="#">Istanbul</a></h3>
-                        <p class="resort-text">Istanbul, with 400,000 years of history, blends Eastern and Western
-                            cultures. Its location between Africa and Africa creates a unique cultural and architectural
-                            charm.</p>
-                        <p class="resort-text">Visit the Hagia Sophia, Blue Mosque, and avant-garde restaurants like Ulus
-                            29 and Mikla for stunning views and exquisite cuisine.</p>
-                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
-                                class="th-btn style4 th-icon">Book Now</a></div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="5300">
-                    <p class="resort-text">Istanbul’s diverse topography means varied climates. Visit from March to May or
-                        September to November for comfortable temperatures, avoiding the humid summer and cold winter (down
-                        to -15°C).</p>
-                </div>
-            </div>
-
-            {{-- London --}}
-            <div class="row gx-60 gy-30 mb-60 align-items-center">
-                <div class="col-lg-7">
-                    <div class="resort-content" data-aos="fade-left" data-aos-delay="5400">
-                        <h3 class="box-title"><a href="#">London</a></h3>
-                        <p class="resort-text">London, a city of cobbled streets and hidden gems, offers history, culture,
-                            fine dining, and fashion. Explore both iconic and lesser-known spots for a unique experience.
-                        </p>
-                        <p class="resort-text">From world-class museums to vibrant shopping districts, London’s diverse
-                            offerings keep visitors engaged and entertained.</p>
-                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
-                                class="th-btn style4 th-icon">Book Now</a></div>
-                    </div>
-                </div>
-                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="5500">
-                    <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/London.jpg') }}" alt="London"></div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="5600">
-                    <p class="resort-text">London’s art galleries, museums, aquariums, and shopping centers preserve its
-                        rich heritage. Visit Buckingham Palace for a royal experience or Warner Bros. Studio for a cinematic
-                        adventure.</p>
-                </div>
-            </div>
-
-            {{-- Norway --}}
-            <div class="row gx-60 gy-30 mb-60 align-items-center">
-                <div class="col-lg-5" data-aos="fade-left" data-aos-delay="5700">
-                    <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Norway.webp') }}" alt="Norway"></div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="resort-content" data-aos="fade-right" data-aos-delay="5800">
-                        <h3 class="box-title"><a href="#">Norway</a></h3>
-                        <p class="resort-text">Norway, a Scandinavian gem, is known for its mountains, glaciers, fjords,
-                            and the magical Northern Lights. Its Viking heritage adds boldness to its culture.</p>
-                        <p class="resort-text">The glistening Northern Lights and scenic fjords make Norway a top
-                            destination for nature lovers and adventure seekers.</p>
-                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
-                                class="th-btn style4 th-icon">Book Now</a></div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="5900">
-                    <p class="resort-text">Norway’s cold climate, with snowy winters, is ideal for visiting from April to
-                        October. January and February are the coldest, but winter visits offer unique snowy landscapes.</p>
+                    <p class="resort-text">Beyond the savannah, Kenya’s idyllic coastline is perfect for relaxation, water sports, and exploring coral reefs. For a unique experience, travelers can take a Balloon Safari, floating peacefully above the endless plains, or indulge in world-class golfing in scenic grasslands.</p>
+                    <p class="resort-text">Whether it’s adventure, wildlife, or relaxation, Kenya offers a perfect balance of thrill and tranquility, making it a must-visit destination for every traveler.</p>
                 </div>
             </div>
         </div>
@@ -390,9 +265,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6200">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                alt="Switzerland">
-                                            <a href="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
+                                                src="{{ asset('assets/img/destination/africa/SouthAfrica.webp') }}"
+                                                alt="South Africa">
+                                            <a href="{{ asset('assets/img/destination/africa/SouthAfrica.webp') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -402,9 +277,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6300">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                alt="Greece">
-                                            <a href="{{ asset('assets/img/destination/europe/Greece.webp') }}"
+                                                src="{{ asset('assets/img/destination/africa/Mauritius.webp') }}"
+                                                alt="Mauritius">
+                                            <a href="{{ asset('assets/img/destination/africa/Mauritius.webp') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -414,9 +289,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6400">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                alt="Paris">
-                                            <a href="{{ asset('assets/img/destination/europe/paris.webp') }}"
+                                                src="{{ asset('assets/img/destination/africa/Egypt.webp') }}"
+                                                alt="Egypt">
+                                            <a href="{{ asset('assets/img/destination/africa/Egypt.webp') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -426,45 +301,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6500">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
-                                                alt="Rome">
-                                            <a href="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
-                                                class="popup-image">
-                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6600">
-                                    <div class="destination-box2 gsap-cursor">
-                                        <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
-                                                alt="Istanbul">
-                                            <a href="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
-                                                class="popup-image">
-                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6700">
-                                    <div class="destination-box2 gsap-cursor">
-                                        <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/London.jpg') }}"
-                                                alt="London">
-                                            <a href="{{ asset('assets/img/destination/europe/London.jpg') }}"
-                                                class="popup-image">
-                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6800">
-                                    <div class="destination-box2 gsap-cursor">
-                                        <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Norway.webp') }}"
-                                                alt="Norway">
-                                            <a href="{{ asset('assets/img/destination/europe/Norway.webp') }}"
+                                                src="{{ asset('assets/img/destination/africa/Kenya.webp') }}"
+                                                alt="Kenya">
+                                            <a href="{{ asset('assets/img/destination/africa/Kenya.webp') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>

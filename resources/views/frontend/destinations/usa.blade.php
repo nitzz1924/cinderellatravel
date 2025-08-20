@@ -27,17 +27,17 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    alt="Switzerland"></div>
+                                                    src="{{ asset('assets/img/destination/usa/usa-best-places-new-york.jpg') }}"
+                                                    alt="New York"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
+                                                    src="{{ asset('assets/img/destination/usa/usa-best-places-las-vegas.jpg') }}"
                                                     alt="Greece"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/paris.webp') }}"
+                                                    src="{{ asset('assets/img/destination/usa/usa-best-places-san-francisco.jpg') }}"
                                                     alt="Paris"></div>
                                         </div>
                                     </div>
@@ -47,17 +47,17 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    alt="Switzerland"></div>
+                                                    src="{{ asset('assets/img/destination/usa/usa-best-places-new-york.jpg') }}"
+                                                    alt="New York"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
+                                                    src="{{ asset('assets/img/destination/usa/usa-best-places-las-vegas.jpg') }}"
                                                     alt="Greece"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/paris.webp') }}"
+                                                    src="{{ asset('assets/img/destination/usa/usa-best-places-san-francisco.jpg') }}"
                                                     alt="Paris"></div>
                                         </div>
                                     </div>
@@ -72,21 +72,18 @@
                         </div>
                         <div class="col-xxl-6 ps-4">
                             <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="500">
-                                Denmark, Greenland, Estonia, Stockholm, Rome, Zurich, Poland, Vivey, Paris, France,
-                                Amsterdam, Lyon, Dublin, Berlin, Moscow, Istanbul, Naxos, Milan, and many more.
+                                Along the Eastern Seaboard, New York and Washington, D.C. offer two uniquely different city
+                                experiences. Along the West Coast, San Francisco and Los Angeles are both hot spots for
+                                tourists. In the Southwest, Las Vegas brings the desert to life, and the Grand Canyon shows
+                                off one of nature’s greatest creations.
                             </p>
                             <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="600">
-                                Places to visit in USA are considered a perfect setting for travelers of any kind. It is
-                                adorned with some of the magnificent places to visit that will surely make a mark in your
-                                mind during your visit. USA tourist places are a perfect place to dive deep into the
-                                golden days of classical antiquity.
+                                Beyond the mainland are the beaches of Waikiki and the tropical Hawaiian Islands. These are
+                                just a few key locations, but wonderful destinations for any type of traveler can be found
+                                all over the country.
                             </p>
                             <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="700">
-                                Travelers can visit and witness the baroque buildings with breathtaking views of the
-                                Adriatic Sea. In the course of your visit to USA, you can choose to marvel at some of the
-                                notable places to visit like Splurge on a water taxi in Venice, enjoy pintxos and surf in
-                                San Sebastián, take a walk on London’s Primrose Hill, bike along Amsterdam’s canals, and
-                                many more. USA has something for all kinds of tourists.
+                                Over more of America with our list of the best places to visit in the United States.
                             </p>
                         </div>
                     </div>
@@ -110,17 +107,18 @@
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="200">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                        alt="Switzerland"></div>
+                                        src="{{ asset('assets/img/destination/usa/usa-best-places-new-york.jpg') }}"
+                                        alt="New York"></div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Switzerland</a></h3>
+                                    <h3 class="box-title"><a href="#">New York</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Greece.webp') }}" alt="Greece">
+                                        src="{{ asset('assets/img/destination/usa/usa-best-places-las-vegas.jpg') }}"
+                                        alt="Greece">
                                 </div>
                                 <div class="box-content">
                                     <h3 class="box-title"><a href="#">Greece</a></h3>
@@ -130,7 +128,8 @@
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="400">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/paris.webp') }}" alt="Paris">
+                                        src="{{ asset('assets/img/destination/usa/usa-best-places-san-francisco.jpg') }}"
+                                        alt="Paris">
                                 </div>
                                 <div class="box-content">
                                     <h3 class="box-title"><a href="#">Paris</a></h3>
@@ -140,42 +139,14 @@
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="500">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Rome.jpg') }}" alt="Rome"></div>
+                                        src="{{ asset('assets/img/destination/usa/usa-best-places-washington.jpg') }}"
+                                        alt="Rome"></div>
                                 <div class="box-content">
                                     <h3 class="box-title"><a href="#">Rome</a></h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="600">
-                            <div class="destination-item2 th-ani">
-                                <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}" alt="Istanbul">
-                                </div>
-                                <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Istanbul</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="3500">
-                            <div class="destination-item2 th-ani">
-                                <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/London.jpg') }}" alt="London">
-                                </div>
-                                <div class="box-content">
-                                    <h3 class="box-title"><a href="#">London</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="3600">
-                            <div class="destination-item2 th-ani">
-                                <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Norway.webp') }}" alt="Norway">
-                                </div>
-                                <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Norway</a></h3>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                     <button data-slider-prev="#destinationSlider6" class="slider-arrow slider-prev" data-aos="fade-left"
                         data-aos-delay="3700"><img src="{{ asset('assets/img/icon/right-arrow2.svg') }}"
@@ -200,29 +171,28 @@
                 </div>
             </div>
 
-            {{-- Switzerland --}}
+            {{-- New York --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-5" data-aos="fade-left" data-aos-delay="3900">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}" alt="Switzerland"></div>
+                            src="{{ asset('assets/img/destination/usa/usa-best-places-new-york.jpg') }}" alt="New York">
+                    </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-right" data-aos-delay="4000">
-                        <h3 class="box-title"><a href="#">Switzerland</a></h3>
-                        <p class="resort-text">Switzerland has been the world’s favorite holiday destination for decades,
-                            thanks to its breathtaking scenery. Towering peaks, shimmering lakes, and countless waterfalls
-                            create a picturesque landscape.</p>
-                        <p class="resort-text">Switzerland offers tailored experiences, from fascinating train journeys
-                            through pristine landscapes to walking on suspension bridges with panoramic views or exploring
-                            behind waterfalls and frozen glaciers.</p>
+                        <h3 class="box-title"><a href="#">New York</a></h3>
+                        <p class="resort-text">New York City is unlike anywhere else in the world—a destination that can
+                            only be truly understood by experiencing it firsthand. For newcomers, strolling its streets
+                            feels like stepping onto a movie set, with iconic landmarks at every corner: the Empire State
+                            Building, Rockefeller Plaza, the Chrysler Building, Central Park, the High Line, Times Square,
+                            Fifth Avenue, Broadway, and, of course, the Statue of Liberty.</p>
+                        <p class="resort-text">Spend your days sightseeing, your evenings enjoying a Broadway show, and
+                            find time for shopping, leisurely walks, and savoring unforgettable meals. This is the essence
+                            of New York. With more to see and do than a single day or weekend allows, it’s a city that draws
+                            visitors back again and again..</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="4100">
-                    <p class="resort-text">Swiss culture thrives in traditional chalet-style homes, with locals
-                        occasionally playing alphorns in marketplaces. Visit remote villages for a taste of true Swiss
-                        heritage, explore castles and forts, or stroll through centuries-old vineyards.</p>
                 </div>
             </div>
 
@@ -230,24 +200,25 @@
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-left" data-aos-delay="4200">
-                        <h3 class="box-title"><a href="#">Greece</a></h3>
-                        <p class="resort-text">Encircled by azure blue waters, Greece is home to 2,000 islands, with 160
-                            inhabited. Known for its rich cultural heritage, colorful festivals, and glorious history,
-                            Greece captivates visitors worldwide.</p>
-                        <p class="resort-text">From pristine beaches and picturesque islands to spectacular mountains and
-                            ancient ruins, Greece offers a variety of attractions for every traveler.</p>
+                        <h3 class="box-title"><a href="#">Las Vegas</a></h3>
+                        <p class="resort-text">San Francisco is a delightful West Coast destination that appeals to
+                            couples, families, and solo travelers alike. Known for its charming neighborhoods, iconic
+                            landmarks, scenic views, and vibrant outdoor dining, the city offers a perfect mix of relaxation
+                            and adventure. Its picturesque setting and lively atmosphere make it an unforgettable getaway
+                            spot.</p>
+                        <p class="resort-text">Visitors can enjoy a variety of experiences, from cruising along San
+                            Francisco Bay and touring the historic Alcatraz to driving across the Golden Gate Bridge or
+                            exploring Fisherman’s Wharf. A ride on the city’s famous streetcars provides another classic way
+                            to see the sights. While summer and fall are particularly great times to visit, San Francisco’s
+                            mild climate ensures it’s a welcoming destination throughout the year.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div class="col-lg-5" data-aos="fade-right" data-aos-delay="4300">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Greece.webp') }}" alt="Greece"></div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="4400">
-                    <p class="resort-text">Whether you seek a laid-back holiday or an action-packed adventure, Greece
-                        delivers. Enjoy luxury hotels and white sand beaches or engage in watersports, caving, hiking, cable
-                        riding, and food touring.</p>
+                            src="{{ asset('assets/img/destination/usa/usa-best-places-las-vegas.jpg') }}" alt="Greece">
+                    </div>
                 </div>
             </div>
 
@@ -255,24 +226,24 @@
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-5" data-aos="fade-left" data-aos-delay="4500">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/paris.webp') }}" alt="Paris"></div>
+                            src="{{ asset('assets/img/destination/usa/usa-best-places-san-francisco.jpg') }}"
+                            alt="Paris"></div>
                 </div>
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-right" data-aos-delay="4600">
-                        <h3 class="box-title"><a href="#">Paris</a></h3>
-                        <p class="resort-text">Paris, the city of romance, attracts over 20 million visitors annually. Home
-                            to iconic landmarks like the Eiffel Tower and the Louvre, it exudes a magical vibe and vibrant
-                            culture.</p>
-                        <p class="resort-text">Known as the “Fashion Capital of the World,” Paris hosts major fashion
-                            events and offers world-class shopping at its renowned boutiques.</p>
+                        <h3 class="box-title"><a href="#">San Francisco</a></h3>
+                        <p class="resort-text">Las Vegas, the dazzling city of lights in the desert, has a magnetic charm
+                            that has captivated visitors for generations. Its massive resort complexes, filled with endless
+                            attractions and activities year-round, make it a destination for all—from couples eager to tie
+                            the knot, to families and solo travelers seeking fun and relaxation by the pool.</p>
+                        <p class="resort-text">The city is also world-famous for its entertainment. Some of the biggest
+                            names in music perform here to sold-out crowds, while Cirque du Soleil delivers unforgettable
+                            shows found nowhere else. Each resort brings its own unique flair, offering everything from
+                            mesmerizing fountain displays to thrilling volcano eruptions, ensuring there’s always something
+                            exciting to experience in Las Vegas.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="4700">
-                    <p class="resort-text">Each season in Paris brings joy, with temperatures ranging from 8°C to 25°C.
-                        Winter lasts until February, followed by spring until May, summer until August, and autumn until
-                        December.</p>
                 </div>
             </div>
 
@@ -280,97 +251,28 @@
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-left" data-aos-delay="4800">
-                        <h3 class="box-title"><a href="#">Rome</a></h3>
-                        <p class="resort-text">Rome, an epitome of beauty and history, is a UNESCO World Heritage Site. Its
-                            3,000-year-old urban development showcases stunning architecture and historic churches.</p>
-                        <p class="resort-text">Located on the Tiber River, 24 km from the Tyrrhenian Sea, Rome’s warm
-                            colors and historic charm make it a must-visit destination.</p>
+                        <h3 class="box-title"><a href="#">Washington, D.C.</a></h3>
+                        <p class="resort-text">This remarkable capital city blends history, culture, and beauty, making it
+                            a wonderful destination for travelers of all kinds. Iconic landmarks such as the White House,
+                            Capitol Building, and Lincoln Memorial provide a glimpse into the nation’s past, while the
+                            world-class Smithsonian museums offer endless opportunities for discovery. A walk along the
+                            National Mall or a visit to the Washington Monument is a must for first-time visitors.</p>
+                        <p class="resort-text">Beyond its historic sites, Washington, D.C. has vibrant neighborhoods,
+                            scenic green spaces, and a lively dining scene. The cherry blossoms in spring create one of the
+                            city’s most breathtaking experiences, while Georgetown’s cobblestone streets and waterfront
+                            provide a charming escape. Whether you’re drawn by history, politics, or culture, Washington,
+                            D.C. offers something special in every season.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div class="col-lg-5" data-aos="fade-right" data-aos-delay="4900">
-                    <div class="resort-image global-img"><img src="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
+                    <div class="resort-image global-img"><img
+                            src="{{ asset('assets/img/destination/usa/usa-best-places-washington.jpg') }}"
                             alt="Rome"></div>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="5000">
-                    <p class="resort-text">Rome’s Mediterranean climate features warm days (up to 30°C) and cooler nights.
-                        Spring and summer are hot, while winter offers fewer crowds and lower accommodation costs.</p>
-                </div>
             </div>
 
-            {{-- Istanbul --}}
-            <div class="row gx-60 gy-30 mb-60 align-items-center">
-                <div class="col-lg-5" data-aos="fade-left" data-aos-delay="5100">
-                    <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}" alt="Istanbul"></div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="resort-content" data-aos="fade-right" data-aos-delay="5200">
-                        <h3 class="box-title"><a href="#">Istanbul</a></h3>
-                        <p class="resort-text">Istanbul, with 400,000 years of history, blends Eastern and Western
-                            cultures. Its location between USA and USA creates a unique cultural and architectural
-                            charm.</p>
-                        <p class="resort-text">Visit the Hagia Sophia, Blue Mosque, and avant-garde restaurants like Ulus
-                            29 and Mikla for stunning views and exquisite cuisine.</p>
-                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
-                                class="th-btn style4 th-icon">Book Now</a></div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="5300">
-                    <p class="resort-text">Istanbul’s diverse topography means varied climates. Visit from March to May or
-                        September to November for comfortable temperatures, avoiding the humid summer and cold winter (down
-                        to -15°C).</p>
-                </div>
-            </div>
-
-            {{-- London --}}
-            <div class="row gx-60 gy-30 mb-60 align-items-center">
-                <div class="col-lg-7">
-                    <div class="resort-content" data-aos="fade-left" data-aos-delay="5400">
-                        <h3 class="box-title"><a href="#">London</a></h3>
-                        <p class="resort-text">London, a city of cobbled streets and hidden gems, offers history, culture,
-                            fine dining, and fashion. Explore both iconic and lesser-known spots for a unique experience.
-                        </p>
-                        <p class="resort-text">From world-class museums to vibrant shopping districts, London’s diverse
-                            offerings keep visitors engaged and entertained.</p>
-                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
-                                class="th-btn style4 th-icon">Book Now</a></div>
-                    </div>
-                </div>
-                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="5500">
-                    <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/London.jpg') }}" alt="London"></div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="5600">
-                    <p class="resort-text">London’s art galleries, museums, aquariums, and shopping centers preserve its
-                        rich heritage. Visit Buckingham Palace for a royal experience or Warner Bros. Studio for a cinematic
-                        adventure.</p>
-                </div>
-            </div>
-
-            {{-- Norway --}}
-            <div class="row gx-60 gy-30 mb-60 align-items-center">
-                <div class="col-lg-5" data-aos="fade-left" data-aos-delay="5700">
-                    <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Norway.webp') }}" alt="Norway"></div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="resort-content" data-aos="fade-right" data-aos-delay="5800">
-                        <h3 class="box-title"><a href="#">Norway</a></h3>
-                        <p class="resort-text">Norway, a Scandinavian gem, is known for its mountains, glaciers, fjords,
-                            and the magical Northern Lights. Its Viking heritage adds boldness to its culture.</p>
-                        <p class="resort-text">The glistening Northern Lights and scenic fjords make Norway a top
-                            destination for nature lovers and adventure seekers.</p>
-                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
-                                class="th-btn style4 th-icon">Book Now</a></div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="5900">
-                    <p class="resort-text">Norway’s cold climate, with snowy winters, is ideal for visiting from April to
-                        October. January and February are the coldest, but winter visits offer unique snowy landscapes.</p>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -390,9 +292,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6200">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                alt="Switzerland">
-                                            <a href="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
+                                                src="{{ asset('assets/img/destination/usa/usa-best-places-new-york.jpg') }}"
+                                                alt="New York">
+                                            <a href="{{ asset('assets/img/destination/usa/usa-best-places-new-york.jpg') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -402,9 +304,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6300">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
+                                                src="{{ asset('assets/img/destination/usa/usa-best-places-las-vegas.jpg') }}"
                                                 alt="Greece">
-                                            <a href="{{ asset('assets/img/destination/europe/Greece.webp') }}"
+                                            <a href="{{ asset('assets/img/destination/usa/usa-best-places-las-vegas.jpg') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -414,9 +316,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6400">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/paris.webp') }}"
+                                                src="{{ asset('assets/img/destination/usa/usa-best-places-san-francisco.jpg') }}"
                                                 alt="Paris">
-                                            <a href="{{ asset('assets/img/destination/europe/paris.webp') }}"
+                                            <a href="{{ asset('assets/img/destination/usa/usa-best-places-san-francisco.jpg') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -426,51 +328,16 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6500">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
+                                                src="{{ asset('assets/img/destination/usa/usa-best-places-washington.jpg') }}"
                                                 alt="Rome">
-                                            <a href="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
+                                            <a href="{{ asset('assets/img/destination/usa/usa-best-places-washington.jpg') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6600">
-                                    <div class="destination-box2 gsap-cursor">
-                                        <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
-                                                alt="Istanbul">
-                                            <a href="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
-                                                class="popup-image">
-                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6700">
-                                    <div class="destination-box2 gsap-cursor">
-                                        <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/London.jpg') }}"
-                                                alt="London">
-                                            <a href="{{ asset('assets/img/destination/europe/London.jpg') }}"
-                                                class="popup-image">
-                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6800">
-                                    <div class="destination-box2 gsap-cursor">
-                                        <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Norway.webp') }}"
-                                                alt="Norway">
-                                            <a href="{{ asset('assets/img/destination/europe/Norway.webp') }}"
-                                                class="popup-image">
-                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                         <div class="icon-box mt-60 text-center" data-aos="fade-up" data-aos-delay="6900">

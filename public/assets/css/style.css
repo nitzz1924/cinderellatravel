@@ -10130,7 +10130,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child
     position: absolute;
     bottom: 70px;
     bottom: 250px;
-    right: 0;
+    right: 80px;
     margin-right: 0 !important;
 }
 .heroThumbs.style2 {

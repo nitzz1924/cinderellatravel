@@ -27,18 +27,18 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    alt="Switzerland"></div>
+                                                    src="{{ asset('assets/img/destination/canada/NiagaraFalls.webp') }}"
+                                                    alt="Niagara Falls"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                    alt="Greece"></div>
+                                                    src="{{ asset('assets/img/destination/canada/JasperNationalPark.webp') }}"
+                                                    alt="Jasper National Park"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                    alt="Paris"></div>
+                                                    src="{{ asset('assets/img/destination/canada/BanffNationalPark.webp') }}"
+                                                    alt="Banff National Park"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -47,18 +47,18 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    alt="Switzerland"></div>
+                                                    src="{{ asset('assets/img/destination/canada/NiagaraFalls.webp') }}"
+                                                    alt="Niagara Falls"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                    alt="Greece"></div>
+                                                    src="{{ asset('assets/img/destination/canada/JasperNationalPark.webp') }}"
+                                                    alt="Jasper National Park"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                    alt="Paris"></div>
+                                                    src="{{ asset('assets/img/destination/canada/BanffNationalPark.webp') }}"
+                                                    alt="Banff National Park"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -72,21 +72,10 @@
                         </div>
                         <div class="col-xxl-6 ps-4">
                             <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="500">
-                                Denmark, Greenland, Estonia, Stockholm, Rome, Zurich, Poland, Vivey, Paris, France,
-                                Amsterdam, Lyon, Dublin, Berlin, Moscow, Istanbul, Naxos, Milan, and many more.
+                                Canada is home to countless breathtaking destinations—from Niagara Falls, Banff, and Jasper National Park to vibrant cities like Vancouver, Toronto, Montreal, and Quebec City. Visitors can also explore unique spots such as Peggy’s Cove, Gros Morne National Park, Okanagan Valley, and the icy wonder of Athabasca Glacier.
                             </p>
                             <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="600">
-                                Places to visit in Canada are considered a perfect setting for travelers of any kind. It is
-                                adorned with some of the magnificent places to visit that will surely make a mark in your
-                                mind during your visit. Canada tourist places are a perfect place to dive deep into the
-                                golden days of classical antiquity.
-                            </p>
-                            <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="700">
-                                Travelers can visit and witness the baroque buildings with breathtaking views of the
-                                Adriatic Sea. In the course of your visit to Canada, you can choose to marvel at some of the
-                                notable places to visit like Splurge on a water taxi in Venice, enjoy pintxos and surf in
-                                San Sebastián, take a walk on London’s Primrose Hill, bike along Amsterdam’s canals, and
-                                many more. Canada has something for all kinds of tourists.
+                                Brimming with natural beauty, rich heritage sites, and fascinating museums, Canada offers travelers a perfect blend of history, culture, and adventure. Whether marveling at timeless architectural gems or venturing into pristine wilderness, every destination promises an unforgettable escape from everyday life.
                             </p>
                         </div>
                     </div>
@@ -110,69 +99,49 @@
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="200">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                        alt="Switzerland"></div>
+                                        src="{{ asset('assets/img/destination/canada/NiagaraFalls.webp') }}"
+                                        alt="Niagara Falls"></div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Switzerland</a></h3>
+                                    <h3 class="box-title"><a href="#">Niagara Falls</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Greece.webp') }}" alt="Greece">
+                                        src="{{ asset('assets/img/destination/canada/JasperNationalPark.webp') }}" alt="Jasper National Park">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Greece</a></h3>
+                                    <h3 class="box-title"><a href="#">Jasper National Park</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="400">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/paris.webp') }}" alt="Paris">
+                                        src="{{ asset('assets/img/destination/canada/BanffNationalPark.webp') }}" alt="Banff National Park">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Paris</a></h3>
+                                    <h3 class="box-title"><a href="#">Banff National Park</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="500">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Rome.jpg') }}" alt="Rome"></div>
+                                        src="{{ asset('assets/img/destination/canada/Vancouver.webp') }}" alt="Vancouver"></div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Rome</a></h3>
+                                    <h3 class="box-title"><a href="#">Vancouver</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="600">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}" alt="Istanbul">
+                                        src="{{ asset('assets/img/destination/canada/QuebecCity.webp') }}" alt="Quebec City">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Istanbul</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="3500">
-                            <div class="destination-item2 th-ani">
-                                <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/London.jpg') }}" alt="London">
-                                </div>
-                                <div class="box-content">
-                                    <h3 class="box-title"><a href="#">London</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="3600">
-                            <div class="destination-item2 th-ani">
-                                <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Norway.webp') }}" alt="Norway">
-                                </div>
-                                <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Norway</a></h3>
+                                    <h3 class="box-title"><a href="#">Quebec City</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -200,175 +169,109 @@
                 </div>
             </div>
 
-            {{-- Switzerland --}}
+            {{-- Niagara Falls --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-5" data-aos="fade-left" data-aos-delay="3900">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}" alt="Switzerland"></div>
+                            src="{{ asset('assets/img/destination/canada/NiagaraFalls.webp') }}" alt="Niagara Falls"></div>
                 </div>
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-right" data-aos-delay="4000">
-                        <h3 class="box-title"><a href="#">Switzerland</a></h3>
-                        <p class="resort-text">Switzerland has been the world’s favorite holiday destination for decades,
-                            thanks to its breathtaking scenery. Towering peaks, shimmering lakes, and countless waterfalls
-                            create a picturesque landscape.</p>
-                        <p class="resort-text">Switzerland offers tailored experiences, from fascinating train journeys
-                            through pristine landscapes to walking on suspension bridges with panoramic views or exploring
-                            behind waterfalls and frozen glaciers.</p>
+                        <h3 class="box-title"><a href="#">Niagara Falls</a></h3>
+                        <p class="resort-text">One of the world’s most spectacular natural wonders, Niagara Falls draws millions of visitors each year with its breathtaking views and thunderous cascades. Tourists can admire the falls from observation towers, take a thrilling boat ride close to the rushing waters, or simply enjoy the mesmerizing beauty from various viewpoints along the Niagara Parkway.</p>
+                        <p class="resort-text">Beyond the falls, the surrounding area offers plenty of attractions, including luxury hotels, local shops, museums, water parks, and theaters, making it a complete destination for leisure and exploration.</p>
+                        
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="4100">
-                    <p class="resort-text">Swiss culture thrives in traditional chalet-style homes, with locals
-                        occasionally playing alphorns in marketplaces. Visit remote villages for a taste of true Swiss
-                        heritage, explore castles and forts, or stroll through centuries-old vineyards.</p>
+                    <p class="resort-text">📍 Location: Niagara Falls, Ontario, Canada</p>
+                        <p class="resort-text">✨ Highlights: Majestic waterfalls, observation decks, boat tours, vibrant nearby attractions</p>
                 </div>
             </div>
 
-            {{-- Greece --}}
+            {{-- Jasper National Park --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-left" data-aos-delay="4200">
-                        <h3 class="box-title"><a href="#">Greece</a></h3>
-                        <p class="resort-text">Encircled by azure blue waters, Greece is home to 2,000 islands, with 160
-                            inhabited. Known for its rich cultural heritage, colorful festivals, and glorious history,
-                            Greece captivates visitors worldwide.</p>
-                        <p class="resort-text">From pristine beaches and picturesque islands to spectacular mountains and
-                            ancient ruins, Greece offers a variety of attractions for every traveler.</p>
+                        <h3 class="box-title"><a href="#">Jasper National Park</a></h3>
+                        <p class="resort-text">Nestled in the heart of the Canadian Rockies, Jasper National Park is a breathtaking UNESCO World Heritage Site that showcases pristine wilderness, towering snow-capped peaks, and massive glaciers. Visitors can explore scenic hiking trails, marvel at turquoise lakes, and soak in the spectacular mountain landscapes that make Jasper a nature lover’s paradise.</p>
+                        <p class="resort-text">For adventure seekers, the park offers year-round activities such as hiking, skiing, camping, river rafting, and thrilling wildlife safaris. From serene stargazing experiences under one of the world’s largest dark sky preserves to adrenaline-packed excursions, Jasper promises an unforgettable journey into Canada’s wild beauty.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div class="col-lg-5" data-aos="fade-right" data-aos-delay="4300">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Greece.webp') }}" alt="Greece"></div>
+                            src="{{ asset('assets/img/destination/canada/JasperNationalPark.webp') }}" alt="Jasper National Park"></div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="4400">
-                    <p class="resort-text">Whether you seek a laid-back holiday or an action-packed adventure, Greece
-                        delivers. Enjoy luxury hotels and white sand beaches or engage in watersports, caving, hiking, cable
-                        riding, and food touring.</p>
+                    <p class="resort-text">📍 Location: Jasper, Alberta, Canada</p>
+                    <p class="resort-text">✨ Highlights: Hiking, skiing, camping, wildlife safaris, glacier and mountain views</p>
                 </div>
             </div>
 
-            {{-- Paris --}}
+            {{-- Banff National Park --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-5" data-aos="fade-left" data-aos-delay="4500">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/paris.webp') }}" alt="Paris"></div>
+                            src="{{ asset('assets/img/destination/canada/BanffNationalPark.webp') }}" alt="Banff National Park"></div>
                 </div>
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-right" data-aos-delay="4600">
-                        <h3 class="box-title"><a href="#">Paris</a></h3>
-                        <p class="resort-text">Paris, the city of romance, attracts over 20 million visitors annually. Home
-                            to iconic landmarks like the Eiffel Tower and the Louvre, it exudes a magical vibe and vibrant
-                            culture.</p>
-                        <p class="resort-text">Known as the “Fashion Capital of the World,” Paris hosts major fashion
-                            events and offers world-class shopping at its renowned boutiques.</p>
+                        <h3 class="box-title"><a href="#">Banff National Park</a></h3>
+                        <p class="resort-text">As Canada’s first national park and a UNESCO World Heritage Site, Banff National Park is a jewel of the Rocky Mountains, drawing travelers from across the globe. The park is renowned for its turquoise glacier-fed lakes, rugged peaks, and sweeping alpine meadows that create postcard-perfect landscapes at every turn.</p>
+                        <p class="resort-text">Visitors can wander through charming mountain villages, encounter diverse wildlife in lush forests, and marvel at the pristine glaciers that crown the region. Adventure lovers will find endless opportunities here, from hiking and biking along scenic trails to camping under starry skies, skiing down powdery slopes, and exploring crystal-clear lakes by canoe.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="4700">
-                    <p class="resort-text">Each season in Paris brings joy, with temperatures ranging from 8°C to 25°C.
-                        Winter lasts until February, followed by spring until May, summer until August, and autumn until
-                        December.</p>
+                    <p class="resort-text">📍 Location: 91 Banff Ave, Banff, AB T1L 1K2, Canada</p>
+                    <p class="resort-text">✨ Highlights: Stunning glacier-fed lakes, rich wildlife, and year-round adventure activities</p>
                 </div>
             </div>
 
-            {{-- Rome --}}
+            {{-- Vancouver --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-left" data-aos-delay="4800">
-                        <h3 class="box-title"><a href="#">Rome</a></h3>
-                        <p class="resort-text">Rome, an epitome of beauty and history, is a UNESCO World Heritage Site. Its
-                            3,000-year-old urban development showcases stunning architecture and historic churches.</p>
-                        <p class="resort-text">Located on the Tiber River, 24 km from the Tyrrhenian Sea, Rome’s warm
-                            colors and historic charm make it a must-visit destination.</p>
+                        <h3 class="box-title"><a href="#">Vancouver</a></h3>
+                        <p class="resort-text">A vibrant west coast seaport and Canada’s most populous city on the Pacific, Vancouver is celebrated for its breathtaking blend of urban charm and natural beauty. Nestled between the ocean and the mountains, the city offers a lively atmosphere with stunning skylines, multicultural neighborhoods, and world-class dining.</p>
+                        <p class="resort-text">Adventure seekers will find endless opportunities here—whether it’s skiing and snowboarding on nearby peaks, kayaking along the coastline, or exploring scenic trails perfect for hiking and summer camping. Visitors can also enjoy fishing, golfing, mountain zip-lining, and a wide variety of water sports, making Vancouver a year-round destination that perfectly balances excitement and relaxation.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div class="col-lg-5" data-aos="fade-right" data-aos-delay="4900">
-                    <div class="resort-image global-img"><img src="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
-                            alt="Rome"></div>
+                    <div class="resort-image global-img"><img src="{{ asset('assets/img/destination/canada/Vancouver.webp') }}"
+                            alt="Vancouver"></div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="5000">
-                    <p class="resort-text">Rome’s Mediterranean climate features warm days (up to 30°C) and cooler nights.
-                        Spring and summer are hot, while winter offers fewer crowds and lower accommodation costs.</p>
+                    <p class="resort-text">📍 Location: West Coast seaport in British Columbia, Canada</p>
+                    <p class="resort-text">✨ Highlights: Diverse outdoor adventures, vibrant cityscapes, and coastal mountain views</p>
                 </div>
             </div>
 
-            {{-- Istanbul --}}
+            {{-- Quebec City --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-5" data-aos="fade-left" data-aos-delay="5100">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}" alt="Istanbul"></div>
+                            src="{{ asset('assets/img/destination/canada/QuebecCity.webp') }}" alt="Quebec City"></div>
                 </div>
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-right" data-aos-delay="5200">
-                        <h3 class="box-title"><a href="#">Istanbul</a></h3>
-                        <p class="resort-text">Istanbul, with 400,000 years of history, blends Eastern and Western
-                            cultures. Its location between Canada and Canada creates a unique cultural and architectural
-                            charm.</p>
-                        <p class="resort-text">Visit the Hagia Sophia, Blue Mosque, and avant-garde restaurants like Ulus
-                            29 and Mikla for stunning views and exquisite cuisine.</p>
+                        <h3 class="box-title"><a href="#">Quebec City</a></h3>
+                        <p class="resort-text">A charming blend of history, culture, and adventure, Quebec City is one of Canada’s most iconic destinations and a true gateway to the country’s French heritage. Perched along the scenic Saint Lawrence River, the city is known for its cobblestone streets, centuries-old architecture, and a rich European ambiance that makes it feel like stepping back in time.</p>
+                        <p class="resort-text">Winter is the peak season here, transforming the city into a magical snowy wonderland. Visitors can enjoy thrilling skiing adventures in the surrounding mountains, as well as snow sports and festive winter carnivals. Beyond adventure, Quebec City offers a vibrant range of cultural attractions, museums, and historic landmarks—most notably the iconic Château Frontenac, often regarded as the most photographed hotel in the world.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="5300">
-                    <p class="resort-text">Istanbul’s diverse topography means varied climates. Visit from March to May or
-                        September to November for comfortable temperatures, avoiding the humid summer and cold winter (down
-                        to -15°C).</p>
-                </div>
-            </div>
-
-            {{-- London --}}
-            <div class="row gx-60 gy-30 mb-60 align-items-center">
-                <div class="col-lg-7">
-                    <div class="resort-content" data-aos="fade-left" data-aos-delay="5400">
-                        <h3 class="box-title"><a href="#">London</a></h3>
-                        <p class="resort-text">London, a city of cobbled streets and hidden gems, offers history, culture,
-                            fine dining, and fashion. Explore both iconic and lesser-known spots for a unique experience.
-                        </p>
-                        <p class="resort-text">From world-class museums to vibrant shopping districts, London’s diverse
-                            offerings keep visitors engaged and entertained.</p>
-                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
-                                class="th-btn style4 th-icon">Book Now</a></div>
-                    </div>
-                </div>
-                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="5500">
-                    <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/London.jpg') }}" alt="London"></div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="5600">
-                    <p class="resort-text">London’s art galleries, museums, aquariums, and shopping centers preserve its
-                        rich heritage. Visit Buckingham Palace for a royal experience or Warner Bros. Studio for a cinematic
-                        adventure.</p>
-                </div>
-            </div>
-
-            {{-- Norway --}}
-            <div class="row gx-60 gy-30 mb-60 align-items-center">
-                <div class="col-lg-5" data-aos="fade-left" data-aos-delay="5700">
-                    <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Norway.webp') }}" alt="Norway"></div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="resort-content" data-aos="fade-right" data-aos-delay="5800">
-                        <h3 class="box-title"><a href="#">Norway</a></h3>
-                        <p class="resort-text">Norway, a Scandinavian gem, is known for its mountains, glaciers, fjords,
-                            and the magical Northern Lights. Its Viking heritage adds boldness to its culture.</p>
-                        <p class="resort-text">The glistening Northern Lights and scenic fjords make Norway a top
-                            destination for nature lovers and adventure seekers.</p>
-                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
-                                class="th-btn style4 th-icon">Book Now</a></div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="5900">
-                    <p class="resort-text">Norway’s cold climate, with snowy winters, is ideal for visiting from April to
-                        October. January and February are the coldest, but winter visits offer unique snowy landscapes.</p>
+                    <p class="resort-text">📍 Location: Saint Lawrence River, Canada</p>
+                    <p class="resort-text">✨ Highlights: Historic landmarks, snowy adventures, and rich French-Canadian culture</p>
                 </div>
             </div>
         </div>
@@ -390,9 +293,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6200">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                alt="Switzerland">
-                                            <a href="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
+                                                src="{{ asset('assets/img/destination/canada/NiagaraFalls.webp') }}"
+                                                alt="Niagara Falls">
+                                            <a href="{{ asset('assets/img/destination/canada/NiagaraFalls.webp') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -402,9 +305,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6300">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                alt="Greece">
-                                            <a href="{{ asset('assets/img/destination/europe/Greece.webp') }}"
+                                                src="{{ asset('assets/img/destination/canada/JasperNationalPark.webp') }}"
+                                                alt="Jasper National Park">
+                                            <a href="{{ asset('assets/img/destination/canada/JasperNationalPark.webp') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -414,9 +317,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6400">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                alt="Paris">
-                                            <a href="{{ asset('assets/img/destination/europe/paris.webp') }}"
+                                                src="{{ asset('assets/img/destination/canada/BanffNationalPark.webp') }}"
+                                                alt="Banff National Park">
+                                            <a href="{{ asset('assets/img/destination/canada/BanffNationalPark.webp') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -426,9 +329,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6500">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
-                                                alt="Rome">
-                                            <a href="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
+                                                src="{{ asset('assets/img/destination/canada/Vancouver.webp') }}"
+                                                alt="Vancouver">
+                                            <a href="{{ asset('assets/img/destination/canada/Vancouver.webp') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -438,33 +341,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6600">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
-                                                alt="Istanbul">
-                                            <a href="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
-                                                class="popup-image">
-                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6700">
-                                    <div class="destination-box2 gsap-cursor">
-                                        <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/London.jpg') }}"
-                                                alt="London">
-                                            <a href="{{ asset('assets/img/destination/europe/London.jpg') }}"
-                                                class="popup-image">
-                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6800">
-                                    <div class="destination-box2 gsap-cursor">
-                                        <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Norway.webp') }}"
-                                                alt="Norway">
-                                            <a href="{{ asset('assets/img/destination/europe/Norway.webp') }}"
+                                                src="{{ asset('assets/img/destination/canada/QuebecCity.webp') }}"
+                                                alt="Quebec City">
+                                            <a href="{{ asset('assets/img/destination/canada/QuebecCity.webp') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>

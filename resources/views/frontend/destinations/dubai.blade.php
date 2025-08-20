@@ -27,18 +27,18 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    alt="Switzerland"></div>
+                                                    src="{{ asset('assets/img/destination/dubai/burj-khalifa.webp') }}"
+                                                    alt="Bhurj Khalifa"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                    alt="Greece"></div>
+                                                    src="{{ asset('assets/img/destination/dubai/PalmJumeirah.webp') }}"
+                                                    alt="Palm Jumeirah"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                    alt="Paris"></div>
+                                                    src="{{ asset('assets/img/destination/dubai/museumoffuture.webp') }}"
+                                                    alt="Museum of Future"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -47,18 +47,18 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                    alt="Switzerland"></div>
+                                                    src="{{ asset('assets/img/destination/dubai/burj-khalifa.webp') }}"
+                                                    alt="Bhurj Khalifa"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                    alt="Greece"></div>
+                                                    src="{{ asset('assets/img/destination/dubai/PalmJumeirah.webp') }}"
+                                                    alt="Palm Jumeirah"></div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tour-slider-img"><img
-                                                    src="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                    alt="Paris"></div>
+                                                    src="{{ asset('assets/img/destination/dubai/museumoffuture.webp') }}"
+                                                    alt="Museum of Future"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -72,22 +72,18 @@
                         </div>
                         <div class="col-xxl-6 ps-4">
                             <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="500">
-                                Denmark, Greenland, Estonia, Stockholm, Rome, Zurich, Poland, Vivey, Paris, France,
-                                Amsterdam, Lyon, Dublin, Berlin, Moscow, Istanbul, Naxos, Milan, and many more.
+                                Dubai, a city of opulence and innovation, beckons visitors with its unique blend of modern
+                                marvels and cultural richness. Explore the towering Burj Khalifa, the world’s tallest
+                                building, and marvel at the stunning views from its observation decks. Experience the
+                                vibrant atmosphere of Dubai Marina, where skyscrapers reflect in the sparkling waters of the
+                                Gulf.
                             </p>
                             <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="600">
-                                Places to visit in Dubai are considered a perfect setting for travelers of any kind. It is
-                                adorned with some of the magnificent places to visit that will surely make a mark in your
-                                mind during your visit. Dubai tourist places are a perfect place to dive deep into the
-                                golden days of classical antiquity.
+                                Dubai’s commitment to innovation is evident in its architectural wonders like the Palm
+                                Jumeirah, an artificial archipelago shaped like a palm tree, and the Dubai Mall, a shopping
+                                extravaganza with an indoor aquarium and ice rink.
                             </p>
-                            <p class="box-text mb-30" data-aos="fade-up" data-aos-delay="700">
-                                Travelers can visit and witness the baroque buildings with breathtaking views of the
-                                Adriatic Sea. In the course of your visit to Dubai, you can choose to marvel at some of the
-                                notable places to visit like Splurge on a water taxi in Venice, enjoy pintxos and surf in
-                                San Sebastián, take a walk on London’s Primrose Hill, bike along Amsterdam’s canals, and
-                                many more. Dubai has something for all kinds of tourists.
-                            </p>
+
                         </div>
                     </div>
                 </div>
@@ -110,72 +106,57 @@
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="200">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                        alt="Switzerland"></div>
+                                        src="{{ asset('assets/img/destination/dubai/burj-khalifa.webp') }}"
+                                        alt="Bhurj Khalifa"></div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Switzerland</a></h3>
+                                    <h3 class="box-title"><a href="#">Bhurj Khalifa</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Greece.webp') }}" alt="Greece">
+                                        src="{{ asset('assets/img/destination/dubai/PalmJumeirah.webp') }}"
+                                        alt="Palm Jumeirah">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Greece</a></h3>
+                                    <h3 class="box-title"><a href="#">Palm Jumeirah</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="400">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/paris.webp') }}" alt="Paris">
+                                        src="{{ asset('assets/img/destination/dubai/museumoffuture.webp') }}"
+                                        alt="Museum of Future">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Paris</a></h3>
+                                    <h3 class="box-title"><a href="#">Museum of Future</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="500">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Rome.jpg') }}" alt="Rome"></div>
+                                        src="{{ asset('assets/img/destination/dubai/Atlantis.webp') }}" alt="Atlantis">
+                                </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Rome</a></h3>
+                                    <h3 class="box-title"><a href="#">Atlantis</a></h3>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="600">
                             <div class="destination-item2 th-ani">
                                 <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}" alt="Istanbul">
+                                        src="{{ asset('assets/img/destination/dubai/Dubai-Frame.webp') }}"
+                                        alt="Dubai Frame">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Istanbul</a></h3>
+                                    <h3 class="box-title"><a href="#">Dubai Frame</a></h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="3500">
-                            <div class="destination-item2 th-ani">
-                                <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/London.jpg') }}" alt="London">
-                                </div>
-                                <div class="box-content">
-                                    <h3 class="box-title"><a href="#">London</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="3600">
-                            <div class="destination-item2 th-ani">
-                                <div class="box-img global-img"><img
-                                        src="{{ asset('assets/img/destination/europe/Norway.webp') }}" alt="Norway">
-                                </div>
-                                <div class="box-content">
-                                    <h3 class="box-title"><a href="#">Norway</a></h3>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                     <button data-slider-prev="#destinationSlider6" class="slider-arrow slider-prev" data-aos="fade-left"
                         data-aos-delay="3700"><img src="{{ asset('assets/img/icon/right-arrow2.svg') }}"
@@ -200,175 +181,77 @@
                 </div>
             </div>
 
-            {{-- Switzerland --}}
+            {{-- Burj Khalifa --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-5" data-aos="fade-left" data-aos-delay="3900">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}" alt="Switzerland"></div>
+                            src="{{ asset('assets/img/destination/dubai/burj-khalifa.webp') }}" alt="Burj Khalifa"></div>
                 </div>
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-right" data-aos-delay="4000">
-                        <h3 class="box-title"><a href="#">Switzerland</a></h3>
-                        <p class="resort-text">Switzerland has been the world’s favorite holiday destination for decades,
-                            thanks to its breathtaking scenery. Towering peaks, shimmering lakes, and countless waterfalls
-                            create a picturesque landscape.</p>
-                        <p class="resort-text">Switzerland offers tailored experiences, from fascinating train journeys
-                            through pristine landscapes to walking on suspension bridges with panoramic views or exploring
-                            behind waterfalls and frozen glaciers.</p>
+                        <h3 class="box-title"><a href="#">Burj Khalifa</a></h3>
+                        <p class="resort-text">The Burj Khalifa in Dubai, the tallest structure on the planet, is a
+                            testament to cutting-edge engineering and architectural mastery. Soaring 828 meters into the
+                            sky, this landmark skyscraper defines the city’s skyline and provides breathtaking panoramic
+                            views of Dubai and its surroundings.</p>
+                        <p class="resort-text">At the Burj Khalifa, guests can journey up to the observation decks on the
+                            124th and 148th floors, where sweeping views span the desert, the Persian Gulf, and the vibrant
+                            cityscape below. These decks offer an engaging experience, complete with interactive exhibits
+                            and telescopes that make the breathtaking scenery even more captivating.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="4100">
-                    <p class="resort-text">Swiss culture thrives in traditional chalet-style homes, with locals
-                        occasionally playing alphorns in marketplaces. Visit remote villages for a taste of true Swiss
-                        heritage, explore castles and forts, or stroll through centuries-old vineyards.</p>
-                </div>
             </div>
 
-            {{-- Greece --}}
+            {{-- Palm Jumeirah --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-left" data-aos-delay="4200">
-                        <h3 class="box-title"><a href="#">Greece</a></h3>
-                        <p class="resort-text">Encircled by azure blue waters, Greece is home to 2,000 islands, with 160
-                            inhabited. Known for its rich cultural heritage, colorful festivals, and glorious history,
-                            Greece captivates visitors worldwide.</p>
-                        <p class="resort-text">From pristine beaches and picturesque islands to spectacular mountains and
-                            ancient ruins, Greece offers a variety of attractions for every traveler.</p>
+                        <h3 class="box-title"><a href="#">Palm Jumeirah</a></h3>
+                        <p class="resort-text">The Palm Jumeirah is a striking man-made archipelago, crafted in the shape
+                            of a palm tree, and stands as a symbol of Dubai’s vision and innovation. Extending gracefully
+                            into the Persian Gulf, it represents both an engineering triumph and an emblem of luxury living.
+                        </p>
+                        <p class="resort-text">Set against the turquoise waters, Palm Jumeirah hosts opulent hotels, elite
+                            residences, and world-class dining and entertainment venues. Its unique design includes a
+                            crescent-shaped breakwater that shields the island, while the trunk and fronds are adorned with
+                            lavish villas and apartments, each offering breathtaking views of the sea and Dubai’s glittering
+                            skyline.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
                 </div>
                 <div class="col-lg-5" data-aos="fade-right" data-aos-delay="4300">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Greece.webp') }}" alt="Greece"></div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="4400">
-                    <p class="resort-text">Whether you seek a laid-back holiday or an action-packed adventure, Greece
-                        delivers. Enjoy luxury hotels and white sand beaches or engage in watersports, caving, hiking, cable
-                        riding, and food touring.</p>
+                            src="{{ asset('assets/img/destination/dubai/PalmJumeirah.webp') }}" alt="Palm Jumeirah">
+                    </div>
                 </div>
             </div>
 
-            {{-- Paris --}}
+            {{-- Museum of The Future --}}
             <div class="row gx-60 gy-30 mb-60 align-items-center">
                 <div class="col-lg-5" data-aos="fade-left" data-aos-delay="4500">
                     <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/paris.webp') }}" alt="Paris"></div>
+                            src="{{ asset('assets/img/destination/dubai/museumoffuture.webp') }}"
+                            alt="Museum of The Future"></div>
                 </div>
                 <div class="col-lg-7">
                     <div class="resort-content" data-aos="fade-right" data-aos-delay="4600">
-                        <h3 class="box-title"><a href="#">Paris</a></h3>
-                        <p class="resort-text">Paris, the city of romance, attracts over 20 million visitors annually. Home
-                            to iconic landmarks like the Eiffel Tower and the Louvre, it exudes a magical vibe and vibrant
-                            culture.</p>
-                        <p class="resort-text">Known as the “Fashion Capital of the World,” Paris hosts major fashion
-                            events and offers world-class shopping at its renowned boutiques.</p>
+                        <h3 class="box-title"><a href="#">Museum of The Future</a></h3>
+                        <p class="resort-text">The Museum of the Future in Dubai is a visionary destination that celebrates
+                            innovation and human potential. Located on Sheikh Zayed Road, this striking landmark immediately
+                            captivates with its architectural brilliance—a gleaming stainless steel façade engraved with
+                            flowing Arabic calligraphy that reflects inspiring quotes about the future.</p>
+                        <p class="resort-text">Step inside, and visitors are transported into a world of possibilities
+                            through immersive exhibits and interactive installations. The museum explores groundbreaking
+                            fields such as artificial intelligence, robotics, augmented and virtual reality, and sustainable
+                            technologies. From engaging with futuristic prototypes to experiencing cutting-edge simulations,
+                            every corner of the museum offers a glimpse into inventions and ideas that are set to transform
+                            industries and everyday life.</p>
                         <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
                                 class="th-btn style4 th-icon">Book Now</a></div>
                     </div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="4700">
-                    <p class="resort-text">Each season in Paris brings joy, with temperatures ranging from 8°C to 25°C.
-                        Winter lasts until February, followed by spring until May, summer until August, and autumn until
-                        December.</p>
-                </div>
-            </div>
-
-            {{-- Rome --}}
-            <div class="row gx-60 gy-30 mb-60 align-items-center">
-                <div class="col-lg-7">
-                    <div class="resort-content" data-aos="fade-left" data-aos-delay="4800">
-                        <h3 class="box-title"><a href="#">Rome</a></h3>
-                        <p class="resort-text">Rome, an epitome of beauty and history, is a UNESCO World Heritage Site. Its
-                            3,000-year-old urban development showcases stunning architecture and historic churches.</p>
-                        <p class="resort-text">Located on the Tiber River, 24 km from the Tyrrhenian Sea, Rome’s warm
-                            colors and historic charm make it a must-visit destination.</p>
-                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
-                                class="th-btn style4 th-icon">Book Now</a></div>
-                    </div>
-                </div>
-                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="4900">
-                    <div class="resort-image global-img"><img src="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
-                            alt="Rome"></div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="5000">
-                    <p class="resort-text">Rome’s Mediterranean climate features warm days (up to 30°C) and cooler nights.
-                        Spring and summer are hot, while winter offers fewer crowds and lower accommodation costs.</p>
-                </div>
-            </div>
-
-            {{-- Istanbul --}}
-            <div class="row gx-60 gy-30 mb-60 align-items-center">
-                <div class="col-lg-5" data-aos="fade-left" data-aos-delay="5100">
-                    <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}" alt="Istanbul"></div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="resort-content" data-aos="fade-right" data-aos-delay="5200">
-                        <h3 class="box-title"><a href="#">Istanbul</a></h3>
-                        <p class="resort-text">Istanbul, with 400,000 years of history, blends Eastern and Western
-                            cultures. Its location between Dubai and Dubai creates a unique cultural and architectural
-                            charm.</p>
-                        <p class="resort-text">Visit the Hagia Sophia, Blue Mosque, and avant-garde restaurants like Ulus
-                            29 and Mikla for stunning views and exquisite cuisine.</p>
-                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
-                                class="th-btn style4 th-icon">Book Now</a></div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="5300">
-                    <p class="resort-text">Istanbul’s diverse topography means varied climates. Visit from March to May or
-                        September to November for comfortable temperatures, avoiding the humid summer and cold winter (down
-                        to -15°C).</p>
-                </div>
-            </div>
-
-            {{-- London --}}
-            <div class="row gx-60 gy-30 mb-60 align-items-center">
-                <div class="col-lg-7">
-                    <div class="resort-content" data-aos="fade-left" data-aos-delay="5400">
-                        <h3 class="box-title"><a href="#">London</a></h3>
-                        <p class="resort-text">London, a city of cobbled streets and hidden gems, offers history, culture,
-                            fine dining, and fashion. Explore both iconic and lesser-known spots for a unique experience.
-                        </p>
-                        <p class="resort-text">From world-class museums to vibrant shopping districts, London’s diverse
-                            offerings keep visitors engaged and entertained.</p>
-                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
-                                class="th-btn style4 th-icon">Book Now</a></div>
-                    </div>
-                </div>
-                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="5500">
-                    <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/London.jpg') }}" alt="London"></div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="5600">
-                    <p class="resort-text">London’s art galleries, museums, aquariums, and shopping centers preserve its
-                        rich heritage. Visit Buckingham Palace for a royal experience or Warner Bros. Studio for a cinematic
-                        adventure.</p>
-                </div>
-            </div>
-
-            {{-- Norway --}}
-            <div class="row gx-60 gy-30 mb-60 align-items-center">
-                <div class="col-lg-5" data-aos="fade-left" data-aos-delay="5700">
-                    <div class="resort-image global-img"><img
-                            src="{{ asset('assets/img/destination/europe/Norway.webp') }}" alt="Norway"></div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="resort-content" data-aos="fade-right" data-aos-delay="5800">
-                        <h3 class="box-title"><a href="#">Norway</a></h3>
-                        <p class="resort-text">Norway, a Scandinavian gem, is known for its mountains, glaciers, fjords,
-                            and the magical Northern Lights. Its Viking heritage adds boldness to its culture.</p>
-                        <p class="resort-text">The glistening Northern Lights and scenic fjords make Norway a top
-                            destination for nature lovers and adventure seekers.</p>
-                        <div class="resort-btn mt-40"><a href="{{ route('contactus') }}"
-                                class="th-btn style4 th-icon">Book Now</a></div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="5900">
-                    <p class="resort-text">Norway’s cold climate, with snowy winters, is ideal for visiting from April to
-                        October. January and February are the coldest, but winter visits offer unique snowy landscapes.</p>
                 </div>
             </div>
         </div>
@@ -390,9 +273,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6200">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
-                                                alt="Switzerland">
-                                            <a href="{{ asset('assets/img/destination/europe/Switzerland.jpg') }}"
+                                                src="{{ asset('assets/img/destination/dubai/burj-khalifa.webp') }}"
+                                                alt="Bhurj Khalifa">
+                                            <a href="{{ asset('assets/img/destination/dubai/burj-khalifa.webp') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -402,9 +285,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6300">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Greece.webp') }}"
-                                                alt="Greece">
-                                            <a href="{{ asset('assets/img/destination/europe/Greece.webp') }}"
+                                                src="{{ asset('assets/img/destination/dubai/PalmJumeirah.webp') }}"
+                                                alt="Palm Jumeirah">
+                                            <a href="{{ asset('assets/img/destination/dubai/PalmJumeirah.webp') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -414,9 +297,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6400">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/paris.webp') }}"
-                                                alt="Paris">
-                                            <a href="{{ asset('assets/img/destination/europe/paris.webp') }}"
+                                                src="{{ asset('assets/img/destination/dubai/museumoffuture.webp') }}"
+                                                alt="Museum of Future">
+                                            <a href="{{ asset('assets/img/destination/dubai/museumoffuture.webp') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -426,9 +309,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6500">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
-                                                alt="Rome">
-                                            <a href="{{ asset('assets/img/destination/europe/Rome.jpg') }}"
+                                                src="{{ asset('assets/img/destination/dubai/Atlantis.webp') }}"
+                                                alt="Atlantis">
+                                            <a href="{{ asset('assets/img/destination/dubai/Atlantis.webp') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
@@ -438,33 +321,9 @@
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6600">
                                     <div class="destination-box2 gsap-cursor">
                                         <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
-                                                alt="Istanbul">
-                                            <a href="{{ asset('assets/img/destination/europe/Istanbul.jpg') }}"
-                                                class="popup-image">
-                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6700">
-                                    <div class="destination-box2 gsap-cursor">
-                                        <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/London.jpg') }}"
-                                                alt="London">
-                                            <a href="{{ asset('assets/img/destination/europe/London.jpg') }}"
-                                                class="popup-image">
-                                                <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" data-aos="fade-up" data-aos-delay="6800">
-                                    <div class="destination-box2 gsap-cursor">
-                                        <div class="destination-img"><img
-                                                src="{{ asset('assets/img/destination/europe/Norway.webp') }}"
-                                                alt="Norway">
-                                            <a href="{{ asset('assets/img/destination/europe/Norway.webp') }}"
+                                                src="{{ asset('assets/img/destination/dubai/Dubai-Frame.webp') }}"
+                                                alt="Dubai Frame">
+                                            <a href="{{ asset('assets/img/destination/dubai/Dubai-Frame.webp') }}"
                                                 class="popup-image">
                                                 <div class="icon-btn"><i class="fas fa-search-plus"></i></div>
                                             </a>
