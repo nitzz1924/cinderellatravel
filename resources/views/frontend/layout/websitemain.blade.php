@@ -155,7 +155,7 @@
                         <div class="icon"><img src="{{ asset('assets/img/icon/location-dot.svg') }}"
                                 alt="img"></div>
                         <div class="details">
-                            <p>789 Inner Lane, Holy park, California, USA</p>
+                            <p>C-80,81 , B.K. Kaul Nagar Ajmer, Rajasthan</p>
                         </div>
                     </div>
                 </div>
@@ -254,7 +254,7 @@
                         <div class="col-auto">
                             <div class="header-logo">
                                 <a href="{{ route('home') }}">
-                                    <img src="{{ asset('assets/img/logo1.png') }}"alt="Cinderella" width="175">
+                                    <img src="{{ asset('assets/img/logo1.png') }}"alt="Cinderella" width="150">
                                 </a>
                             </div>
                         </div>
@@ -337,15 +337,15 @@
                             <div class="th-widget-about">
                                 <div class="about-logo"><a href="{{ route('home') }}"><img
                                             src="{{ asset('assets/img/logo1.png') }}" alt="Cinderella"
-                                            width="175"></a></div>
+                                            width="150"></a></div>
                                 <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital
                                     model. Appropriately create interactive infrastructures</p>
                                 <div class="th-social"><a href="https://www.facebook.com/"><i
-                                            class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i
-                                            class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i
-                                            class="fab fa-linkedin-in"></i></a> <a href="https://www.whatsapp.com/"><i
-                                            class="fab fa-whatsapp"></i></a> <a href="https://instagram.com/"><i
-                                            class="fab fa-instagram"></i></a></div>
+                                    class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i
+                                    class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i
+                                    class="fab fa-linkedin-in"></i></a> <a href="https://www.whatsapp.com/"><i
+                                    class="fab fa-whatsapp"></i></a> <a href="https://instagram.com/"><i
+                                    class="fab fa-instagram"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -371,18 +371,15 @@
                                     <div class="icon"><img src="{{ asset('assets/img/icon/phone.svg') }}"
                                             alt="img"></div>
                                     <div class="details">
-                                        <p><a href="tel:+01234567890" class="info-box_link">+01 234 567 890</a></p>
-                                        <p><a href="tel:+09876543210" class="info-box_link">+09 876 543 210</a></p>
+                                        <p><a href="tel:918905943133" class="info-box_link">+918905943133</a></p>
                                     </div>
                                 </div>
                                 <div class="info-box_text">
                                     <div class="icon"><img src="{{ asset('assets/img/icon/envelope.svg') }}"
                                             alt="img"></div>
                                     <div class="details">
-                                        <p><a href="mailto:mailinfo00@Cinderella.com"
-                                                class="info-box_link">mailinfo00@Cinderella.com</a></p>
-                                        <p><a href="mailto:support24@Cinderella.com"
-                                                class="info-box_link">support24@Cinderella.com</a></p>
+                                        <p><a href="mailto:info@cinderellatravel.co.in"
+                                                class="info-box_link">info@cinderellatravel.co.in</a></p>
                                     </div>
                                 </div>
                                 <div class="info-box_text">
@@ -390,7 +387,7 @@
                                             alt="img">
                                     </div>
                                     <div class="details">
-                                        <p>789 Inner Lane, Holy park, California, USA</p>
+                                        <p>C-80,81 , B.K. Kaul Nagar Ajmer, Rajasthan</p>
                                     </div>
                                 </div>
                             </div>
@@ -506,6 +503,24 @@
             // once: true, // Animations trigger only once
             offset: 100 // Trigger animations 100px before element enters viewport
         });
+    </script>
+    <script src="https://unpkg.com/@studio-freight/lenis"></script>
+
+    <script>
+        // create Lenis instance
+        const lenis = new Lenis({
+            duration: 2, // smoothness (lower = faster scroll)
+            smoothWheel: true, // smooth mouse wheel
+            smoothTouch: false, // smooth on touch devices
+        })
+
+        // requestAnimationFrame loop
+        function raf(time) {
+            lenis.raf(time)
+            requestAnimationFrame(raf)
+        }   
+
+        requestAnimationFrame(raf)
     </script>
 
 </body>

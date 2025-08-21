@@ -9855,7 +9855,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child
 .hero-2 {
     position: relative;
     z-index: 6;
-    height: 780px;
+    /* height: 780px; */
     overflow: hidden;
 }
 @media (max-width: 1199px) {
