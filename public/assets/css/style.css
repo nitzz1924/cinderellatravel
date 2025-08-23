@@ -25155,11 +25155,12 @@ span.select2-selection.select2-selection--single:focus {
 }
 .tour-box .tour-content {
     padding: 24px 24px 16px 24px;
+    background-color: '#E9F6F9';
 }
 .tour-box .box-title {
     color: var(--black-color2);
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 800;
     margin-bottom: 5px;
 }
 .tour-box .tour-rating {

@@ -33,6 +33,10 @@ class WebsiteController extends Controller
     {
         return view('frontend.demo');
     }
+    public function worldmap()
+    {
+        return view('frontend.worldmap');
+    }
 
     public function contactus()
     {

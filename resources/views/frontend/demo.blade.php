@@ -602,7 +602,8 @@
                     <div class="shape-mockup shape3 d-none d-xl-block" data-top="14%" data-left="-10%"><img
                             src="assets/img/shape/shape_3.png" alt="shape"></div>
                     <div class="shape-mockup about-shape movingX d-none d-xxl-block" data-bottom="0%" data-right="-11%">
-                        <img src="assets/img/normal/about-slide-img.png" alt="shape"></div>
+                        <img src="assets/img/normal/about-slide-img.png" alt="shape">
+                    </div>
                     <div class="shape-mockup about-rating d-none d-xxl-block" data-bottom="50%" data-right="-20%"><i
                             class="fa-sharp fa-solid fa-star"></i><span>4.9k</span></div>
                     <div class="shape-mockup about-emoji d-none d-xxl-block" data-bottom="25%" data-right="5%"><img
@@ -1106,9 +1107,13 @@
         <script src="https://codepen.io/steveg3003/pen/zBVakw.js"></script>
         <script src="https://unpkg.com/three@0.117.1/build/three.min.js"></script>
         <script src="https://unpkg.com/three@0.117.1/examples/js/loaders/OBJLoader.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
-        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/DrawSVGPlugin.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+
+        {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script> --}}
+        {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js"></script> --}}
 
         <script>
             console.clear();

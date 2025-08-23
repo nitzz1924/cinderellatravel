@@ -26,6 +26,7 @@ Route::controller(WebsiteController::class)->group(function () {
     Route::get('/blogs', 'blogs')->name('blogs');
     Route::get('/blogdetail', 'blogdetail')->name('blogdetail');
     Route::get('/demo', 'demo')->name('demo');
+    Route::get('/worldmap', 'worldmap')->name('worldmap');
 
     // destination routes
     Route::get('/destinations/europe', 'europe')->name('europe');
