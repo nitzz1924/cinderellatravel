@@ -28,9 +28,9 @@
                     <div class="ps-xl-4">
                         <div class="title-area mb-20" data-aos="fade-up" data-aos-delay="500">
                             <span class="sub-title style1">Our Story</span>
-                            <h2 class="sec-title mb-20 pe-xl-5 me-xl-5 heading">Welcome To Cinderella Travel & Tours</h2>
+                            <h2 class="sec-title mb-20 pe-xl-5 me-xl-5 heading">Welcome To Lamira Travel & Tours</h2>
                         </div>
-                        <p class="pe-xl-5" data-aos="fade-up" data-aos-delay="600">We Cinderella travel and tours started serving firstly in 2016 in Freetown, sierra leone. It’s been a long time arranging high quality travel to the world’s most captivating destinations. Whether you’re seeking culture, adventure or a blend of both, our holidays are designed by experts and brought to life by the finest guides. We provide many services to our lovely coustmers all over the world. We help making there trips more memorable one.</p>
+                        <p class="pe-xl-5" data-aos="fade-up" data-aos-delay="600">We Lamira travel and tours started serving firstly in 2016 in Freetown, sierra leone. It’s been a long time arranging high quality travel to the world’s most captivating destinations. Whether you’re seeking culture, adventure or a blend of both, our holidays are designed by experts and brought to life by the finest guides. We provide many services to our lovely coustmers all over the world. We help making there trips more memorable one.</p>
                         <p class="mb-30 pe-xl-5" data-aos="fade-up" data-aos-delay="700">We are recognized for its quick adaptation and response to meet the needs of the client, Whether it is about your Business Travel, Holiday Planning, VISA Consultation, Air Ticketing, Hotel Booking or Transportation Services, our dedicated staff is here to make sure you are taken care of and focused on your trips for business or pleasure.</p>
                         <div class="about-item-wrap">
                             <div class="about-item style2" data-aos="fade-up" data-aos-delay="800">
@@ -135,9 +135,9 @@
                     <div class="col-xl-8 ps-3 ps-xl-5 pe-xl-4">
                         <div class="team-about" data-aos="fade-right" data-aos-delay="100">
                             <h2 class="team-about_title">About</h2>
-                            <p class="team-about_text mb-25">"As we embrace another new chapter, I remain grateful for your unwavering support and trust in Cinderella Travel. Together, let's continue to chart new paths and create unforgettable journeys."</p>
+                            <p class="team-about_text mb-25">"As we embrace another new chapter, I remain grateful for your unwavering support and trust in Lamira Travel. Together, let's continue to chart new paths and create unforgettable journeys."</p>
                             <h6 class="box-title">Dear Travelers</h6>
-                            <p class="team-about_text mb-25">As we step into yet another exciting chapter, I extend my heartfelt appreciation to each of you who have been part of our journey. Your passion for exploration and your continued trust in Cinderella Travel have shaped our path with remarkable achievements.</p>
+                            <p class="team-about_text mb-25">As we step into yet another exciting chapter, I extend my heartfelt appreciation to each of you who have been part of our journey. Your passion for exploration and your continued trust in Lamira Travel have shaped our path with remarkable achievements.</p>
                             <div class="counter-box-wrap">
                                 <div class="counter-box" data-aos="fade-up" data-aos-delay="200">
                                     <h2 class="counter-box_number"><span class="counter-number">100</span>+</h2><span class="counter-box_title">Partners</span>

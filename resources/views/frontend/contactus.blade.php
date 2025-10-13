@@ -28,7 +28,7 @@
                             <h3 class="box-title">
                                 <a href="#">Freetown, Sierra Leone</a>
                             </h3>
-                            <p>+232 80 212179</p>
+                            <p>+23278676849</p>
                         </div>
                     </div>
                 </div>
@@ -199,8 +199,8 @@
                                 alt="location"></div>
                         <div class="about-contact-details">
                             <h6 class="">Our Address</h6>
-                            <p class="about-contact-details-text">C-80,81 , B.K. Kaul Nagar</p>
-                            <p class="about-contact-details-text">Ajmer, Rajasthan</p>
+                            <p class="about-contact-details-text"> 51A Wilkinson road, </p>
+                            <p class="about-contact-details-text">Freetown, Sierra Leone</p>
                         </div>
                     </div>
                 </div>
@@ -210,7 +210,7 @@
                         </div>
                         <div class="about-contact-details">
                             <h6 class="">Phone Number</h6>
-                            <p class="about-contact-details-text"><a href="tel:+918905943133">+91-8905943-133</a></p>
+                            <p class="about-contact-details-text"><a href="tel:+23278676849">+23278676849</a></p>
                         </div>
                     </div>
                 </div>
@@ -221,7 +221,7 @@
                         <div class="about-contact-details">
                             <h6 class="">Email Address</h6>
                             <p class="about-contact-details-text">
-                                <a href="mailto:info@cinderellatravel.co.in">info@cinderellatravel.co.in</a>
+                                <a href="mailto:salesfna@lamairatravel.com">salesfna@lamairatravel.com</a>
                             </p>
                         </div>
                     </div>

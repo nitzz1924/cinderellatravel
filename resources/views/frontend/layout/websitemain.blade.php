@@ -4,25 +4,25 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Cinderella - Travel & Tour Booking Agency HTML Template - Home Travel</title>
+    <title>Lamira - Travel & Tour Booking Agency HTML Template - Home Travel</title>
     <meta name="author" content="Cinderella">
-    <meta name="description" content="Cinderella - Travel & Tour Booking Agency HTML Template ">
-    <meta name="keywords" content="Cinderella - Travel & Tour Booking Agency HTML Template ">
+    <meta name="description" content="Lamira - Travel & Tour Booking Agency HTML Template ">
+    <meta name="keywords" content="Lamira - Travel & Tour Booking Agency HTML Template ">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/logo1.png') }}">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/img/logo1.png') }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/logo1.png') }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/logo1.png') }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/img/logo1.png') }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/img/logo1.png') }}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/img/logo1.png') }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/img/logo1.png') }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/logo1.png') }}">
-    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('assets/img/logo1.png') }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/logo1.png') }}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/img/logo1.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/logo1.png') }}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/logo_l.png') }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/img/logo_l.png') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/logo_l.png') }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/logo_l.png') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/img/logo_l.png') }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/img/logo_l.png') }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/img/logo_l.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/img/logo_l.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/logo_l.png') }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('assets/img/logo_l.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/logo_l.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/img/logo_l.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/logo_l.png') }}">
     <link rel="manifest" href="{{ asset('assets/img/favicons/manifest.json') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="{{ asset('assets/img/favicons/ms-icon-144x144.png') }}">
@@ -40,7 +40,36 @@
     <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .fly-animation {
+            width: 200px;
+            bottom: 300%;
+            right: 150%;
+            animation: fling-left 1.8s,fling-top 1.2s;
+            animation-fill-mode: forwards;
+        }
 
+        @keyframes fling-left {
+            form {
+                right: 150%;
+            }
+
+            to {
+                right: 0%
+            }
+        }
+
+        @keyframes fling-top {
+            form {
+                bottom: 300%;
+
+            }
+
+            to {
+                bottom: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -64,21 +93,23 @@
     <div id="preloader" class="preloader">
         {{-- <button class="th-btn preloaderCls">Cancel Preloader</button> --}}
         <div class="preloader-inner">
-            {{-- <img src="{{ asset('assets/img/logo1.png')}}" alt="" class="img-fluid w-50"> --}}
+            {{-- <img src="{{ asset('assets/img/logo_l.png')}}" alt="" class="img-fluid w-50"> --}}
         </div>
         <div id="loader" class="th-preloader">
-            <div class="animation-preloader">
+            <div class="animation-preloader position-relative">
+                <img src="{{ asset('assets/img/air-travel.png') }}" alt="" class="fly-animation position-absolute">
                 <div class="txt-loading">
-                    <span preloader-text="C" class="characters">C</span>
-                    <span preloader-text="I" class="characters">I</span>
-                    <span preloader-text="N" class="characters">N</span>
-                    <span preloader-text="D" class="characters">D</span>
-                    <span preloader-text="E" class="characters">E</span>
-                    <span preloader-text="R" class="characters">R</span>
-                    <span preloader-text="E" class="characters">E</span>
-                    <span preloader-text="L" class="characters">L</span>
                     <span preloader-text="L" class="characters">L</span>
                     <span preloader-text="A" class="characters">A</span>
+                    <span preloader-text="M" class="characters">M</span>
+                    <span preloader-text="A" class="characters">A</span>
+                    <span preloader-text="I" class="characters">I</span>
+                    <span preloader-text="R" class="characters">R</span>
+                    <span preloader-text="A" class="characters">A</span>
+                    <!-- <span preloader-text="L" class="characters">L</span>
+                    <span preloader-text="L" class="characters">L</span>
+                    <span preloader-text="A" class="characters">A</span> -->
+
                 </div>
             </div>
         </div>
@@ -89,7 +120,7 @@
                 <div class="th-widget-about">
                     <div class="about-logo">
                         <a href="{{ route('home') }}">
-                            <img src="{{ asset('assets/img/logo1.png') }}"alt="Cinderella">
+                            <img src="{{ asset('assets/img/logo_l.png') }}" alt="Cinderella">
                         </a>
                     </div>
                     <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model.
@@ -146,8 +177,8 @@
                         </div>
                         <div class="details">
                             <p>
-                                <a href="mailto:info@cinderellatravel.co.in"
-                                    class="info-box_link">info@cinderellatravel.co.in</a>
+                                <a href="mailto:salesfna@lamairatravel.com"
+                                    class="info-box_link">salesfna@lamairatravel.com</a>
                             </p>
                         </div>
                     </div>
@@ -168,7 +199,7 @@
     </div>
     <div class="th-menu-wrapper onepage-nav">
         <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo"><a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo1.png') }}"
+            <div class="mobile-logo"><a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo_l.png') }}"
                         alt="Cinderella" width="150"></a>
             </div>
             <div class="th-mobile-menu">
@@ -211,7 +242,7 @@
                             <ul>
                                 <li class="d-none d-xl-inline-block">
                                     <i class="fa-regular fa-envelope"></i>
-                                    <span>info@cinderellatravel.co.in</span>
+                                    <span>salesfna@lamairatravel.com</span>
                                 </li>
                                 <li class="d-none d-xl-inline-block"><i
                                         class="fa-sharp fa-regular fa-location-dot"></i>
@@ -239,7 +270,7 @@
                                     {{-- <li class="d-none d-md-inline-block"><a href="#">FAQ</a></li>
                                     <li class="d-none d-md-inline-block"><a href="#">Support</a></li> --}}
                                     {{-- <li><a href="{{ route('contactus') }}" class="popup-content">Book Now<i
-                                                class="fa-regular fa-user"></i></a></li> --}}
+                                        class="fa-regular fa-user"></i></a></li> --}}
                                 </ul>
                             </div>
                         </div>
@@ -254,7 +285,7 @@
                         <div class="col-auto">
                             <div class="header-logo">
                                 <a href="{{ route('home') }}">
-                                    <img src="{{ asset('assets/img/logo1.png') }}"alt="Cinderella" width="150">
+                                    <img src="{{ asset('assets/img/logo_l.png') }}" alt="Cinderella" width="150">
                                 </a>
                             </div>
                         </div>
@@ -326,81 +357,81 @@
                                         placeholder="Enter Email" required=""> <button type="submit"
                                         class="th-btn style3">Subscribe Now <img
                                             src="{{ asset('assets/img/icon/plane.svg') }}" alt=""></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
-                <div class="row justify-content-between">
-                    <div class="col-md-6 col-xl-3">
-                        <div class="widget footer-widget">
-                            <div class="th-widget-about">
-                                <div class="about-logo"><a href="{{ route('home') }}"><img
-                                            src="{{ asset('assets/img/logo1.png') }}" alt="Cinderella"
-                                            width="150"></a></div>
-                                <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital
-                                    model. Appropriately create interactive infrastructures</p>
-                                <div class="th-social"><a href="https://www.facebook.com/"><i
+                </form>
+            </div>
+        </div>
+        </div>
+        </div> --}}
+        <div class="row justify-content-between">
+            <div class="col-md-6 col-xl-3">
+                <div class="widget footer-widget">
+                    <div class="th-widget-about">
+                        <div class="about-logo"><a href="{{ route('home') }}"><img
+                                    src="{{ asset('assets/img/logo_l.png') }}" alt="Cinderella"
+                                    width="150"></a></div>
+                        <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital
+                            model. Appropriately create interactive infrastructures</p>
+                        <div class="th-social"><a href="https://www.facebook.com/"><i
                                     class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i
                                     class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i
                                     class="fab fa-linkedin-in"></i></a> <a href="https://www.whatsapp.com/"><i
                                     class="fab fa-whatsapp"></i></a> <a href="https://instagram.com/"><i
                                     class="fab fa-instagram"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-auto">
+                <div class="widget widget_nav_menu footer-widget">
+                    <h3 class="widget_title">Quick Links</h3>
+                    <div class="menu-all-pages-container">
+                        <ul class="menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Our Service</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Tour Booking Now</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-auto">
+                <div class="widget footer-widget">
+                    <h3 class="widget_title">Address</h3>
+                    <div class="th-widget-contact">
+                        <div class="info-box_text">
+                            <div class="icon"><img src="{{ asset('assets/img/icon/phone.svg') }}"
+                                    alt="img"></div>
+                            <div class="details">
+                                <p><a href="tel:23278676849" class="info-box_link">+23278676849</a></p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Quick Links</h3>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Our Service</a></li>
-                                    <li><a href="#">Terms of Service</a></li>
-                                    <li><a href="#">Tour Booking Now</a></li>
-                                </ul>
+                        <div class="info-box_text">
+                            <div class="icon"><img src="{{ asset('assets/img/icon/envelope.svg') }}"
+                                    alt="img"></div>
+                            <div class="details">
+                                <p><a href="mailto:salesfna@lamairatravel.com"
+                                        class="info-box_link">salesfna@lamairatravel.com</a></p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget footer-widget">
-                            <h3 class="widget_title">Address</h3>
-                            <div class="th-widget-contact">
-                                <div class="info-box_text">
-                                    <div class="icon"><img src="{{ asset('assets/img/icon/phone.svg') }}"
-                                            alt="img"></div>
-                                    <div class="details">
-                                        <p><a href="tel:918905943133" class="info-box_link">+918905943133</a></p>
-                                    </div>
-                                </div>
-                                <div class="info-box_text">
-                                    <div class="icon"><img src="{{ asset('assets/img/icon/envelope.svg') }}"
-                                            alt="img"></div>
-                                    <div class="details">
-                                        <p><a href="mailto:info@cinderellatravel.co.in"
-                                                class="info-box_link">info@cinderellatravel.co.in</a></p>
-                                    </div>
-                                </div>
-                                <div class="info-box_text">
-                                    <div class="icon"><img src="{{ asset('assets/img/icon/location-dot.svg') }}"
-                                            alt="img">
-                                    </div>
-                                    <div class="details">
-                                        <p>C-80,81 , B.K. Kaul Nagar Ajmer, Rajasthan</p>
-                                    </div>
-                                </div>
+                        <div class="info-box_text">
+                            <div class="icon"><img src="{{ asset('assets/img/icon/location-dot.svg') }}"
+                                    alt="img">
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto">
-                        <div class="widget footer-widget">
-                            <h3 class="widget_title">Instagram Post</h3>
-
+                            <div class="details">
+                                <p> 51A Wilkinson road,<br> Freetown, Sierra Leone</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="col-md-6 col-xl-auto">
+                <div class="widget footer-widget">
+                    <h3 class="widget_title">Instagram Post</h3>
+
+                </div>
+            </div>
+        </div>
+        </div>
         </div>
         <div class="copyright-wrap" data-bg-src="{{ asset('assets/img/bg/copyright_bg_1.jpg') }}">
             <div class="container">
@@ -519,7 +550,7 @@
         function raf(time) {
             lenis.raf(time)
             requestAnimationFrame(raf)
-        }   
+        }
 
         requestAnimationFrame(raf)
     </script>

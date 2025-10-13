@@ -59,22 +59,22 @@
                                     <div class="icon"><img src="{{ asset('assets/img/icon/location-dot.svg') }}"
                                             alt="Location Icon"></div>
                                     <div class="details">
-                                        <p>Cinderella Travel & Tours, C-80, B.K. Kaul Nagar, Ajmer, Rajasthan, 305004</p>
+                                        <p> 51A Wilkinson road, Freetown, Sierra Leone</p>
                                     </div>
                                 </div>
                                 <div class="info-box_text">
                                     <div class="icon"><img src="{{ asset('assets/img/icon/envelope.svg') }}"
                                             alt="Email Icon"></div>
                                     <div class="details">
-                                        <p><a href="mailto:info@cinderellatravel.co.in"
-                                                class="info-box_link">info@cinderellatravel.co.in</a></p>
+                                        <p><a href="mailto:salesfna@lamairatravel.com"
+                                                class="info-box_link">salesfna@lamairatravel.com</a></p>
                                     </div>
                                 </div>
                                 <div class="info-box_text">
                                     <div class="icon"><img src="{{ asset('assets/img/icon/phone.svg') }}"
                                             alt="Phone Icon"></div>
                                     <div class="details">
-                                        <p><a href="tel:+918905943133" class="info-box_link">+91-8905-943-133</a></p>
+                                        <p><a href="tel:+23278676849" class="info-box_link">+23278676849</a></p>
                                     </div>
                                 </div>
                             </div>

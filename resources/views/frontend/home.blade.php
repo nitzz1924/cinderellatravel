@@ -11,7 +11,7 @@
                             <div class="hero-style2">
                                 <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Discover <span
                                         class="hero-text">Your Dream Journey</span></h1>
-                                <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Cinderella Tour and Travel
+                                <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Lamira Tour and Travel
                                     Agency offers seamless travel solutions with air ticketing, travel visas, insurance,
                                     hotel bookings, and curated holiday packages for unforgettable adventures.</p>
                                 <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="#"
@@ -28,7 +28,7 @@
                             <div class="hero-style2">
                                 <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Travel <span
                                         class="hero-text">With Ease</span></h1>
-                                <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Let Cinderella handle your
+                                <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Let Lamira handle your
                                     travel needs with expert air ticketing, visa processing, travel insurance, hotel
                                     bookings, and personalized holiday packages.</p>
                                 <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="#"
@@ -45,7 +45,7 @@
                                 <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Embark on <span
                                         class="hero-text">Unforgettable Adventures</span></h1>
                                 <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">With 25 years of expertise,
-                                    Cinderella Tour and Travel Agency provides comprehensive travel services, from flights
+                                    Lamira Tour and Travel Agency provides comprehensive travel services, from flights
                                     to customized holiday experiences.</p>
                                 <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="#"
                                         class="th-btn white-btn th-icon">Discover Now</a></div>
@@ -331,13 +331,13 @@
                         <div class="title-area mb-20 pe-xl-5 me-xl-5"><span class="sub-title style1">Travel With
                                 Confidence</span>
                             <h2 class="sec-title mb-20 pe-xl-5 me-xl-5 heading">Plan Your Journey With Cinderella</h2>
-                            <p class="sec-text mb-30">Cinderella Tour and Travel Agency has been crafting dream vacations
+                            <p class="sec-text mb-30">Lamira Tour and Travel Agency has been crafting dream vacations
                                 for 25 years, offering expert air ticketing, visa services, travel insurance, hotel
                                 bookings, and bespoke holiday packages tailored to your desires.</p>
                         </div>
                         <div class="about-item-wrap">
-                            <div class="about-item">
-                                <div class="about-item_img"><img src="assets/img/icon/map3.svg" alt=""></div>
+                            <div class="about-item ">
+                                <div class="about-item_img background-gradient"><img src="assets/img/icon/map3.svg" alt=""></div>
                                 <div class="about-item_centent">
                                     <h5 class="box-title">Tailored Holiday Packages</h5>
                                     <p class="about-item_text">Enjoy personalized travel itineraries designed to match your
@@ -345,7 +345,7 @@
                                 </div>
                             </div>
                             <div class="about-item">
-                                <div class="about-item_img"><img src="assets/img/icon/guide.svg" alt=""></div>
+                                <div class="about-item_img background-gradient"><img src="assets/img/icon/guide.svg" alt=""></div>
                                 <div class="about-item_centent">
                                     <h5 class="box-title">Hassle-Free Travel Solutions</h5>
                                     <p class="about-item_text">From flights to visas and insurance, we handle every detail
@@ -353,7 +353,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-35"><a href="#" class="th-btn style3 th-icon">Learn More</a></div>
+                        <div class="mt-35"><a href="#" class="th-btn style3 th-icon background-gradient">Learn More</a></div>
                     </div>
                 </div>
             </div>
@@ -515,7 +515,7 @@
                                             class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
                                             class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
                                 </div>
-                                <p class="testi-card_text">“Cinderella made our family vacation to the Maldives
+                                <p class="testi-card_text">“Lamira made our family vacation to the Maldives
                                     unforgettable. The air ticketing and hotel booking process was so smooth!”</p>
                                 <div class="testi-card-quote"><img src="assets/img/icon/testi-quote.svg" alt="img">
                                 </div>

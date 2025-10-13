@@ -162,7 +162,7 @@
                                     class="form-control"></textarea> <i class="far fa-pencil"></i></div>
                             <div class="col-12 form-group"><input type="checkbox" id="html"> <label for="html">Save my
                                     name, email, and website in this browser for the next time I comment.</label></div>
-                            <div class="col-12 form-group mb-0"><button class="th-btn">Send Message<img
+                            <div class="col-12 form-group mb-0"><button class="th-btn background-gradient"> Send Message<img
                                         src="assets/img/icon/plane2.svg" alt=""></button></div>
                         </div>
                     </div>
