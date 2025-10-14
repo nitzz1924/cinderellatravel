@@ -515,7 +515,7 @@
                                             class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
                                             class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
                                 </div>
-                                <p class="testi-card_text">“Lamira made our family vacation to the Maldives
+                                <p class="testi-card_text">“Lamira's made our family vacation to the Maldives
                                     unforgettable. The air ticketing and hotel booking process was so smooth!”</p>
                                 <div class="testi-card-quote"><img src="assets/img/icon/testi-quote.svg" alt="img">
                                 </div>
@@ -536,7 +536,7 @@
                                             class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
                                             class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
                                 </div>
-                                <p class="testi-card_text">“Cinderella’s visa services and travel insurance gave me peace
+                                <p class="testi-card_text">"Lamira's visa services and travel insurance gave me peace
                                     of mind during my business trip to Dubai. Exceptional service!”</p>
                                 <div class="testi-card-quote"><img src="assets/img/icon/testi-quote.svg" alt="img">
                                 </div>
@@ -558,7 +558,7 @@
                                             class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
                                 </div>
                                 <p class="testi-card_text">“The holiday package to Thailand was perfectly planned by
-                                    Cinderella. Everything from flights to activities was spot-on.”</p>
+                                    Lamira. Everything from flights to activities was spot-on.”</p>
                                 <div class="testi-card-quote"><img src="assets/img/icon/testi-quote.svg" alt="img">
                                 </div>
                             </div>
@@ -578,7 +578,7 @@
                                             class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
                                             class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
                                 </div>
-                                <p class="testi-card_text">“Cinderella’s hotel booking service found us the perfect stay in
+                                <p class="testi-card_text">"Lamira's hotel booking service found us the perfect stay in
                                     Bali, and their travel insurance ensured we were covered.”</p>
                                 <div class="testi-card-quote"><img src="assets/img/icon/testi-quote.svg" alt="img">
                                 </div>
