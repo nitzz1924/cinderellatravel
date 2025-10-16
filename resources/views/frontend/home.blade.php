@@ -6,28 +6,13 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="hero-inner">
-                    <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_2_1.jpg"></div>
-                    <div class="container">
-                        <div class="hero-style2">
-                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Discover <span class="hero-text">Your Dream Journey</span></h1>
-                            <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Lamira Tour and Travel
-                                Agency offers seamless travel solutions with air ticketing, travel visas, insurance,
-                                hotel bookings, and curated holiday packages for unforgettable adventures.</p>
-                            <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="#" class="th-btn white-btn th-icon">Explore Our Services</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="hero-inner"><video autoplay loop muted>
-                        <source src="assets/img/hero/hero-video.mp4" type="video/mp4">
+                    <video autoplay loop muted>
+                        <source src="assets/img/hero/corporate (1).mp4" type="video/mp4">
                     </video>
                     <div class="container">
                         <div class="hero-style2">
-                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Travel <span class="hero-text">With Ease</span></h1>
-                            <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Let Lamira handle your
-                                travel needs with expert air ticketing, visa processing, travel insurance, hotel
-                                bookings, and personalized holiday packages.</p>
+                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Seamless Corporate<span class="hero-text"> Travel Solutions </span></h1>
+                            <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">From business trips to corporate retreats, we ensure timely, efficient, and comfortable journeys for your team.</p>
                             <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="#" class="th-btn white-btn th-icon">Plan Your Trip</a></div>
                         </div>
                     </div>
@@ -35,13 +20,13 @@
             </div>
             <div class="swiper-slide">
                 <div class="hero-inner">
-                    <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_2_3.jpg"></div>
+                    <video autoplay loop muted>
+                        <source src="assets/img/hero/holidays.mp4" type="video/mp4">
+                    </video>
                     <div class="container">
                         <div class="hero-style2">
-                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Embark on <span class="hero-text">Unforgettable Adventures</span></h1>
-                            <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">With 25 years of expertise,
-                                Lamira Tour and Travel Agency provides comprehensive travel services, from flights
-                                to customized holiday experiences.</p>
+                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Luxury Holidays,<span class="hero-text"> Made Easy</span></h1>
+                            <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Relax, unwind, and explore premium holiday packages designed for comfort, adventure, and memories that last a lifetime.</p>
                             <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="#" class="th-btn white-btn th-icon">Discover Now</a></div>
                         </div>
                     </div>
@@ -49,14 +34,12 @@
             </div>
             <div class="swiper-slide">
                 <div class="hero-inner"><video autoplay loop muted>
-                        <source src="assets/img/hero/hero-video.mp4" type="video/mp4">
+                        <source src="assets/img/hero/placeonevid.mp4" type="video/mp4">
                     </video>
                     <div class="container">
                         <div class="hero-style2">
-                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Explore <span class="hero-text">The World Your Way</span></h1>
-                            <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Cinderella’s all-in-one
-                                travel solutions include air ticketing, visa services, insurance, hotel bookings, and
-                                tailored holiday packages for a hassle-free journey.</p>
+                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Explore the World<span class="hero-text">with Lamaira Travel</span></h1>
+                            <p class="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">Discover breathtaking destinations, tailor-made itineraries, and unforgettable adventures. Let us make your travel dreams come true.</p>
                             <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s"><a href="#" class="th-btn white-btn th-icon">Book Your Adventure</a></div>
                         </div>
                     </div>

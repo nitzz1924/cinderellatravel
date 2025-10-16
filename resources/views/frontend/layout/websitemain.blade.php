@@ -94,7 +94,7 @@
         <div class="preloader-inner">
             {{-- <img src="{{ asset('assets/img/logo_l.png')}}" alt="" class="img-fluid w-50"> --}}
         </div>
-        {{-- <div id="loader" class="th-preloader">
+        <div id="loader" class="th-preloader">
             <div class="animation-preloader position-relative">
                 <img src="{{ asset('assets/img/air-travel.png') }}" alt="" class="fly-animation position-absolute">
                 <div class="txt-loading">
@@ -111,7 +111,7 @@
 
                 </div>
             </div>
-        </div> --}}
+        </div>
     </div>
     <div class="sidemenu-wrapper sidemenu-info">
         <div class="sidemenu-content"><button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
@@ -274,7 +274,7 @@
                         <div class="col-auto">
                             <div class="header-logo">
                                 <a href="{{ route('home') }}">
-                                    <img src="{{ asset('assets/img/logo_l.png') }}" alt="Cinderella" width="150">
+                                    <img src="{{ asset('assets/img/logo_l.png') }}" alt="Cinderella" width="100">
                                 </a>
                             </div>
                         </div>
