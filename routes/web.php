@@ -34,7 +34,7 @@ Route::controller(WebsiteController::class)->group(function () {
     Route::get('/careers', 'careers')->name('careers');
     Route::get('/contactus', 'contactus')->name('contactus');
     Route::get('/blogs', 'blogs')->name('blogs');
-    Route::get('/blogdetail', 'blogdetail')->name('blogdetail');
+    Route::get('/blogdetail/{id}', 'blogdetail')->name('blogdetail');
     Route::get('/demo', 'demo')->name('demo');
     Route::get('/worldmap', 'worldmap')->name('worldmap');
 

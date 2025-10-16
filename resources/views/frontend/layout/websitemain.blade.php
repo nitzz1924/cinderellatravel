@@ -31,9 +31,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=Manrope:wght@200..800&amp;family=Montez&amp;display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=Manrope:wght@200..800&amp;family=Montez&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css') }}">
@@ -45,7 +43,7 @@
             width: 200px;
             bottom: 300%;
             right: 150%;
-            animation: fling-left 1.8s,fling-top 1.2s;
+            animation: fling-left 1.8s, fling-top 1.2s;
             animation-fill-mode: forwards;
         }
 
@@ -69,6 +67,7 @@
                 bottom: 100%;
             }
         }
+
     </style>
 </head>
 
@@ -95,7 +94,7 @@
         <div class="preloader-inner">
             {{-- <img src="{{ asset('assets/img/logo_l.png')}}" alt="" class="img-fluid w-50"> --}}
         </div>
-        <div id="loader" class="th-preloader">
+        {{-- <div id="loader" class="th-preloader">
             <div class="animation-preloader position-relative">
                 <img src="{{ asset('assets/img/air-travel.png') }}" alt="" class="fly-animation position-absolute">
                 <div class="txt-loading">
@@ -112,7 +111,7 @@
 
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
     <div class="sidemenu-wrapper sidemenu-info">
         <div class="sidemenu-content"><button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
@@ -126,9 +125,7 @@
                     <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital model.
                         Appropriately create interactive infrastructures</p>
                     <div class="th-social"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> <a
-                            href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a> <a
-                            href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a> <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
@@ -136,8 +133,7 @@
                 <h3 class="widget_title">Recent Posts</h3>
                 <div class="recent-post-wrap">
                     <div class="recent-post">
-                        <div class="media-img"><a href="#"><img
-                                    src="{{ asset('assets/img/blog/recent-post-1-1.jpg') }}" alt="Blog Image"></a>
+                        <div class="media-img"><a href="#"><img src="{{ asset('assets/img/blog/recent-post-1-1.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <div class="recent-post-meta"><a href="#"><i class="far fa-calendar"></i>24 Jun ,
@@ -148,8 +144,7 @@
                         </div>
                     </div>
                     <div class="recent-post">
-                        <div class="media-img"><a href="#"><img
-                                    src="{{ asset('assets/img/blog/recent-post-1-2.jpg') }}" alt="Blog Image"></a>
+                        <div class="media-img"><a href="#"><img src="{{ asset('assets/img/blog/recent-post-1-2.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <div class="recent-post-meta"><a href="#"><i class="far fa-calendar"></i>22 Jun ,
@@ -177,14 +172,12 @@
                         </div>
                         <div class="details">
                             <p>
-                                <a href="mailto:salesfna@lamairatravel.com"
-                                    class="info-box_link">salesfna@lamairatravel.com</a>
+                                <a href="mailto:salesfna@lamairatravel.com" class="info-box_link">salesfna@lamairatravel.com</a>
                             </p>
                         </div>
                     </div>
                     <div class="info-box_text">
-                        <div class="icon"><img src="{{ asset('assets/img/icon/location-dot.svg') }}"
-                                alt="img"></div>
+                        <div class="icon"><img src="{{ asset('assets/img/icon/location-dot.svg') }}" alt="img"></div>
                         <div class="details">
                             <p>C-80,81 , B.K. Kaul Nagar Ajmer, Rajasthan</p>
                         </div>
@@ -194,13 +187,11 @@
         </div>
     </div>
     <div class="popup-search-box"><button class="searchClose"><i class="fal fa-times"></i></button>
-        <form action="#"><input type="text" placeholder="What are you looking for?"> <button
-                type="submit"><i class="fal fa-search"></i></button></form>
+        <form action="#"><input type="text" placeholder="What are you looking for?"> <button type="submit"><i class="fal fa-search"></i></button></form>
     </div>
     <div class="th-menu-wrapper onepage-nav">
         <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo"><a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo_l.png') }}"
-                        alt="Cinderella" width="150"></a>
+            <div class="mobile-logo"><a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo_l.png') }}" alt="Cinderella" width="150"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
@@ -244,8 +235,7 @@
                                     <i class="fa-regular fa-envelope"></i>
                                     <span>salesfna@lamairatravel.com</span>
                                 </li>
-                                <li class="d-none d-xl-inline-block"><i
-                                        class="fa-sharp fa-regular fa-location-dot"></i>
+                                <li class="d-none d-xl-inline-block"><i class="fa-sharp fa-regular fa-location-dot"></i>
                                     <span>C-80,81 , B.K. Kaul Nagar Ajmer, Rajasthan</span>
                                 </li>
                                 <li class="d-none d-xl-inline-block">
@@ -269,8 +259,7 @@
                                 <ul>
                                     {{-- <li class="d-none d-md-inline-block"><a href="#">FAQ</a></li>
                                     <li class="d-none d-md-inline-block"><a href="#">Support</a></li> --}}
-                                    {{-- <li><a href="{{ route('contactus') }}" class="popup-content">Book Now<i
-                                        class="fa-regular fa-user"></i></a></li> --}}
+                                    {{-- <li><a href="{{ route('contactus') }}" class="popup-content">Book Now<i class="fa-regular fa-user"></i></a></li> --}}
                                 </ul>
                             </div>
                         </div>
@@ -314,19 +303,14 @@
                                         </ul>
                                     </li>
                                     <li class=""><a href="{{ route('careers') }}">Careers</a></li>
-                                    <li class="menu-item-has-children"><a href="{{ route('blogs') }}">Blogs</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="{{ route('blogdetail') }}">Blog Detail</a></li>
-                                        </ul>
+                                    <li class=""><a href="{{ route('blogs') }}">Blogs</a>
                                     </li>
                                     <li><a href="{{ route('contactus') }}">Contact us</a></li>
                                 </ul>
-                            </nav><button type="button" class="th-menu-toggle d-block d-xl-none"><i
-                                    class="far fa-bars"></i></button>
+                            </nav><button type="button" class="th-menu-toggle d-block d-xl-none"><i class="far fa-bars"></i></button>
                         </div>
                         <div class="col-auto d-none d-xl-block">
-                            <div class="header-button"><a href="{{ route('contactus') }}"
-                                    class="th-btn style3 th-icon">Book
+                            <div class="header-button"><a href="{{ route('contactus') }}" class="th-btn style3 th-icon">Book
                                     Now</a>
                             </div>
                         </div>
@@ -366,17 +350,10 @@
             <div class="col-md-6 col-xl-3">
                 <div class="widget footer-widget">
                     <div class="th-widget-about">
-                        <div class="about-logo"><a href="{{ route('home') }}"><img
-                                    src="{{ asset('assets/img/logo_l.png') }}" alt="Cinderella"
-                                    width="150"></a></div>
+                        <div class="about-logo"><a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo_l.png') }}" alt="Cinderella" width="150"></a></div>
                         <p class="about-text">Rapidiously myocardinate cross-platform intellectual capital
                             model. Appropriately create interactive infrastructures</p>
-                        <div class="th-social"><a href="https://www.facebook.com/"><i
-                                    class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i
-                                    class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i
-                                    class="fab fa-linkedin-in"></i></a> <a href="https://www.whatsapp.com/"><i
-                                    class="fab fa-whatsapp"></i></a> <a href="https://instagram.com/"><i
-                                    class="fab fa-instagram"></i></a></div>
+                        <div class="th-social"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a> <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a> <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a></div>
                     </div>
                 </div>
             </div>
@@ -399,23 +376,19 @@
                     <h3 class="widget_title">Address</h3>
                     <div class="th-widget-contact">
                         <div class="info-box_text">
-                            <div class="icon"><img src="{{ asset('assets/img/icon/phone.svg') }}"
-                                    alt="img"></div>
+                            <div class="icon"><img src="{{ asset('assets/img/icon/phone.svg') }}" alt="img"></div>
                             <div class="details">
                                 <p><a href="tel:23278676849" class="info-box_link">+23278676849</a></p>
                             </div>
                         </div>
                         <div class="info-box_text">
-                            <div class="icon"><img src="{{ asset('assets/img/icon/envelope.svg') }}"
-                                    alt="img"></div>
+                            <div class="icon"><img src="{{ asset('assets/img/icon/envelope.svg') }}" alt="img"></div>
                             <div class="details">
-                                <p><a href="mailto:salesfna@lamairatravel.com"
-                                        class="info-box_link">salesfna@lamairatravel.com</a></p>
+                                <p><a href="mailto:salesfna@lamairatravel.com" class="info-box_link">salesfna@lamairatravel.com</a></p>
                             </div>
                         </div>
                         <div class="info-box_text">
-                            <div class="icon"><img src="{{ asset('assets/img/icon/location-dot.svg') }}"
-                                    alt="img">
+                            <div class="icon"><img src="{{ asset('assets/img/icon/location-dot.svg') }}" alt="img">
                             </div>
                             <div class="details">
                                 <p> 51A Wilkinson road,<br> Freetown, Sierra Leone</p>
@@ -442,39 +415,29 @@
                             Reserved.</p>
                     </div>
                     <div class="col-md-6 text-end d-none d-md-block">
-                        <div class="footer-card"><span class="title">We Accept</span> <img
-                                src="{{ asset('assets/img/shape/cards.png') }}" alt=""></div>
+                        <div class="footer-card"><span class="title">We Accept</span> <img src="{{ asset('assets/img/shape/cards.png') }}" alt=""></div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <div class="scroll-top"><svg class="progress-circle svg-content" width="100%" height="100%"
-            viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+    <div class="scroll-top"><svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
             </path>
         </svg></div>
     <div id="login-form" class="popup-login-register mfp-hide">
         <ul class="nav" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation"><button class="nav-menu" id="pills-home-tab"
-                    data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
-                    aria-controls="pills-home" aria-selected="false">Login</button></li>
-            <li class="nav-item" role="presentation"><button class="nav-menu active" id="pills-profile-tab"
-                    data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
-                    aria-controls="pills-profile" aria-selected="true">Register</button></li>
+            <li class="nav-item" role="presentation"><button class="nav-menu" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="false">Login</button></li>
+            <li class="nav-item" role="presentation"><button class="nav-menu active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="true">Register</button></li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <h3 class="box-title mb-30">Sign in to your account</h3>
                 <div class="th-login-form">
-                    <form action="https://html.themeholy.com/Cinderella/demo/mail.php" method="POST"
-                        class="login-form ajax-contact">
+                    <form action="https://html.themeholy.com/Cinderella/demo/mail.php" method="POST" class="login-form ajax-contact">
                         <div class="row">
-                            <div class="form-group col-12"><label>Username or email</label> <input type="text"
-                                    class="form-control" name="email" id="email" required="required"></div>
-                            <div class="form-group col-12"><label>Password</label> <input type="password"
-                                    class="form-control" name="pasword" id="pasword" required="required"></div>
+                            <div class="form-group col-12"><label>Username or email</label> <input type="text" class="form-control" name="email" id="email" required="required"></div>
+                            <div class="form-group col-12"><label>Password</label> <input type="password" class="form-control" name="pasword" id="pasword" required="required"></div>
                             <div class="form-btn mb-20 col-12"><button class="th-btn btn-fw th-radius2">Send
                                     Message</button></div>
                         </div>
@@ -483,24 +446,15 @@
                     </form>
                 </div>
             </div>
-            <div class="tab-pane fade active show" id="pills-profile" role="tabpanel"
-                aria-labelledby="pills-profile-tab">
+            <div class="tab-pane fade active show" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                 <h3 class="th-form-title mb-30">Sign in to your account</h3>
-                <form action="https://html.themeholy.com/Cinderella/demo/mail.php" method="POST"
-                    class="login-form ajax-contact">
+                <form action="https://html.themeholy.com/Cinderella/demo/mail.php" method="POST" class="login-form ajax-contact">
                     <div class="row">
-                        <div class="form-group col-12"><label>Username*</label> <input type="text"
-                                class="form-control" name="usename" id="usename" required="required"></div>
-                        <div class="form-group col-12"><label>First name*</label> <input type="text"
-                                class="form-control" name="firstname" id="firstname" required="required"></div>
-                        <div class="form-group col-12"><label>Last name*</label> <input type="text"
-                                class="form-control" name="lastname" id="lastname" required="required"></div>
-                        <div class="form-group col-12"><label for="new_email">Your email*</label> <input
-                                type="text" class="form-control" name="new_email" id="new_email"
-                                required="required"></div>
-                        <div class="form-group col-12"><label for="new_email_confirm">Confirm email*</label> <input
-                                type="text" class="form-control" name="new_email_confirm" id="new_email_confirm"
-                                required="required"></div>
+                        <div class="form-group col-12"><label>Username*</label> <input type="text" class="form-control" name="usename" id="usename" required="required"></div>
+                        <div class="form-group col-12"><label>First name*</label> <input type="text" class="form-control" name="firstname" id="firstname" required="required"></div>
+                        <div class="form-group col-12"><label>Last name*</label> <input type="text" class="form-control" name="lastname" id="lastname" required="required"></div>
+                        <div class="form-group col-12"><label for="new_email">Your email*</label> <input type="text" class="form-control" name="new_email" id="new_email" required="required"></div>
+                        <div class="form-group col-12"><label for="new_email_confirm">Confirm email*</label> <input type="text" class="form-control" name="new_email_confirm" id="new_email_confirm" required="required"></div>
                         <div class="statement"><span class="register-notes">A password will be emailed to you.</span>
                         </div>
                         <div class="form-btn mt-20 col-12"><button class="th-btn btn-fw th-radius2">Sign up</button>
@@ -535,6 +489,7 @@
             // once: true, // Animations trigger only once
             offset: 100 // Trigger animations 100px before element enters viewport
         });
+
     </script>
     <script src="https://unpkg.com/@studio-freight/lenis"></script>
 
@@ -553,6 +508,7 @@
         }
 
         requestAnimationFrame(raf)
+
     </script>
 
 </body>
